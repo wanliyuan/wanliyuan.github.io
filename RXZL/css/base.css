@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,ol,dl,dd,h1,h2,h3,h4,h5,h6,input,p{ margin:0;}
+ul,ol { padding:0;}
+img { border:none;}
+.clear{zoom:1;}
+.clear:after{display:block; content:"";clear:both; visibility:hidden; height:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+body {
+    font-family:"jianxin";
+}
+

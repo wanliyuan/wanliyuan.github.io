@@ -1,0 +1,36 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.imglist_1{
+	width:981px;
+	height:265px; overflow:hidden;
+}
+
+.imglist li{
+	
+	float:left;
+	width:310px;
+	margin-left:17px; display:inline;
+}
+
+.imglist li img{
+	width:304px;
+	border:3px solid #dcdddd;
+}
+.imglist .active img { border-color:#005c7d;}
+	
+.imglist li p{ font-size:14px;
+	text-align:center;
+	line-height:50px; color:#808080;
+}
+.imglist .active p{ color:#f2654e;}
+
+#slide_1 {width:981px; position:relative; margin:0 auto;}
+.abtn { display:none; width:36px; height:76px; background:url(Images/img/tlrbtn.gif) no-repeat; position:absolute; top:76px; }
+.aleft { left:37px;}
+.aright { right:20px; background-position:0 bottom;}
