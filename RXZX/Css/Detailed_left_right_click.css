@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.stunicholls/gallery/left_right_click.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+.frame{width: 958px;
+height: 448px;
+margin: 0 auto;
+position: relative;
+-webkit-border-radius: 7px;
+-khtml-border-radius: 7px;
+-moz-border-radius: 7px;
+-ms-border-radius: 7px;
+-o-border-radius: 7px;
+border-radius: 7px;
+-webkit-box-shadow: black 0 1px 2px;
+-moz-box-shadow: black 0 1px 2px;
+box-shadow: black 0 1px 2px;
+background: #262626;}
+.frame:before {
+right: 4px;
+-webkit-box-shadow: rgba(0,0,0,0.45) 4px 0 10px 3px;
+-moz-box-shadow: rgba(0,0,0,0.45) 4px 0 10px 3px;
+box-shadow: rgba(0,0,0,0.45) 4px 0 10px 3px;
+}
+.frame:after {
+left: 4px;
+-webkit-box-shadow: rgba(0,0,0,0.45) -4px 0 10px 3px;
+-moz-box-shadow: rgba(0,0,0,0.45) -4px 0 10px 3px;
+box-shadow: rgba(0,0,0,0.45) -4px 0 10px 3px;
+}
+
+
+
+
+
+.banner_con{ width:100%; height:457px; overflow:hidden; position:relative;}
+
+#gallery { width:100%; height:38px; padding-top:410px; position:relative; }
+
+#gallery img.left { background:url(../Images/banner_navL.jpg) no-repeat; width:61px; height:38px; position:absolute; left:0px; bottom:0px; z-index:10; border:none;}
+#gallery img.right { cursor:pointer; position:absolute; right:0px; bottom:0px; z-index:10; background:url(../Images/banner_navR.jpg) no-repeat; width:135px; height:38px; border:none;}
+.ulBg{ background:url(../Images/banner_navBg.jpg) bottom repeat-x; width:100%; height:38px; position:absolute; left:0; bottom:0px; z-index:2;}
+
+#gallery ul {list-style:none; margin:0; float:left; 
+padding-left:290px;
+padding-top:12px;
+}
+#gallery ul li {display:inline; width:14px; height:13px; float:left; padding:0; margin:-; cursor:pointer; overflow:hidden; }
+
+#gallery ul li.hide {opacity:0; filter:alpha(opacity=0);}
+
+#gallery ul li img { display:block; width:14px; height:13px; border:none; }
+
+#gallery ul li em{ display:block; float:left; width:14px; height:13px; position:absolute; z-index:10; background:url(../Images/banner_nav2.jpg) no-repeat;}
+
+#gallery ul li span {display:none; position:absolute; left:61px; top:430px; width:411px;font-family:verdana, arial, sans-serif; color:#666; font-size:11px; line-height:15px; text-align:justify;}
+#gallery ul li b {color:#444;}
+
+#gallery ul li.chosen {cursor:default;}
+#gallery ul li.chosen em{ background:url(../Images/banner_nav1.jpg) no-repeat; width:14px; height:13px; overflow:hidden;}
+#gallery ul li.chosen div {position:absolute; left:0; top:0; width:100%; height:413px; overflow:hidden;}
+#gallery ul li.chosen div i {width:958px; height:413px; vertical-align:middle; text-align:center; overflow:hidden;} 
+#gallery ul li.chosen div i img { width:958px; height:413px; border:none; visibility:visible; margin:0 auto;}
+#gallery ul li.chosen span {display:block;}

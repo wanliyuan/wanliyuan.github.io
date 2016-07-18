@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>商业娱乐</title>
+<link href="Css/base.css" type="text/css" rel="stylesheet">
+<link href="Css/Senior_office.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="Js/jquery-1.7.min.js"></script>
+</head>
+
+<body>
+<div id="conten">
+<div class="lilist">
+    <div class="lilist_block" style="display:block;">
+        <ul class="clear">
+        	<li onClick="showDialog('Twenty-nine')"><a class="Aimg" ><img src="Images/dingfeng_KTV.jpg"  alt="鼎峰量贩式KTV"></a><div class="name"><a >鼎峰量贩式KTV</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Thirty')"><a class="Aimg"><img src="Images/wofeng_DC.jpg" alt="丰沃地产接待中心"></a><div class="name"><a >丰沃地产接待中心</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Thirty-one')"><a class="Aimg"><img src="Images/kuolao_PCC.jpg" alt="阔佬皮草城"></a><div class="name"><a >阔佬皮草城</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Thirty-two')"><a class="Aimg"><img src="Images/jinding_JH.jpg" alt="金顶金行"></a><div class="name"><a >金顶金行</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Thirty-three')"><a class="Aimg"><img src="Images/yinglun_GJGT.jpg" alt="英伦国际歌厅"></a><div class="name"><a >英伦国际歌厅</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Thirty-four')"><a class="Aimg"><img src="Images/baisheng_QCSLB.jpg" alt="百胜 青城一品 售楼部"></a><div class="name"><a >百胜 青城一品 售楼部</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Thirty-five')"><a class="Aimg"><img src="Images/xinke_GJGC.jpg" alt="鑫科国际广场售楼处"></a><div class="name"><a >鑫科国际广场售楼处</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Thirty-six')"><a class="Aimg"><img src="Images/shijiazhuang_SLB.jpg" alt="石家庄售楼部"></a><div class="name"><a >石家庄售楼部</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Thirty-seven')"><a class="Aimg"><img src="Images/soule_XXGC.jpg" alt="搜乐休闲广场"></a><div class="name"><a >搜乐休闲广场</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Thirty-eight')"><a class="Aimg"><img src="Images/xibuzhuti_JB.jpg" alt="西部主题酒吧"></a><div class="name"><a >西部主题酒吧</a><span class="time">2013-02-20</span></div></li>
+        </ul>
+    </div>
+</div>     
+<div class="pagelist">
+        <a href="#" class="current" target="win">1</a>
+        </div>   
+</div>        
+</body>
+</html>
+<script type="text/javascript" src="Js/showDialog.js"></script>
+<script type="text/javascript">
+//li鼠标经过
+$('.lilist li').each(function(){
+	$(this).mouseover(function(){
+		$('.active').removeClass('active');
+		$(this).addClass('active');
+	}).mouseout(function(){
+	   $('.active').removeClass('active');	
+	});
+});
+//翻页
+$('.pagelist a').each(function(index){
+$(this).click(function(){	
+	$('.lilist_block').css('display','none');
+	$('.current').removeClass('current');
+	$(this).addClass('current');
+	$('.lilist_block').eq(index).css('display','block');
+})
+});
+</script>
+<script type="text/javascript">
+
+</script>
+<script type="text/javascript" src="Js/pingbi.js">//屏蔽右键</script>

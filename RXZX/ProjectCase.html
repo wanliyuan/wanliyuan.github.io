@@ -1,0 +1,115 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>项目案例</title>
+<link href="Css/base.css" type="text/css" rel="stylesheet">
+<link href="Css/common.css" type="text/css" rel="stylesheet">
+<link href="Css/ProjectCase.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="Js/jquery-1.7.min.js"></script>
+</head>	
+
+<body>
+<div id="container">
+<div id="header">
+	<h1><a href="index.html"><img src="Images/logo.jpg" width="178" height="70" alt="瑞祥装饰"></a></h1>
+    <div class="nav clear">
+    	<a href="index.html" class="home" title="首页"><img src="Images/home.gif" alt="首页"></a>
+        <span>|</span>
+        <a href="ProjectCase.html" class="red">项目案例</a>
+        <span>|</span>
+        <a href="Service.html">瑞祥服务</a>
+        <span>|</span>
+        <a href="http://www.rxjy.com">集团链接</a>
+        <span>|</span>
+        <a href="AboutUs.html">关于瑞祥</a>
+    </div>
+</div>
+<div id="banner"><img src="Images/project_banner.gif" width="960" height="236" alt="项目案例"></div>
+<div class="TitleBar">
+	<div class="TitleBarList">
+    	<a  class="red titleName">高级办公</a>
+        <span>|</span>
+        <a href="ProjectCase.html">项目案例</a>
+        <span>|</span>
+        <a href="index.html" class="home2" title="首页"><img src="Images/home.gif" alt=""></a>
+        </div>
+    </div>
+<div id="content" class="clear">
+    <div id="left">
+    	<div><a href="Business_Entertainment.html" title="商业娱乐" class="Commercial" target="win" id="Commercial"></a></div>
+    	<div><a href="Star_hotel.html" title="星级酒店" class="Starhotel" target="win" id="Starhotel"></a></div>
+    	<div><a href="Business_Club.html" title="商务会所" class="BusinessClub" target="win" id="BusinessClub"></a></div>
+    	<div><a href="Theme_Restaurant.html" title="主题餐厅" class="Themed" target="win" id="Themed"></a></div>
+    	<div class="Aactive"><a href="Senior_office.html" title="高级办公" class="Senioroffice" target="win" id="Senioroffice"></a></div>
+    </div>
+    <div id="right">
+		<iframe  id="win" frameborder="0" width="100%" height="100%" scrolling="no" name="win" src="Senior_office.html"allowTransparency="true"  ></iframe>
+    </div>
+</div>
+</div>
+<div id="footer">
+  <div class="footer_b">
+	<span class="copyright">2013-2014 版权所有@瑞祥装饰</span>
+    <span class="beian">京ICP备14046442号-4</span>
+  </div>
+</div>
+
+<iframe  id="alert" frameborder="0" width="960" height="540" scrolling="no" name="alert" src="alert.html" ></iframe>
+</body>
+</html>
+<script type="text/javascript" src="Js/showDialog.js"></script>
+<script type="text/javascript">
+window.onload=function(){
+var oheight=$("#win").contents().find("#conten").height();
+$('#win').height(oheight);
+}
+
+$('#left div').each(function(){
+$(this).click(function(){
+$('.Aactive').removeClass('Aactive');
+$(this).addClass('Aactive');
+$('.titleName').html($('.Aactive a').attr('title'));
+});
+});
+/***************************************************弹出层居中显示*****************************************/
+var ooffsetLeft=$('#container').offset().left;
+$('#alert').css('left',ooffsetLeft+'px');
+
+
+/***************************** 截取字符串 ******************/
+var odivId=window.location.href.substr(window.location.href.indexOf("=")+1);
+$('.Aactive').removeClass('Aactive');
+$('#'+odivId).parent().addClass('Aactive');
+$("#win").attr('src',$('#'+odivId).attr('href'));
+/***************************** 截取字符串 end ******************/
+
+/*首页点击进去 当前位置变成left选中项*/
+$('.titleName').html($('.Aactive a').attr('title'));
+	
+	
+	
+	
+
+
+/****判断active是否存在 不存在默认第一个为active****/
+$(function(){
+if($('.Aactive').length>0)
+{
+    //alert('a');
+}else{
+//alert('b');
+$('#left div:last').addClass('Aactive');
+}
+})
+
+
+
+//首页鼠标经过时变红色房子
+$('.home,.home2').mouseover(function(){
+    $(this).find('img').attr('src','Images/redhouse.gif');
+}).mouseout(function(){
+ $(this).find('img').attr('src','Images/home.gif');
+});
+</script>
+<script type="text/javascript" src="Js/pingbi.js">//屏蔽右键</script>

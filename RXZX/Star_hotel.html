@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>星级酒店</title>
+<link href="Css/base.css" type="text/css" rel="stylesheet">
+<link href="Css/Senior_office.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="Js/jquery-1.7.min.js"></script>
+</head>
+
+<body>
+<div id="conten">
+<div class="lilist">
+    <div class="lilist_block" style="display:block;">
+        <ul class="clear">
+        	<li onClick="showDialog('Thirty-nine')"><a class="Aimg" ><img src="Images/kadile_JD.jpg"  alt="卡迪乐酒店"></a><div class="name"><a >卡迪乐酒店</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Forty')"><a class="Aimg"><img src="Images/lesini_JD.jpg" alt="乐斯尼假日酒店"></a><div class="name"><a >乐斯尼假日酒店</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Forty-one')"><a class="Aimg"><img src="Images/halifa_JD.jpg" alt="合肥哈里发酒店"></a><div class="name"><a >合肥哈里发酒店</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Forty-two')"><a class="Aimg"><img src="Images/yingbin_JD.jpg" alt="石家庄迎宾大酒店"></a><div class="name"><a >石家庄迎宾大酒店</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Forty-three')"><a class="Aimg"><img src="Images/pukou_JD.jpg" alt="南京浦口精品酒店"></a><div class="name"><a >南京浦口精品酒店</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Forty-four')"><a class="Aimg"><img src="Images/zhongshizhuti_JD.jpg" alt="中式主题酒店"></a><div class="name"><a >中式主题酒店</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Forty-five')"><a class="Aimg"><img src="Images/haitianjingpin_JD.jpg" alt="海天精品酒店"></a><div class="name"><a >海天精品酒店</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Forty-six')"><a class="Aimg"><img src="Images/zhouzhuanghuangguan_JD.jpg" alt="周庄皇冠假日酒店"></a><div class="name"><a >周庄皇冠假日酒店</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Forty-seven')"><a class="Aimg"><img src="Images/shijiyuan_JD.jpg" alt="世纪源酒店"></a><div class="name"><a >世纪源酒店</a><span class="time">2013-02-20</span></div></li>
+        </ul>
+    </div>
+</div>     
+<div class="pagelist">
+        <a href="#" class="current" target="win">1</a>
+        </div>   
+</div>        
+</body>
+</html>
+<script type="text/javascript" src="Js/showDialog.js"></script>
+<script type="text/javascript">
+//li鼠标经过
+$('.lilist li').each(function(){
+	$(this).mouseover(function(){
+		$('.active').removeClass('active');
+		$(this).addClass('active');
+	}).mouseout(function(){
+	   $('.active').removeClass('active');	
+	});
+});
+//翻页
+$('.pagelist a').each(function(index){
+$(this).click(function(){	
+	$('.lilist_block').css('display','none');
+	$('.current').removeClass('current');
+	$(this).addClass('current');
+	$('.lilist_block').eq(index).css('display','block');
+})
+});
+</script>
+<script type="text/javascript">
+
+</script>
+<script type="text/javascript" src="Js/pingbi.js">//屏蔽右键</script>

@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+#left{ float:left;width:157px;margin-left:2px; display:inline;}
+#left a{ display:block;width:131px;height:122px; overflow:hidden;margin-bottom:30px; background:url(../Images/Senior_buttons.gif) no-repeat;}
+#left .Commercial{ background-position:0 0;}
+#left .Starhotel{ background-position:0 -122px;}
+#left .BusinessClub{ background-position:0 -244px;}
+#left .Themed{ background-position:0 -366px;}
+#left .Senioroffice{ background-position:0 -488px;}
+
+#left .Commercial:hover{ background-position:0 -610px;}
+#left .Starhotel:hover{ background-position:0 -732px;}
+#left .BusinessClub:hover{ background-position:0 -854px;}
+#left .Themed:hover{ background-position:0 -976px;}
+#left .Senioroffice:hover{ background-position:0 -1098px;}
+
+
+#left .Aactive .Commercial{ background-position:0 -610px;}
+#left .Aactive .Starhotel{ background-position:0 -732px;}
+#left .Aactive .BusinessClub{ background-position:0 -854px;}
+#left .Aactive .Themed{ background-position:0 -976px;}
+#left .Aactive .Senioroffice{ background-position:0 -1098px;}
+
+
+#right{width:715px; float:right;}
+#alert{top:375px;position:absolute; display:none; width:960px;height:540px; }
+

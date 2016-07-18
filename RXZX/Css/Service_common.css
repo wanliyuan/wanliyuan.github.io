@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{ width:100%;height:100%; overflow:hidden;}
+#conten{width:615px;}
+#right p{ text-indent:25px; line-height:25px;margin-bottom:30px;}
+.imgshow{margin-top:60px;}

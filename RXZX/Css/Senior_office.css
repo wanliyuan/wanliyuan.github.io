@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.lilist{width:715px;height:764px; overflow:hidden; }
+.lilist_block{display:none;}
+.lilist li{ float:left; background:#fff;padding:7px;margin:0 0 6px 6px; display:inline;-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px;border-radius:5px;border:1px solid #bdbdbd;-webkit-box-shadow:0px 1px 1px rgba(0,0,0,0.15);-moz-box-shadow:0px 1px 1px rgba(0,0,0,0.15);-o-box-shadow:0px 1px 1px rgba(0,0,0,0.15);-ms-box-shadow:0px 1px 1px rgba(0,0,0,0.15);box-shadow:0px 1px 1px rgba(0,0,0,0.15);}
+.lilist li .Aimg{display:block;width:216px;height:129px;}
+.lilist li img{ display:block;width:214px;height:127px; overflow:hidden;border:1px solid #bdbdbd;}
+.lilist li .name{color:#999;padding-top:2px;width:216px; overflow:hidden; word-break:break-all; word-wrap:break-word;}
+.lilist li .name a,.lilist li .name span{ display:block; line-height:19px; font-weight:bold;}
+.lilist li .name a{ color:#999;}
+.lilist li .name a:hover{ color:#ce2222;}
+.lilist .active{ background:#aeaeae;}
+.lilist .active .name a,.lilist .active  .name span{ color:#fff;}
+
+
+.pagelist{ text-align:right;padding-right:20px;padding-top:20px;width:695px;}
+.pagelist a{ color:#999; font-size:15px; font-weight:bold; display:inline-block;margin:0 5px;padding:0 2px; cursor:pointer;}
+.pagelist .current,.pagelist .hover{ background:#ce2222;color:#fff;-webkit-border-radius:3px;-moz-border-radius:3px;-o-border-radius:3px;border-radius:3px;}
+

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>主题餐厅</title>
+<link href="Css/base.css" type="text/css" rel="stylesheet">
+<link href="Css/Senior_office.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="Js/jquery-1.7.min.js"></script>
+</head>
+
+<body>
+<div id="conten">
+<div class="lilist">
+    <div class="lilist_block" style="display:block;">
+        <ul class="clear">
+        	<li onClick="showDialog('Forty-eight')"><a class="Aimg" ><img src="Images/xiaoxiangfu_JL.jpg"  alt="潇湘府大酒楼"></a><div class="name"><a >峨嵋酒家</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Forty-nine')"><a class="Aimg"><img src="Images/zuodundao_CT.jpg" alt="佐敦道港式餐厅"></a><div class="name"><a >佐敦道港式餐厅</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Fifty')"><a class="Aimg"><img src="Images/xiaoxiangfu_JD.jpg" alt="潇湘府大酒店"></a><div class="name"><a >潇湘府大酒店</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Fifty-one')"><a class="Aimg"><img src="Images/qianguo_BW.jpg" alt="千锅百味"></a><div class="name"><a >千锅百味</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Fifty-two')"><a class="Aimg"><img src="Images/huoyuguan.jpg" alt="活鱼馆"></a><div class="name"><a >活鱼馆</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Fifty-three')"><a class="Aimg"><img src="Images/xinle_JD.jpg" alt="新乐酒店"></a><div class="name"><a >新乐酒店</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Fifty-four')"><a class="Aimg"><img src="Images/yizhong_CT.jpg" alt="颐中餐厅"></a><div class="name"><a >颐中餐厅</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Fifty-five')"><a class="Aimg"><img src="Images/guzhen_JD.jpg" alt="合肥固镇大酒店"></a><div class="name"><a >合肥固镇大酒店</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Fifty-six')"><a class="Aimg"><img src="Images/yiyunxuan_CL.jpg" alt="依云轩茶楼"></a><div class="name"><a >依云轩茶楼</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Fifty-seven')"><a class="Aimg"><img src="Images/liuyiguo_HFFD.jpg" alt="刘一锅合肥分店"></a><div class="name"><a >刘一锅合肥分店</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Fifty-eight')"><a class="Aimg"><img src="Images/qiluzhong_CT.jpg" alt="齐鲁中餐厅"></a><div class="name"><a >齐鲁中餐厅</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Fifty-nine')"><a class="Aimg"><img src="Images/xinya_CL.jpg" alt="新雅茶楼"></a><div class="name"><a >新雅茶楼</a><span class="time">2013-02-20</span></div></li>
+        </ul>
+    </div>
+    <div class="lilist_block">
+    	<ul class="clear">
+        	<li onClick="showDialog('Sixty')"><a class="Aimg"><img src="Images/huangdao_HGD.jpg" alt="黄岛火锅店"></a><div class="name"><a >黄岛火锅店</a><span class="time">2013-02-20</span></div></li>
+        </ul>
+    	</div>
+</div>     
+<div class="pagelist">
+        <a href="#" class="current" target="win">1</a>
+        <a href="#" target="win">2</a>
+        </div>   
+</div>        
+</body>
+</html>
+<script type="text/javascript" src="Js/showDialog.js"></script>
+<script type="text/javascript">
+//li鼠标经过
+$('.lilist li').each(function(){
+	$(this).mouseover(function(){
+		$('.active').removeClass('active');
+		$(this).addClass('active');
+	}).mouseout(function(){
+	   $('.active').removeClass('active');	
+	});
+});
+//翻页
+$('.pagelist a').each(function(index){
+$(this).click(function(){	
+	$('.lilist_block').css('display','none');
+	$('.current').removeClass('current');
+	$(this).addClass('current');
+	$('.lilist_block').eq(index).css('display','block');
+})
+});
+</script>
+<script type="text/javascript">
+
+</script>
+<script type="text/javascript" src="Js/pingbi.js">//屏蔽右键</script>

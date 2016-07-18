@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>高级办公</title>
+<link href="Css/base.css" type="text/css" rel="stylesheet">
+<link href="Css/Senior_office.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="Js/jquery-1.7.min.js"></script>
+</head>
+
+<body>
+<div id="conten">
+<div class="lilist">
+    <div class="lilist_block" style="display:block;">
+        <ul class="clear">
+        	<li onClick="showDialog('Twenty')"><a class="Aimg" ><img src="Images/jingyuanYS.jpg"  alt="景园养生会所"></a><div class="name"><a >景园养生会所</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Twenty-one')"><a class="Aimg"><img src="Images/shanghai_TJ.jpg" alt="上海城太极会馆"></a><div class="name"><a >上海城太极会馆</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Twenty-two')"><a class="Aimg"><img src="Images/xinyuehui_YZ.jpg" alt="馨月汇国际月子会所"></a><div class="name"><a >馨月汇国际月子会所</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Twenty-three')"><a class="Aimg"><img src="Images/jinshuitong_ZL.jpg" alt="郑州金水桶足疗会所"></a><div class="name"><a >郑州金水桶足疗会所</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Twenty-four')"><a class="Aimg"><img src="Images/zhuxiangju_SRHS.jpg" alt="竹香居私人会所"></a><div class="name"><a >竹香居私人会所</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Twenty-five')"><a class="Aimg"><img src="Images/shilin_HG.jpg" alt="仕林会馆"></a><div class="name"><a >仕林会馆</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Twenty-six')"><a class="Aimg"><img src="Images/zhujing_LLB.jpg" alt="宜春市 驻京联络部"></a><div class="name"><a >宜春市 驻京联络部</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Twenty-seven')"><a class="Aimg"><img src="Images/fangda_HS.jpg" alt="方大会所"></a><div class="name"><a >方大会所</a><span class="time">2013-02-20</span></div></li>
+        	<li onClick="showDialog('Twenty-eight')"><a class="Aimg"><img src="Images/zhuoshangqiu_HS.jpg" alt="卓尚桌球会所"></a><div class="name"><a >卓尚桌球会所</a><span class="time">2013-02-20</span></div></li>
+        </ul>
+    </div>
+</div>     
+<div class="pagelist">
+        <a href="#" class="current" target="win">1</a>
+        </div>   
+</div>        
+</body>
+</html>
+<script type="text/javascript" src="Js/showDialog.js"></script>
+<script type="text/javascript">
+//li鼠标经过
+$('.lilist li').each(function(){
+	$(this).mouseover(function(){
+		$('.active').removeClass('active');
+		$(this).addClass('active');
+	}).mouseout(function(){
+	   $('.active').removeClass('active');	
+	});
+});
+//翻页
+$('.pagelist a').each(function(index){
+$(this).click(function(){	
+	$('.lilist_block').css('display','none');
+	$('.current').removeClass('current');
+	$(this).addClass('current');
+	$('.lilist_block').eq(index).css('display','block');
+})
+});
+</script>
+<script type="text/javascript">
+
+</script>
+<script type="text/javascript" src="Js/pingbi.js">//屏蔽右键</script>

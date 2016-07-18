@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+#left{ float:left;width:157px;margin-left:2px; display:inline;}
+#left a{ display:block;width:157px;height:145px; overflow:hidden;margin-bottom:30px; background:url(../Images/service_buttons.gif) no-repeat;}
+#left .Design{ background-position:0 0;}
+#left .Construction{ background-position:0 -145px;}
+#left .Material{ background-position:0 -290px;}
+#left .Furniture{ background-position:0 -435px;}
+#left .Intelligent{ background-position:0 -580px;}
+
+#left .Design:hover{ background-position:0 -725px;}
+#left .Construction:hover{ background-position:0 -870px;}
+#left .Material:hover{ background-position:0 -1015px;}
+#left .Furniture:hover{ background-position:0 -1160px;}
+#left .Intelligent:hover{ background-position:0 -1305px;}
+
+
+
+#left .active .Design{ background-position:0 -725px;}
+#left .active .Construction{ background-position:0 -870px;}
+#left .active .Material{ background-position:0 -1015px;}
+#left .active .Furniture{ background-position:0 -1160px;}
+#left .active .Intelligent{ background-position:0 -1305px;}
+
+
+#right{height:842px;padding:0 50px;width:615px; float:right; background:#fff; -webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px;border-radius:5px;border:1px solid #bdbdbd;-webkit-box-shadow:0px 1px 1px rgba(0,0,0,0.15);-moz-box-shadow:0px 1px 1px rgba(0,0,0,0.15);-o-box-shadow:0px 1px 1px rgba(0,0,0,0.15);-ms-box-shadow:0px 1px 1px rgba(0,0,0,0.15);box-shadow:0px 1px 1px rgba(0,0,0,0.15);}
+

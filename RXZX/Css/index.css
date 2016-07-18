@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#f7f7f7 url(../Images/top_bg.jpg) repeat-x;}
+a { color: #4385a7; }
+
+#content{width:960px;padding-top:28px;}
+.word{width:960px;height:44px; margin-bottom:20px;}
+.Introduce{margin-bottom:40px;}
+.left,.right{width:310px;float:left;position:relative;border:1px solid #d8d8d8; background:#fff;border-bottom:none;}
+.indexadorn{ background:url(../Images/index_adorn.gif) no-repeat;width:10px;height:10px; overflow:hidden;position:absolute;}
+.lft_adorn{top:-1px;left:-1px; background-position:0 0;}
+.rgt_adorn{right:-1px;top:-1px; background-position:right 0;}
+.intro_text{padding:15px 10px;height:242px; overflow:hidden; color:#999;}
+.intro_text h2{ font-size:14px;margin-bottom:10px;}
+.intro_text p{ /*text-indent:24px; */line-height:23px; font-size:13px;margin-bottom:20px;}
+.moreUs{ background:url(../Images/index_repeat.gif) repeat-x;height:48px; line-height:44px;position:relative;}
+.lbl_adorn{ background-position:0 -10px; left:-1px;bottom:0;}
+.rbt_aodrn{ background-position:right -10px;right:-1px;bottom:0;}
+.moreUs .moreUs_text{ float:left;padding-left:20px; color:#000; font-size:14px;}
+.moreUs .more{background:url(../Images/index_more.gif) no-repeat;width:18px;height:18px; overflow:hidden; float:right;padding-right:10px;margin-top:12px; }
+
+.center{width:310px;height:316px;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px; float:left;margin-left:12px;margin-right:12px; display:inline;border:1px solid #babab8; background:#fff;-webkit-box-shadow:0 2px #ccc;}
+#inner { width: 310px;height:316px; overflow:hidden;  }
+.hot-event { position:relative;}
+.hot-event .event-item { width:310px;height: 316px;  position: absolute; z-index: 1; left: 0; top: 0; }
+.hot-event .event-item .Img_banner { display: block; }
+.hot-event .event-item img { display:block;width:310px;height:316px;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px; overflow: hidden; }
+
+
+
+
+.links{ background:url(../Images/links.jpg) no-repeat;width:270px;height:244px; overflow:hidden;position:relative;}
+.alibaba{position:absolute;left:0;top:0px;width:112px;height:30px;}
+.k-boxing{position:absolute;left:139px;top:0px;width:120px;height:30px;}
+.reshou{position:absolute;left:0;top:50px;width:112px;height:37px;}
+.playboy{position:absolute;left:132px;top:50px;width:138px;height:37px;}
+.xindongfang{position:absolute;left:0;top:98px;width:112px;height:42px;}
+.meidi{position:absolute;left:132px;top:98px;width:138px;height:35px;}
+.chery{position:absolute;left:12px;top:154px;width:76px;height:39px;}
+.letv{position:absolute;left:132px;top:161px;width:134px;height:27px;}
+.jasic{position:absolute;left:5px;top:213px;width:103px;height:30px;}
+.wanyin{position:absolute;left:126px;top:213px;width:144px;height:26px;}
+
+.contactbtn{ background:url(../Images/contactbtn.gif) no-repeat;width:73px;height:24px; float:left;margin-left:15px;margin-top:10px; display:inline; cursor:pointer;}
+
+.ourService{position:relative;border:1px solid #d8d8d8; background:#fff;border-bottom:none; margin-bottom:35px;}
+
+.ourService h2{ background:url(../Images/session_repeat.gif) repeat-x;height:48px; line-height:48px;padding-left:15px; color:#747473; font-size:17px;position:relative;}
+.ourService h2 .S_te{ float:left;margin-right:10px; display:inline;}
+.ourService h2 .englist{ background:url(../Images/full_service.gif) no-repeat;width:744px;height:48px; }
+.S_adorn{ background:url(../Images/session.gif) no-repeat;width:10px;height:10px; overflow:hidden;position:absolute; z-index:10;}
+.Slft_adorn{left:-1px;top:-1px; background-position:0 0;}
+.Srgt_adorn{right:-1px;top:-1px; background-position:right 0;}
+.Sllb_adorn{ left:-1px;bottom:0;background-position:0 -10px;}
+.Srrb_adorn{right:-1px;bottom:0; background-position:right -10px;}
+.S_lists{height:140px;padding:35px 0; background:url(../Images/S_con_repeat.gif) repeat-x 0 bottom;}
+.S_lists div{ float:left;}
+.S_lists .imgS{margin:0 25px; display:inline;}
+.S_lists .imgS a{ display:block;width:113px;height:140px;}
+.S_lists .jia{ background:url(../Images/jia.gif) no-repeat;width:32px;height:32px;margin-top:38px;}
+
+
+.SearchUs{width:960px;margin-bottom:35px;}
+.SearchUs h2{background:url(../Images/search_us_h2.gif) no-repeat;width:960px;height:30px;}
+.map{position:relative; background:url(../Images/map.gif) no-repeat;width:960px;height:218px; overflow:hidden;}
+.map a{position:absolute;}
+.map a em{ background:url(../Images/F_company.gif) no-repeat; display:block;}
+.map .tianjin{left:17px;top:26px;}
+.map .tianjin em{ background-position:0 -6px;width:67px;height:54px;}
+.map .tianjin:hover em{ background-position:0 -667px;}
+
+.map .beijing{left:260px;top:22px;}
+.map .beijing em{ background-position:right -4px;width:64px;height:52px;}
+.map .beijing:hover em{ background-position:right -669px;}
+
+.map .hangzhou{left:409px;top:21px;}
+.map .hangzhou em{ background-position:0 -76px;width:64px;height:48px;}
+.map .hangzhou:hover em{ background-position:0 -476px;}
+
+.map .chongqing{left:529px;top:21px;}
+.map .chongqing em{ background-position:-83px -78px;width:65px;height:48px;}
+.map .chongqing:hover em{ background-position:right -474px;}
+
+.map .qingdao{left:623px;top:55px;}
+.map .qingdao em{ background-position:right -78px;width:67px;height:50px;}
+.map .qingdao:hover em{ background-position:0 -538px;}
+
+.map .wuhan{left:708px;top:49px;}
+.map .wuhan em{ background-position:0 -137px;width:65px;height:55px;}
+.map .wuhan:hover em{ background-position:0 -736px;}
+
+.map .chengdu{left:480px;top:84px;}
+.map .chengdu em{ background-position:right -138px;width:67px;height:48px;}
+.map .chengdu:hover em{ background-position:right -807px;}
+
+.map .nanjing{left:85px;top:97px;}
+.map .nanjing em{ background-position:0 -205px;width:65px;height:55px;}
+.map .nanjing:hover em{ background-position:0 -943px;}
+
+.map .hefei{left:162px;top:153px;}
+.map .hefei em{ background-position:right -411px;width:66px;height:48px;}
+.map .hefei:hover em{ background-position:0 -607px;}
+                 
+.map .changsha{ left:6px;top:145px;}
+.map .changsha em{background-position:right -206px;width:65px;height:50px; }
+.map .changsha:hover em{ background-position:right -540px;}
+
+.map .taiyuan{ left:247px;top:140px;}
+.map .taiyuan em{ background-position:0 -269px;width:66px;height:48px;}
+.map .taiyuan:hover em{ background-position:right -877px;}
+
+.map .shijiazhuang{left:353px;top:130px;}
+.map .shijiazhuang em{ background-position:right -268px;width:87px;height:50px;}
+.map .shijiazhuang:hover em{ background-position:0 -877px;}
+
+.map .zhengzhou{left:654px;top:130px;}
+.map .zhengzhou em{ background-position:0 -335px;width:65px;height:53px;}
+.map .zhengzhou:hover em{ background-position:0 -805px;}
+
+.map .xian{left:863px;top:98px;}
+.map .xian em{ background-position:right -335px;width:65px;height:54px;}
+.map .xian:hover em{ background-position:right -736px;}
+
+.map .jinan{left:571px;top:150px;}
+.map .jinan em{ background-position:0 -412px; width:64px;height:50px;}
+.map .jinan:hover em{ background-position:right -603px;}
+
+
+
+
+
+/*/////////////////////////*/
+.projects{ background:url(../Images/projectsCon.jpg) repeat-x;  width:960px; height:280px; overflow:hidden; position:relative; margin-bottom:35px;}
+.proRight{ background:url(../Images/projectsRight.jpg) no-repeat; width:78px; height:280px; position:absolute; right:0; top:0;}
+.projects h2{background:url(../Images/projects.jpg) no-repeat;width:49px;height:281px; float:left;}
+
+.hotel_club{  overflow:hidden;height:280px;float:left;width:909px;}
+#imageMenu{ width:909px; height:280px; overflow:hidden; position:relative;-webkit-border-top-right-radius:5px;-moz-border-top-right-radius:5px;-o-border-top-right-radius:5px;-ms-border-top-right-radius:5px;border-top-right-radius:5px;}
+#imageMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	height: 280px;
+	width: 10000px;	
+	}
+
+#imageMenu ul li {	float: left;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	width:126px;
+}
+

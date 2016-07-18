@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#f7f7f7 url(../Images/top_bg.jpg) repeat-x;}
+/*内页公用样式*/
+#banner{width:960px;height:236px;margin-bottom:9px; overflow:hidden; }
+#banner img{ display:block;width:960px;height:236px; overflow:hidden;}
+
+.TitleBar{height:31px; padding-top:28px;color:#8d8b8b;}
+.TitleBarList{ float:right;}
+
+
