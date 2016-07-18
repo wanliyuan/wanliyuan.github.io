@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+<style>
+/*#c{
+    background:white;
+ -webkit-mask-box-image: -webkit-radial-gradient(50% 50%, white, transparent 80px);
+}*/
+</style>
+
+	</head>
+	<body>
+	<script src="js/jquery-1.7.min.js"></script>
+<script>
+	function ktkGetNextDate(currentDate, scaleStep) {  
+	    //scaleStep = 1 向后计算后一天  
+	    //scaleStep = -1 向前计算前一天  
+	    for(var minIncrements = 1;; minIncrements++) {  
+	        var nextDate = new Date(currentDate);  
+	        nextDate.setHours(currentDate.getHours() + scaleStep * minIncrements);  
+	  
+	        if(nextDate.getDate() != currentDate.getDate()) {  
+	            return nextDate;  
+	        }  
+	    }  
+	}  
+	var month = 1;  //2月份
+	var date = new Date(2014,month,09);
+	alert(ktkGetNextDate(date, 1));
+ </script>
+	</body>
+</html>

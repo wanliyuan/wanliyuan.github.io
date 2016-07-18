@@ -1,0 +1,18 @@
+body{background: #f4f4f4;}
+.R_content{width: 990px;margin: 0 auto;padding:40px 0 40px;}
+.rz_title_h3{line-height: 20px; font-size: 18px; color: #333; font-weight: normal;padding:0 0 40px;}
+.block{width:490px;background: #fff;margin-bottom: 55px;}
+.blue_div{border:1px solid #9dc1d8;border-bottom:0;height:115px; background: #147bbe;padding:70px 0 0 95px;}
+.blue_div .icon{width:80px;height:50px; float: left; background: url(../img/icon1.png) no-repeat;}
+.blue_div .icon01{ background-position: 0 0;}
+.blue_div .icon02{ background-position: 0 -50px;}
+.blue_div .icon03{ background-position: 0 -100px;}
+.blue_div .icon04{ background-position: 0 -150px;}
+.blue_div .icon_name_div{ float: left;color: #fff;width: 310px;}
+.blue_div .icon_name_div h3{height: 30px; line-height: 30px; font-size: 24px; color: #fff; font-weight:600;}
+.blue_div .icon_name_div p{ font-size: 14px; line-height: 20px; font-weight: 600;}
+.white_content_div{border:1px solid #dbdbdb;border-bottom-width: 2px; padding:30px 20px 60px;}
+.white_content_div h4{ font-size:18px; color: #666; line-height: 30px;margin-bottom:5px;}
+.white_content_div p{font-weight: 600; font-size: 14px; color: #888;line-height: 20px;}
+
+

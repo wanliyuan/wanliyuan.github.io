@@ -1,0 +1,19 @@
+.total_div{width: 990px;margin: 0 auto 24px;color: #666;}
+.total_div a{ color: #428db7;}
+.total_div span{ color: #c8161d; font-size: 18px; font-weight: bold;}
+.content{ background: url(../img/icon6.jpg) repeat-x left top;}
+.R_content{ width: 990px; margin: 0 auto;}
+.R_content th{ background:#428db7;height: 45px;line-height: 45px; color: #fff; font-size: 14px;font-family: "微软雅黑";}
+.R_content td{ vertical-align:top;font-family: "微软雅黑";padding:30px 0 0;}
+.info{text-align: left;width: 70%; margin: 0 auto;}
+.info h3{ line-height: 30px;border-bottom:1px solid #d9d9d9; font-size: 18px; color: #0a0a0a;margin-bottom: 10px;}
+.info h3 span{padding-left: 20px;}
+.info p{height: 28px;line-height: 28px; font-size: 15px; color: #696969;}
+.hgz{ text-align: left;}
+.product_pic,.hgz{padding-top:32px;}
+.pagelist{border-top:2px solid #333;padding: 20px 0;margin-top: 60px; color: #999; font-size: 13px;}
+.pagelist .total_span{ float: right;margin-right: 20px; display: inline;}
+.pagelist ul{ float: right;}
+.pagelist li{ float: left;margin:0 5px; display: inline;}
+.pagelist li a{ color: #999;}
+.pagelist li a:hover,.pagelist .current a,.pagelist .current a:hover{ color: #ae2747;}

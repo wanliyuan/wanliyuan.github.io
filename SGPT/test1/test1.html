@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+	
+			body { margin: 0; }
+			#box { height: 4000px;}
+			#bottom { height: 300px; background: #333; }
+			input { position: fixed; right: 50px; bottom: 50px;}
+			
+			#content { width: 300px; overflow: hidden;} 
+			#inner { width: 1400px;}
+			
+			#scrollline { width: 300px; height: 10px; background: red; margin-top: 10px; position: relative;}
+			#scrollbtn { width: 30px; height: 10px; background: blue; position: absolute; left: 0; top: 0; cursor: move;}
+		</style>
+		
+	</head>
+	<body>
+		<input id="btn1" type="button" value="点击" />
+		<div id="box">
+			<div id="content">
+				
+				<div id="inner">
+					　中新网北京1月31日电(记者 马学玲) 因李崇禧落马而“空转”一年多的四川省政协主席一职终获补缺。30日从四川传来消息，柯尊平当选为政协四川省第十一届委员会主席。事实上，已闭幕或正在召开的省级地方两会，目前至少已调整35名省部级官员。不过因为十八大后的反腐风暴和2014年底密集的人事调整，各地仍有诸多要职待补。
+
+　　“一把手”空缺职位渐获填补
+
+　　1月30日下午，政协四川省第十一届委员会第三次会议在成都闭幕，柯尊平当选为政协四川省第十一届委员会主席。
+
+　　2013年12月29日，时任四川省政协主席的李崇禧被查，并于2014年1月被免去四川省政协主席等职务。此后，四川省政协主席一直空缺。
+
+　　在今次省级地方两会上，空缺省级政协主席获以补缺的还有天津。1月27日下午，为期四天的天津市政协十三届三次会议闭幕，选举臧献甫为天津市政协主席。
+
+　　这距原任天津市政协主席何立峰2014年6月调任国家发改委副主任、党组副书记，使得该职位出现空缺，也已半年有余。
+
+　　就在省级政协“一把手”逐一补缺的同时，空缺的省级政府首长也获以填补。在24日闭幕的新疆“两会”上，雪克来提·扎克尔高票当选新疆自治区主席，填补了努尔·白克力调任国家发改委副主任留下的空位。
+
+　　而因雪克来提·扎克尔职位变动导致的新疆自治区人大常委会主任一职空缺，目前也已有乃依木·亚森填补。乃依木·亚森此前为新疆自治区高级人民法院院长。
+
+　　地方两会排兵布阵：至少已调整35名省部级官员
+
+　　截至1月30日，已有22个省份的政协会议、14个省份的人大会议闭幕，并发布了相关人事调整信息。
+
+　　中新网记者统计发现，至少已有35名省部级官员在今次省级地方两会中获任新职。
+
+　　其中，政协系统20人，包括2名省级政协主席和18名省级政协副主席；人大系统13人，包括1名省级人大主任和12名省级人大副主任；政府系统2人，即“转正”的雪克来提·扎克尔和新当选贵州省副省长的孙立成。
+
+　　记者注意到，上述履新的35名省部级官员之中，除了孙立成和陕西政协副主席孙其信为“60后”为，其余均为“50后”。其中有2名女性，分别为辽宁省政协副主席史桂茹，以及青海省人大常委会副主任苏宁。
+
+　　除了省部级层面的人事变动，另已有100余人也进行了相应调整。新晋人员包括1名省级政协秘书长，79名省级政协常委，2名省级人大秘书长，43名省级人大常委。
+
+　　多个要职待补
+
+　　尽管在此次省级地方两会上有所补缺，但由于十八大后的反腐风暴和2014年底密集的人事调整，各地目前仍有诸多要职空缺。
+
+
+　　就省级政协层面而言，在31个省份中，广东省政协主席一职因朱明国落马至今仍然空缺。原定于今年1月23日召开的政协会议，推迟到2月上旬。届时，谁将填补这一空位，目前尚无相关消息。
+
+　　去年以来，多省份政协副主席在反腐风暴中落马，如天津的武长顺、辽宁的陈铁新、安徽的韩先聪、陕西的祝作利、山西的令政策等。尽管部分已做填补，但山西等省份因政协会议还未闭幕，故新晋人选尚未明确。
+
+　　与此同时，多名省(市)人大常委会副主任也因原任官员落马而出现空缺，包括重庆的谭栖伟、河南的秦玉海、山西的金道铭、黑龙江的隋凤富等。中新网记者统计发现，目前，只有重庆的空缺获得填补，其他省份因人大会议尚未闭幕，暂无填补人选的消息。
+
+　　此外，因秦光荣调任第十二届全国人民代表大会内务司法委员会副主任委员，而空出的云南省人大常委会主任一职，也尚需填补。
+
+　　同样是云南，在此次两会上，其代省长陈豪也需“转正”，从国家海洋局“空降”海南的刘赐贵亦是如此。(完)
+				</div>
+			</div>
+			<div id="scrollline">
+				<div id="scrollbtn">
+					
+				</div>
+			</div>
+		</div>
+		<div id="bottom"></div>
+		
+		<script>
+			
+			
+			var oBox=document.getElementById("box");
+			var oBar=document.getElementById("scrollbtn");
+			var oscrollline=document.getElementById("scrollline");
+			var disX = 0;
+			var maxL = 270;
+			var iScale = 0;
+			
+			
+			var oInner=document.getElementById("inner");
+			var oContent=document.getElementById("content");
+			
+
+
+			oBar.onmousedown = function (event)
+			{
+				var event = event || window.event;
+				disX = event.clientX - oBar.offsetLeft;		
+				document.onmousemove = function (event)
+				{
+					var event = event || window.event;
+					var iL = event.clientX - disX;			
+					iL <= 0 && (iL = 0);
+					iL >= maxL && (iL = maxL);
+					oBar.style.left = iL + "px";
+					oInner.style.marginLeft=-(oInner.offsetWidth-oContent.offsetWidth)*iScale+"px";
+					iScale = iL / maxL;			
+					return false
+				};		
+				document.onmouseup = function ()
+				{
+					
+					document.onmousemove = null;
+					document.onmouseup = null
+				};
+				return false
+			};
+			
+			
+			
+			
+			oBox.onmouseover = function (event)
+			{
+				event = event || window.event;		
+				function mouseWheel(event)
+				{
+					var delta = event.wheelDelta ? event.wheelDelta : -event.detail * 40
+					var iTarget = delta > 0 ? -30 : 30;
+					
+					
+					
+					//console.log(oBar.offsetLeft + iTarget)
+					togetherMove(oBar.offsetLeft + iTarget)
+					 stopEventBubble(event);
+				}
+				addHandler(this, "mousewheel", mouseWheel);
+				addHandler(this, "DOMMouseScroll", mouseWheel);
+			};	
+			
+			oscrollline.onclick = function (event)
+			{
+				var iTarget = (event || window.event).clientX - oBox.offsetLeft - this.offsetLeft - oBar.offsetWidth / 2;
+				togetherMove(iTarget)
+			};
+
+			
+			
+			function togetherMove(iTarget)
+			{
+				if (iTarget <= 0)
+				{
+					iTarget = 0
+				}
+				else if (iTarget >= maxL)
+				{
+					iTarget	= maxL
+				}
+				iScale = iTarget / maxL;
+				oInner.style.marginLeft=-(oInner.offsetWidth-oContent.offsetWidth)*iScale+"px";
+				oBar.style.left = iTarget + "px";
+			}
+			function addHandler(element, type, handler)
+			{
+				return element.addEventListener ? element.addEventListener(type, handler, false) : element.attachEvent("on" + type, handler)
+			};
+			function stopEventBubble(event){
+		        var e=event || window.event;
+		
+		        if (e && e.stopPropagation){
+		            e.stopPropagation();    
+		        }
+		        else{
+		            e.cancelBubble=true;
+		        }
+		   };
+
+		</script>
+	</body>
+</html>

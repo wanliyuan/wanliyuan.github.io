@@ -1,0 +1,35 @@
+body{ background: #fff;}
+.safety_div{background: #f4f4f4;padding-bottom:70px;}
+.R_content{width: 990px;margin: 0 auto;padding:40px 0 40px;}
+.sg_title_h3{ font-size: 24px; color: #333;margin-bottom: 10px; text-transform: uppercase;}
+.sg_title_h3 span{ color: #f37216;padding-left:8px;}
+.sg_title_h4{ font-size:24px; color: #333; font-weight:normal;margin-bottom: 50px;}
+.sg_block{margin-bottom: 50px;}
+.sg_block .icon2{ background: url(../img/icon2.png) no-repeat;width:94px;height: 94px; float: left;}
+.sg_block .icon05{ background-position: 0 0;}
+.sg_block .icon06{ background-position: 0 -95px;}
+.sg_block .icon07{ background-position: 0 -190px;}
+.sg_block .icon08{ background-position: 0 -285px;}
+.sg_block .icon09{ background-position: 0 -380px;}
+.sg_block .icon10{ background-position: 0 -475px;}
+.sg_block .safe_div{ float: left;margin-left: 18px; display: inline;width: 340px;}
+.sg_block .safe_div h3{ font-size: 18px; color: #4b4b4b;padding:5px 0 ;}
+.sg_block .safe_div h3 span{ font-size: 14px; font-weight:normal; color: #707070;}
+.sg_block .safe_div p{ line-height: 18px; color: #8c8c8c;}
+.pic_div{width: 100%;}
+.pic_div .nav{width: 890px;margin: 0 auto;padding: 24px 0 24px 100px;}
+.pic_div .nav li{float:left;width:125px;height: 30px;margin-right: 3px; display: inline;}
+.pic_div .nav li a{ display: block;width: 125px;height: 30px;line-height: 30px; text-align: center; color: #57657b; background: #dde5f3;font-size: 14px;}
+.pic_div .nav li a:hover,.pic_div .nav .current a,.pic_div .nav .current a:hover{ color: #fff; background: #1f8ccc;}
+.pic_div_show{ background: url(../img/icon3.png) repeat-x left top;}
+.pic_div_show_con{width: 990px;margin: 0 auto;padding:50px 0 160px 0;}
+.show_div,.show_div .leo,.show_div,.show_div .leo2,.show_div,.show_div .leo3,.show_div,.show_div .leo4,.show_div,.show_div .leo5,.show_div,.show_div .leo6{ display: none;}
+.show_div,.show_div img{ display: block;width:720px;height: 530px;}
+.show_div{display:none;position: relative;width:720px; margin: 0 auto;}
+.ul_nav {padding:30px 0 0;width:160px; margin: 0 auto;}
+.ul_nav li{ background: url(../img/icon4_2.png) no-repeat;width: 14px;height: 13px;overflow: hidden;float: left;margin:0 3px; display: inline; cursor: pointer;}
+.ul_nav .active {background: url(../img/icon4_1.png) no-repeat;}
+.show{position: absolute;top: 240px; background:url(../img/icon5.png) no-repeat;width: 30px;height: 55px; display: none;}
+.prev{left:5px;}
+.next{right: 5px; background-position: 0 -55px;}
+.mr85{margin-right: 85px;display: inline;}

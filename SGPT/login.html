@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登陆页面</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="js/jquery-1.7.min.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="login_head clear">
+			<h1><a href="#"><img src="img/logo.jpg" alt=""></a></h1>
+			<h2>施工管理平台</h2>
+			<p>为您贴心设计，让您更及时了解你的工地</p>
+		</div>
+		<div class="login_center">
+			<div class="login_center_con">
+				<div class="login_group clear phone">
+					<input data-value="请输入手机单号" type="text" value="请输入手机单号" class="input"  />
+				</div>
+				<div class="login_group clear pass">
+					<input type="text" value="请输入密码" class="hide_input" />
+					<input type="password" value="" class="input"  />
+				</div>
+				<div class="login_group">
+					<a href="javascript:;" class="login_btn1 login_btn">登陆</a>
+				</div>
+				<div class="login_group">
+					<a href="javascript:;" class="login_btn2 login_btn">登陆</a>
+				</div>
+			</div>
+		</div>
+		<div class="login_bottom">
+			<div class="login_bottom_left">
+				<a href="#">帮助</a>&nbsp;&nbsp;|&nbsp;&nbsp; 
+				<a href="#">给瑞祥建议</a>
+			</div>
+			<div class="login_bottom_right">
+				<a href="#">瑞祥官网</a>
+				<span>瑞祥装饰版权所有1997-2004</span>
+			</div>
+		</div>
+	</body>
+	
+</html>
+<script type="text/javascript">
+	$(function(){
+		$(".login_group .input").each(function(){
+			$(this).focus(function(){
+			if($(this).val()==$(this).attr("data-value")){
+				$(this).val("")
+			}
+			$(this).parent().addClass("focus");
+		}).blur(function(){
+			$(".focus").removeClass("focus");
+			 if($(this).val()==""&& $(this).prev(".hide_input").length>0)
+			{
+				//alert(00)
+				$(this).prev(".hide_input").show();
+				
+			}
+			else if($(this).val()==""){
+				$(this).val($(this).attr("data-value"))
+			}
+		})
+		});
+		$(".login_group .hide_input").focus(function(){
+			$(this).hide();
+			$(this).next().focus();
+		});
+		
+	})
+</script>
