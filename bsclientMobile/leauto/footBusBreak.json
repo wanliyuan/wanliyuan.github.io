@@ -1,0 +1,10 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,   
+    "data" : {
+       "footTitle":"警告--发动机故障;",
+        "footText":"10s后自动拨通最近4s店的服务电话，点击取消！"
+    }
+}

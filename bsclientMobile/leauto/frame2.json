@@ -1,0 +1,122 @@
+{
+	"modulename" : "frame",
+	"operation" : "init",
+	"tokenid" : "1111111111",
+	"status" : 1,
+	"data" : {
+        "items": [{
+            "name": "div",
+            "config": {},
+            "items": [{
+                "name": "table",
+                "config": {
+                    "innerHTML": "",
+                    "className":"tb"
+                },
+                "items": [{
+                    "name": "tr",
+                    "config": {
+                        "name": "parent0"
+                        },
+                    "items": [ {
+                        "name": "td",
+                        "config": {
+                        },
+                        "items": [{
+                            "name": "button",
+                            "config": {
+                                "value": "button"
+                            }
+                        }]
+                    },{
+                        "name": "td",
+                        "config": {
+                        },
+                        "items": [{
+                            "name": "div",
+                            "config": {
+                                "innerHTML": "outer"
+                            },
+                            "items": [{
+                                "name": "input",
+                                "config": {}
+                            }]
+                        }]
+                    }]
+                }, {
+                    "name": "tr",
+                    "config": {
+                        "name": "parent"
+                    },
+                    "items": [{
+                        "name": "td",
+                        "config": {},
+                        "items": [{
+                            "name": "button",
+                            "config": {
+                                "value": "name from config"
+                            }
+                        }]
+                    }, {
+                        "name": "td",
+                        "config": {},
+                        "items": [{
+                            "name": "textField",
+                            "config": {}
+                        }]
+                    }]
+                }, {
+                    "name": "tr",
+                    "config": {
+                        "name": "parent2"
+                    },
+                    "items": [{
+                        "name": "td",
+                        "config": {},
+                        "items": [{
+                            "name": "treePanel",
+                            "config": {
+                                "value": "name from config"
+                            }
+                        }]
+                    }, {
+                        "name": "td",
+                        "config": {},
+                        "items": [{
+                            "name": "textField",
+                            "config": {}
+                        }]
+                    }]
+                }, {
+                    "name": "tr",
+                    "config": {
+                        "name": "parent3"
+                    },
+                    "items": [{
+                        "name": "td",
+                        "config": {},
+                        "items": [{
+                            "name": "container",
+                            "config": {
+                                "value": "name from config"
+                            },
+                            "items": [{
+                                "name": "treePanel",
+                                "config": {}
+                            },{
+                                "name": "textField",
+                                "config": {}
+                            }]
+                        }]
+                    },{
+                        "name":"td",
+                        "config":{},
+                        "items":[{
+                            "name":"map"
+                        }]
+                    }]
+                }]
+            }]
+        }]
+    }
+}

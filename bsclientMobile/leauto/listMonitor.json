@@ -1,0 +1,12 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,   
+    "data" :{ "listTitle":"车辆实时状态",
+        "paraDetails":[ { "paraName": "剩余电量", "paraNum":"45%"},
+        { "paraName": "预计行驶里程", "paraNum":"80km" },
+        { "paraName": "电池温度", "paraNum":"（待定）" },
+        { "paraName": "发动机转速", "paraNum":"（待定）" }
+    ]}
+}

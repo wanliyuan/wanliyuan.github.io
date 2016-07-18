@@ -1,0 +1,73 @@
+{
+	"modulename" : "frame",
+	"operation" : "init",
+	"tokenid" : "1111111111",
+	"status" : 1,
+	"data" : {
+        "items": [{ 
+            "name": "div",
+            "config": {},
+            "items": [{
+                "name": "table",
+                "config": {
+                    "innerHTML": ""
+                },
+                "items": [{
+                    "name": "tr",
+                    "config": {},
+                    "items": [ {
+                        "name": "td",
+                        "config": {
+                        },
+                        "items": [{
+                            "name": "button",
+                            "config": {
+                                "type": "button",
+                                "value": "button"
+                            }
+                        }]
+                    },{
+                        "name": "td",
+                        "config": {
+                        },
+                        "items": [{
+                            "name": "div",
+                            "config": {
+                                "innerHTML": "outer"
+                            },
+                            "items": [{
+                                "name": "div",
+                                "config": {
+                                    "innerHTML": "inner"
+                                }
+                            }]
+                        }]
+                    }]
+                }, {
+                    "name": "tr",
+                    "config": {
+                        "name": "parent"
+                    },
+                    "items": [{
+                        "name": "td",
+                        "config": {},
+                        "items": [{
+                            "name": "button",
+                            "config": {
+                                "type": "button",
+                                "value": "name from config"
+                            }
+                        }]
+                    }, {
+                        "name": "td",
+                        "config": {},
+                        "items": [{
+                            "name": "input",
+                            "config": {}
+                        }]
+                    }]
+                }]
+            }]
+        }]
+    }
+}

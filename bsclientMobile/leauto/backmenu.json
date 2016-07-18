@@ -1,0 +1,48 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,
+    "data" : {
+        "items":[{
+            "name":"div",
+            "config":{
+                "className":"formBg"
+            },
+            "items":[{
+                "name":"div",
+                "config":{
+                    "innerHTML":"我的爱车",
+                    "className":"navbar navbar-default head"}
+            },{
+                "name":"topMenu",
+                "config":{
+                    "topMenuClass":"topWrap",
+                    "statusClass":"topWrap_status topMenu_status ",
+                    "canvasClass":"topMenu_canvas clear",
+                    "topMenu_NumClass":"topMenu_Num",
+                    "circleId1":"circle1",
+                    "circleId2":"circle2",
+                    "circleClass1":"circle circle1",
+                    "circleClass2":"circle circle2",
+                    "wrapClass1":"circle_wrap1",
+                    "wrapClass2":"circle_wrap2",
+                    "numClass1":"circle_num1",
+                    "numClass2":"circle_num2",
+                    "circleSize1":"140",
+                    "circleSize2":"120",
+                    "circleColor1":"#a2d683",
+                    "circleColor2":"#a2d683"
+                }
+            },{
+                "name":"menu",
+                "config":{
+                    "navClass":"navbar navbar-default menu",
+                    "ulLeftClass":"navbar nav navbar-nav navbar-left",
+                    "liClass":"dropdown",
+                    "aClass":"dropdown-toggle"
+                }
+            }]
+        }]
+    }
+}

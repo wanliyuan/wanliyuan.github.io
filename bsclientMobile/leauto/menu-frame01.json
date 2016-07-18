@@ -1,0 +1,53 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,
+    "data" : {
+         "items":[{
+            "name" : "div",
+            "config":{
+                "className":"formBg wrapperBg"
+            },
+            "items":[{
+                "name":"div",
+                "config":{
+                    "innerHTML":"我的爱车",
+                    "className":"navbar navbar-default head "
+                }
+            },{
+                "name":"check",
+                "config":{
+                    "id":"checkLight",
+                    "innerHTML":"",
+                    "className":"checkLight"
+                }
+            },{
+                "name":"div",
+                "config":{
+                    "innerHTML":"",
+                    "className":"animated"
+                },
+                "items":[
+                  {
+                    "name": "div",
+                    "config": {
+                      "innerHTML": "电量检测",
+                      "className":"batteryTitle"
+                    }
+                  },{
+                    "name":"battery",
+                    "config":{
+                      "className":"battery"
+                    }
+                },{
+                    "name":"div",
+                    "config":{
+                      "className":"batteryNum",
+                      "innerHTML":"<span>56</span><i>%</i>"
+                    }
+                  }]
+            }]
+        }]
+    }
+}

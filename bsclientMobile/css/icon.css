@@ -1,0 +1,551 @@
+/*
+锟斤拷锟斤拷锟剿ｏ拷锟斤拷锟斤拷
+时锟戒：2008-8-11
+锟斤拷锟斤拷锟斤拷锟斤拷�?��斤拷图锟斤拷墓锟斤拷锟�
+*/
+/*锟斤拷锟斤拷----begin*/
+.icon-root-s{
+    background-image:url( ../images/icons/home.gif ) !important;
+    font-size: 20px;
+}
+/*自己加的CSS样式*/
+.x-toolbar1{
+	border-color:#a9bfd3;
+    background-color:#d0def0;
+	background-image:url(../images/default/toolbar/bg1.png);
+}
+.x-toolbara{
+	border-color:#a9bfd3;
+    background-color:#d0def0;
+    background-image:url(../images/ext-all-blue/toolbar/bg.gif);
+}
+.icon-help-s{
+    background-image:url( ../images/help16x16.jpg ) !important;
+    font-size: 20px;
+}
+.icon-system-help-s{
+    background-image:url( ../images/icons/forum.gif ) !important;
+    font-size: 20px;
+}
+.icon-home-s{
+    background-image:url( ../images/icons/home.png ) !important;
+    font-size: 20px;
+}
+.icon-order-s{
+    background-image:url( ../images/icons/table_refresh.png ) !important;
+}
+.icon-order-s-new{
+    background-image:url( ../images/icons/new.gif ) !important;
+}
+.icon-order-s-spAdd{
+    background-image:url( ../images/icons/user_add.png ) !important;
+}
+.icon-order-s-spEdit{
+    background-image:url( ../images/icons/user_edit.png ) !important;
+}
+.icon-order-s-spDelete{
+    background-image:url( ../images/icons/user_delete.png ) !important;
+}
+.icon-order-s-draft{
+    background-image:url( ../images/icons/order_edit.gif ) !important;
+}
+.icon-order-s-outbox{
+    background-image:url( ../images/icons/works.gif ) !important;
+}
+.icon-order-s-comSearch{
+    background-image:url( ../images/icons/root.gif ) !important;
+}
+.icon-order-s-myOrders{
+    background-image:url( ../images/icons/list.gif ) !important;
+}
+.icon-order-s-auditing{
+    background-image:url( ../images/icons/info-edit.gif ) !important;
+}
+.icon-order-s-signIn{
+    background-image:url( ../images/icons/edit.gif ) !important;
+}
+.icon-order-s-send{
+    background-image:url( ../images/icons/folder_go.png ) !important;
+}
+.icon-order-s-con-maintenance{
+    background-image:url( ../images/icons/folder_wrench.png ) !important;
+}
+.icon-order-s-con-pour{
+    background-image:url( ../images/icons/cog_edit.png ) !important;
+}
+.icon-order-s-examineAndApprove{
+    background-image:url( ../images/icons/user_edit.png ) !important;
+}
+.icon-order-s-evaluate{
+    background-image:url( ../images/icons/user_comment.png ) !important;
+}
+.icon-order-s-cancel{
+    background-image:url( ../images/icons/refresh.gif ) !important;
+}
+.icon-order-s-close{
+    background-image:url( ../images/icons/cross.gif ) !important;
+}
+.icon-order-s-search{
+    background-image:url( ../images/icons/search.png ) !important;
+}
+.icon-system-s{
+    background-image:url( ../images/system16x16.jpg ) !important;
+}
+.icon-system-s-users{
+    background-image:url( ../images/icons/user_suit.gif ) !important;
+}
+.icon-system-s-userSelf-help{
+    background-image:url( ../images/icons/setting.png ) !important;
+}
+.icon-system-s-report{
+    background-image:url( ../images/icons/grid.png ) !important;
+}
+.icon-changePass-s{
+    background-image:url( ../images/logout16x16.jpg ) !important;
+}
+.icon-changePass-s-edit{
+    background-image:url( ../images/icons/edit_pass.gif ) !important;
+}
+.icon-role-s{
+    background-image:url( ../images/icons/lock.gif ) !important;
+}
+.icon-role-s-resource{
+    background-image:url( ../images/icons/list.gif ) !important;
+}
+.icon-role-s-operation{
+    background-image:url( ../images/icons/cog_edit.png ) !important;
+}
+.icon-lock-s{
+    background-image:url( ../images/icons/lock.gif ) !important;
+}
+/*****锟斤拷锟斤拷图锟斤拷*****/
+.icon-utils-s-add{
+    background-image:url( ../images/icons/add.gif ) !important;
+}
+.icon-utils-s-edit{
+    background-image:url( ../images/icons/edit.gif ) !important;
+}
+.icon-utils-s-search{
+    background-image:url( ../images/icons/search.png ) !important;
+}
+.icon-utils-s-close{
+    background-image:url( ../images/icons/cross.gif ) !important;
+}
+.icon-utils-s-delete{
+    background-image:url( ../images/icons/delete.gif ) !important;
+}
+.icon-utils-s-release{
+    background-image:url( ../images/icons/folder_go.png ) !important;
+}
+.icon-system-switch2tree{
+    background-image:url( ../images/icons/table_refresh.png ) !important;
+}
+.icon-system-refresh{
+    background-image:url( ../images/icons/refresh.gif ) !important;
+}
+.icon-style-tree{
+    background-image:url( ../images/icons/expand-all.gif ) !important;
+}
+.icon-style-tab{
+    background-image:url( ../images/icons/tabs.gif ) !important;
+}
+.icon-utils-message{
+    background-image:url( ../images/icons/msg.gif ) !important;
+}
+.icon-utils-newMsg{
+    background-image:url( ../images/hot.gif ) !important;
+}
+.icon-expand-all{
+    background-image:url( ../images/icons/expand-all.gif) !important;
+}
+.icon-collapse-all{
+    background-image:url( ../images/icons/collapse-all.gif) !important;
+}
+.icon-media-all{
+    background-image:url( ../images/icons/Media.png) !important;
+}
+.icon-media-tv{
+    background-image:url( ../images/icons/tv.png) !important;
+}
+.icon-media-paper{
+    background-image:url( ../images/icons/aboutus.png) !important;
+}
+.icon-client-all{
+    background-image:url( ../images/icons/usermanager.png) !important;
+}
+.icon-ad-all{
+    background-image:url( ../images/icons/collapse-all.gif) !important;
+}
+.icon-user-all{
+    background-image:url( ../images/icons/friends.gif) !important;
+}
+.icon-grid {
+    background-image:url( ../images/grid.png ) !important;
+}
+.ico-usermanager{
+	background-image:url(../images/usermanager.png ) !important;
+	}
+.ico-Companyinfo{
+	background-image:url(../images/Companyinfo.png ) !important;
+	}
+.ico-Media{
+	background-image:url(../images/Media.png ) !important;
+	}
+.ico-News{
+	background-image:url(../images/News.png ) !important;
+	}	
+.ico-Download{
+	background-image:url(../images/Download.png ) !important;
+	}
+.ico-Keyword{
+	background-image:url(../images/Keyword.png ) !important;
+	}
+.ico-set{
+	background-image:url(../images/icons/set.gif ) !important;
+	}
+.ico-ad{
+	background-image:url(../images/ad.png ) !important;
+	}
+.ico-job{
+	background-image:url(../images/job.png ) !important;
+	}
+.ico-aboutus{
+	background-image:url(../images/aboutus.png ) !important;
+	}
+.add {
+    background-image:url(../images/icons/add.gif) !important;
+}
+.option {
+    background-image:url(../images/icons/plugin.gif) !important;
+}
+.remove {
+    background-image:url(../images/icons/delete.gif) !important;
+}
+.save {
+    background-image:url(../images/icons/save.gif) !important;
+}
+.accordion {
+    background-image:url(../images/accordian.gif) !important;
+}
+.tabs {
+    background-image:url(../images/tabs.gif) !important;
+}
+.logooff{
+	background-image:url(../images/icons/logoff.png) !important;
+}
+.logooffmouseon{
+	background-image:url(../images/icons/logoffmouseon.png) !important;
+}
+.tongji001{
+	background-image:url(../images/icons/tongji001.gif) !important;
+}
+.dengchu{
+	background-image:url(../images/icons/200811222014312277808.png) !important;
+}
+.dengchu1{
+	background-image:url(../images/icons/200811222014312277808.png) !important;
+}
+.dengchu2{
+	background-image:url(../images/poc/system_quite.png) !important;
+	height:48px !important;
+	width:48px !important;
+	font-size:12px !important;
+	background-size:[12,12];
+	
+}
+.baojing{
+	background-image:url(../images/icons/baojing.gif) !important;
+}
+.rizhi{
+	background-image:url(../images/icons/rizhi.gif) !important;
+}
+.zhuangtai{
+	background-image:url(../images/icons/2008112220143122778013.png) !important;
+}
+.userzhuangtai{
+	background-image:url(../images/icons/userstatuts.png) !important;
+}
+.enterprisestate{
+	background-image:url(../images/icons/enterprisestate.gif) !important;
+}
+.platformstate{
+	background-image:url(../images/icons/platformstate.gif) !important;
+}
+.onlinestatelog{
+	background-image:url(../images/icons/onlinestatelog.gif) !important;
+}
+.onlinestate{
+	background:url(../images/icons/person_1.png) no-repeat !important;
+}
+.offlinestate{
+	background:url(../images/icons/person_1_off.png) no-repeat !important;
+}
+.onactivate{
+	background:url(../images/icons/onlinestate.gif) no-repeat !important;text-indent:1.2em;
+}
+.noactivate{
+	background:url(../images/icons/offlinestate.gif) no-repeat !important;text-indent:1.2em;
+}
+.refresh{
+	background-image:url(../images/icons/refresh.png) !important;
+}
+.carsearch{
+	background-image:url(../images/icons/carseach.png) !important;
+}
+.carsearchgj{
+	background-image:url(../images/icons/carseachgj.png) !important;
+}
+.icon-title {
+	background-image: url( ../images/icons/icontitle.gif ) !important;
+}
+.icon-assign {
+	background-image: url( ../images/icons/targetassgin.gif ) !important;
+}
+.icon-add {
+	background-image: url( ../images/icons/add.gif ) !important;
+}
+.icon-see {
+	background-image: url( ../images/icons/image_add.gif ) !important;
+}
+.icon-search {
+	background-image: url( ../images/icons/query1.gif ) !important;
+}
+.icon-update {
+	background-image: url( ../images/icons/update.gif ) !important;
+}
+
+.icon-remove {
+	background-image: url( ../images/icons/remove.gif ) !important;
+}
+
+.icon-detail {
+	background-image: url( ../images/icons/detail.gif ) !important;
+}
+
+.icon-export {
+	background-image: url( ../images/icons/export.png ) !important;
+}
+
+.icon-import {
+	background-image: url( ../images/icons/import.gif ) !important;
+}
+
+.icon-print {
+	background-image: url( ../images/icons/print.gif ) !important;
+}
+
+
+
+
+
+.icon-comboxtree {
+	background-image: url( ../images/icons/combox.jpg ) !important;
+}
+.icon-radiotree {
+	background-image: url( ../images/icons/nodes.jpg ) !important;
+}
+.icon-refresh {
+	background-image: url( ../images/icons/refresh.gif ) !important;
+}
+.icon-return {
+	background-image: url( ../images/icons/return.gif ) !important;
+}
+.icon-next {
+	background-image: url( ../images/icons/next.gif ) !important;
+}
+
+
+.icon-fullscreen {
+	background-image: url( ../images/icons/full_screen.gif ) !important;
+}
+
+.icon-map_print {
+	background-image: url( ../images/icons/map_print.gif ) !important;
+}
+
+.icon-map_export_data {
+	background-image: url( ../images/icons/map_export_data.gif ) !important;
+}
+
+.icon-maplayer_config {
+	background-image: url( ../images/icons/maplayer_config.gif ) !important;
+}
+
+.icon-area_switch {
+	background-image: url( ../images/icons/map_area_switch.gif ) !important;
+}
+
+
+.icon-paly {
+	background-image: url( ../images/icons/query.gif ) !important;
+}
+
+.icon-aop-working {
+	background-image: url( ../images/icons/mBanner_car.gif ) !important;
+}
+
+.icon-aop-pending {
+	background-image: url( ../images/icons/mBanner_car_yellow.gif ) !important;
+}
+
+.icon-aop-stop {
+	background-image: url( ../images/icons/mBanner_car_red.gif ) !important;
+}
+
+.icon-pen {
+	background-image: url( ../images/icons/draw.gif ) !important;
+}
+
+.tree-left {
+	background-image: url( ../images/icons/left2.gif ) !important;
+}
+
+.tree-allleft {
+	background-image: url( ../images/icons/bottom2.gif ) !important;
+}
+
+.tree-right {
+	background-image: url( ../images/icons/right2.gif ) !important;
+}
+
+.tree-more {
+	background-image: url( ../images/icons/tree_more.gif ) !important;
+	width:15px;
+	height:25px;
+}
+
+.tree-allright {
+	background-image: url( ../images/icons/top2.gif ) !important;
+}
+.grid-chart{
+	background-image: url( ../images/icons/chart.gif ) !important;
+}
+.tree-groups{
+	background-image: url( ../images/icons/groups.png ) !important;
+}
+.tree-enter{
+	background-image: url( ../images/icons/enter.png ) !important;
+}
+.checkstate-online{
+	background:url(../images/icons/person_1.png) no-repeat;
+	text-indent:1.5em;
+	color:#090;
+}
+.checkstate-offline{
+	background: url(../images/icons/person_1_off.png) no-repeat;
+	text-indent:1.5em;
+	color: #999;
+}
+/***
+ * 2012-09-01 hzg
+ */
+.track_begin{
+	background:url(../images/play_icon.gif) no-repeat;
+}
+.parse_play{
+	background:url(../images/parse_play.gif) no-repeat;
+}
+.track_parse{
+	background:url(../images/parse_icon.png) no-repeat;
+}
+.track_stop{
+	background:url(../images/end_play.gif) no-repeat;
+}
+.track_edit{
+	background:url(../images/icons/cog_edit.png) no-repeat;
+}
+.draw-line{
+	background-image: url( ../images/line.gif) !important;
+}
+.empty-All{
+	background:url(../images/empty.gif) no-repeat;
+}
+.draw-loyon{
+	background:url(../images/RECT_DY.gif) no-repeat;
+}
+.draw-rect{
+	background:url(../images/rect.gif) no-repeat;
+}
+.draw-point{
+	background:url(../images/POSTION.gif) no-repeat;
+}
+.icon-zoom-out {
+	background-image: url( ../images/zoom_out.gif) !important;
+}
+
+.icon-zoom-in {
+	background-image: url( ../images/zoom_in.gif) !important;
+}
+
+.icon-pointer {
+	background-image: url( ../images/pointer.gif) !important;
+}
+
+.icon-traffic {
+	background-image: url( ../images/traffic.gif) !important;
+}
+
+.icon-hand {
+	background-image: url( ../images/hand.gif) !important;
+}
+
+
+.icon-ruler {
+	background-image: url( ../images/ruler.gif) !important;
+}
+
+.icon-map_perimeter {
+	background-image: url( ../images/rectArea.gif) !important;
+}
+
+.icon-center {
+	background-image: url( ../images/center.gif) !important;
+}
+
+
+.icon-show-full {
+	background-image: url( ../images/map_show_full.gif ) !important;
+}
+
+.x-btn-visited {
+	background-image: url( ../images/vistable.gif ) !important ;
+	background-repeat:no-repeat;
+}
+.draw-circle{
+	background-image: url( ../images/circle.gif ) !important ;
+	background-repeat:no-repeat;
+}
+
+.icon-navigate {
+	background-image: url( ../images/icons/navigate.png ) !important;
+}
+
+.icon-quicknavigate {
+	background-image: url( ../images/icons/quicknavigate.png ) !important;
+}
+.icon-clear {
+	background-image: url( ../images/icons/clear.png ) !important;
+}
+.icon-fullpage {
+	background-image: url( ../images/icons/full_screen.gif ) !important;
+}
+.icon-exitfullpage {
+	background-image: url( ../images/icons/center.gif ) !important;
+}
+.LLink{
+	color:#0370AF;
+	cursor:pointer;
+	margin:0 0 5px 4px;
+	display:inline-block;
+	text-decoration: none;
+}
+.tempcall{
+	padding-left:48px !important;
+	height:48px !important;
+	font-size:18px !important;
+}
+.icon-show-callpanel {
+	background-image: url( ../images/xinxi-14.png) !important;
+	height:16px !important;
+	width:16px !important;
+}

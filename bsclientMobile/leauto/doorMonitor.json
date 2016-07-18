@@ -1,0 +1,15 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,   
+    "data" :{"paraTitle":"车门监控状态",
+        "paraDetails":[ { "paraName": "前左车门","doorType":"0","cmdType":"1"},
+        { "paraName": "前右车门","doorType":"0","cmdType":"1"},
+        { "paraName": "后左车门","doorType":"0","cmdType":"1" },
+        { "paraName": "后右车门","doorType":"0","cmdType":"1"},
+        { "paraName": "引擎值","doorType":"0","cmdType":"1"},
+        { "paraName": "后备箱","doorType":"0","cmdType":"1"},
+        { "paraName": "天窗","doorType":"0","cmdType":"1"}
+    ]}
+}

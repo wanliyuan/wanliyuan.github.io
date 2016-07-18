@@ -1,0 +1,73 @@
+{
+    "modulename" : "frame",
+    "operation" : "init",
+    "tokenid" : "1111111111",
+    "status" : 1,
+    "data" : {
+        "items": [{
+            "name": "mainFrame",
+            "config": {
+                "name":"mainFrame",
+                "className" : "container"
+            },
+            "items":[{
+                "id" : "wrapper",
+                "name": "wrapper",
+                "config" : {
+                    "className":"container-fluid"
+                },
+                "items":[{
+                    "name":"div",
+                    "config":{
+                        "className":"formBg"
+                    },
+                    "items":[{
+                        "name":"div",
+                        "config":{
+                            "innerHTML":"我的爱车",
+                            "className":"navbar navbar-default head"
+                        },
+                        "items":[{
+                            "name":"button",
+                            "config":{
+                                "id":"backmenu",
+                                "value":"<"
+                            }
+                        }]
+                    },{
+                        "name":"topBus",
+                        "config":{
+                            "className":"topWrap",
+                            "wrapStatusClass":"topWrap_status topBus_status",
+                            "lightNumClass":"topLight_num topBus_num clear",
+                            "imgWrap":"imgWrap",
+                            "scoreWrap":"scoreWrap",
+                            "imgSrc":"leautoImg/car_s2.png",
+                            "id":"topBus",
+                            "circleSize1":"140",
+                            "circleColor1":"#a2d683",
+                            "circleColor2":"#ac6a00",
+                            "busCircleClass":"circle",
+                            "busTextClass":"busText"
+                        }
+                    },{
+                        "name":"list",
+                        "config":{
+                            "id":"listBus",
+                            "className":"listPara listExam",
+                            "listClass":"listPara",
+                            "listUlClass":"listUl  list-group",
+                            "listliClass":"list-group-item"
+                        }
+                    },{
+                        "name":"foot",
+                        "config":{
+                            "className":"foot",
+                            "id":"footBus"
+                        }
+                    }]
+                }]
+            }]
+        }]
+    }
+}

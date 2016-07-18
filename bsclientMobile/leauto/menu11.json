@@ -1,0 +1,44 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,   
+    "data" : [{
+        "name" : "system",
+        "id": 1,
+        "displayname":"电量查询",
+        "pid": 0,
+        "level" : 1,
+        "url" : ""
+    },{
+        "name" : "org",
+        "id": 2,
+        "displayname":"汽车体检",
+        "pid": 0 ,
+        "level" : 1
+    },{
+        "name" : "org",
+        "id": 2,
+        "displayname":"电子围栏设置",
+        "pid": 0 ,
+        "level" : 1
+    },{
+        "name" : "org",
+        "id": 2,
+        "displayname":"定时充电",
+        "pid": 0 ,
+        "level" : 1
+    },{
+        "name" : "org",
+        "id": 2,
+        "displayname":"车门反控",
+        "pid": 0 ,
+        "level" : 1
+    },{
+        "name" : "org",
+        "id": 2,
+        "displayname":"B/E-CALL",
+        "pid": 0 ,
+        "level" : 1
+    }]
+}

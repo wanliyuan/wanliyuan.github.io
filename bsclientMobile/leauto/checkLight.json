@@ -1,0 +1,66 @@
+{
+    "modulename" : "frame",
+    "operation" : "init",
+    "tokenid" : "1111111111",
+    "status" : 1,
+    "data" : {
+        "items": [{
+            "name": "mainFrame",
+            "config": {
+                "name":"mainFrame",
+                "className" : "container"
+            },
+            "items":[{
+                "id" : "wrapper",
+                "name": "wrapper",
+                "config" : {
+                    "className":"container-fluid"
+                },
+                "items":[{
+                    "name":"div",
+                    "config":{
+                        "className":"formBg formAuto"
+                    },
+                    "items":[{
+                        "name":"div",
+                        "config":{
+                            "innerHTML":"我的爱车",
+                            "className":"navbar navbar-default head"
+                        }
+                    ,"items":[{
+                            "name":"button",
+                            "config":{
+                                "id":"backmenu",
+                                "value":"<"
+                            }
+                        }]
+                    },{
+                        "name":"topLight",
+                        "config":{
+                            "className":"topWrap",
+                            "circleClass":"circle",
+                            "statusClass":"topWrap_status topLight_status",
+                            "canvasClass":"topMenu_canvas topLight_canvas",
+                            "numClass":"topMenu_Num topLight_Num",
+                            "circleColor":"#a2d683"
+                        }
+                    },{
+                        "name":"list",
+                        "config":{
+                            "id":"listLight",
+                            "listClass":"listPara",
+                            "listUlClass":"listUl  list-group listLight",
+                            "listliClass":"list-group-item"
+                        }
+                    },{
+                        "name":"div",
+                        "config":{
+                            "className":"foot",
+                            "innerHTML":"<em class='arrow-up'></em><h3>温馨小贴士;</h3><p>剩余电量至多可行驶100km，请注意哦~</p>"
+                        }
+                    }]
+                }]
+            }]
+        }]
+    }
+}

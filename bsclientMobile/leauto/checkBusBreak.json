@@ -1,0 +1,70 @@
+{
+    "modulename" : "frame",
+    "operation" : "init",
+    "tokenid" : "1111111111",
+    "status" : 1,
+    "data" : {
+        "items": [{
+            "name": "mainFrame",
+            "config": {
+                "name":"mainFrame",
+                "className" : "container"
+            },
+            "items":[{
+                "id" : "wrapper",
+                "name": "wrapper",
+                "config" : {
+                    "className":"container-fluid"
+                },
+                "items":[{
+                    "name":"div",
+                    "config":{
+                        "className":"formErrBg"
+                    },
+                    "items":[{
+                        "name":"div",
+                        "config":{
+                            "innerHTML":"我的爱车",
+                            "className":"navbar navbar-default head"
+                        },
+                        "items":[{
+                            "name":"button",
+                            "config":{
+                                "id":"backmenu",
+                                "value":"<"
+                            }
+                        }]
+                    },{
+                        "name":"topBus",
+                        "config":{
+                            "className":"topWrap",
+                            "wrapStatusClass":"topWrap_status topBus_status",
+                            "lightNumClass":"topLight_num topBus_num clear",
+                            "id":"topBusBreak",
+                            "imgWrap":"imgWrap",
+                            "scoreWrap":"scoreWrap",
+                            "imgSrc":"leautoImg/car_s2.png",
+                            "circleSize1":"140",
+                            "circleColor1":"#062e92",
+                            "busCircleClass":"circle",
+                            "busTextClass":"busText"
+                        }
+                    },{
+                        "name":"listBreak",
+                        "config":{
+                            "listClass":"listPara",
+                            "listUlClass":"listUl",
+                            "shopTitleClass":"shopTitle"
+                        }
+                    },{
+                        "name":"foot",
+                        "config":{
+                            "className":"foot",
+                            "id":"footBusBreak"
+                        }
+                    }]
+                }]
+            }]
+        }]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,   
+    "data" : {
+        "items":[{
+            "name":"menu-frame01",
+            "displayname":"电量查询",
+            "id":"menu-frame01",
+            "num":"",
+            "config":{}
+        },{
+            "name":"menu-frame02",
+            "displayname":"汽车体检",
+            "id":"menu-frame02",
+            "num":"2",
+            "config":{}
+        },{
+            "name":"menu-frame03",
+            "displayname":"电子围栏设置",
+            "id":"menu-frame02",
+            "num":"",
+            "config":{}
+        },{
+            "name":"menu-frame04",
+            "displayname":"定时充电",
+            "id":"menu-frame02",
+            "num":"",
+            "config":{}
+        },{
+            "name":"menu-frame05",
+            "displayname":"车门反控",
+            "id":"menu-frame02",
+            "num":"",
+            "config":{}
+        },{
+            "name":"menu-frame06",
+            "displayname":"B/E-CALL",
+            "id":"menu-frame02",
+            "num":"",
+            "config":{}
+        }]
+    }
+}

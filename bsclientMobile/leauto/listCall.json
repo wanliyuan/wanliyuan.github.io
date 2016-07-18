@@ -1,0 +1,13 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,
+    "data":{"paraDetails":[ {"tel":"18910552731", "paraName": "北京别克4s店", "paraNum":"<237m"},
+        {"tel":"18910552731", "paraName": "比亚迪4s店", "paraNum":"<489m" },
+        {"tel":"18910552731", "paraName": "北京奔驰4s店", "paraNum":"<1237m" },
+        {"tel":"18910552731", "paraName": "长安福特4s店", "paraNum":"<1889m" },
+        {"tel":"18910552731", "paraName": "长安福特4s店", "paraNum":"<1889m" },
+        {"tel":"18910552731", "paraName": "北京奔驰4s店", "paraNum":"<1237m" }
+    ]}
+}

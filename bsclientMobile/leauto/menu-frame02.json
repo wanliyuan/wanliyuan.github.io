@@ -1,0 +1,44 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,
+    "data" : {
+         "items":[{
+            "name" : "div",
+            "config":{
+                "className":"formBg wrapperBg"
+            },
+            "items":[{
+                "name":"div",
+                "config":{
+                    "innerHTML":"我的爱车",
+                    "className":"navbar navbar-default head"
+                },
+                "items":[{
+                    "name":"button",
+                    "config":{
+                        "id":"backmenu",
+                        "value":"<"
+                    }
+                }]
+            },{
+                "name":"check",
+                "config":{
+                    "id":"checkBus",
+                    "innerHTML":"检测车"
+                }
+            },{
+              "name":"detectCar",
+              "config":{
+                "comClass":"detectCar",
+                "wrapClass":"carWrap",
+                "carHTML1":"<img src='../../leautoImg/car1.png'>",
+                "carHTML2":"<img src='../../leautoImg/car2.png'>",
+                "carHTML3":"<img src='../../leautoImg/car3.png'>"
+              }
+            }]
+        }]
+    }
+}
+

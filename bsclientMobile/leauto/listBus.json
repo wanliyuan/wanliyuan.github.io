@@ -1,0 +1,12 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,   
+    "data" :{ "listTitle":"各部件参数",
+        "paraDetails":[ { "paraName": "部件名称", "paraNum":"参数"},
+            { "paraName": "部件名称", "paraNum":"参数" },
+            { "paraName": "部件名称", "paraNum":"参数" },
+            { "paraName": "部件名称", "paraNum":"参数" }
+        ]}
+}

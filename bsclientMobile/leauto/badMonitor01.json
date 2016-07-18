@@ -1,0 +1,66 @@
+{
+    "modulename" : "frame",
+    "operation" : "init",
+    "tokenid" : "1111111111",
+    "status" : 1,
+    "data" : {
+        "items": [{
+            "name": "mainFrame",
+            "config": {
+                "name":"mainFrame",
+                "className" : "container"
+            },
+            "items":[{
+                "id" : "wrapper",
+                "name": "wrapper",
+                "config" : {
+                    "className":"container-fluid"
+                },
+                "items":[{
+                    "name":"div",
+                    "config":{
+                        "className":"formBg"
+                    },
+                    "items":[{
+                        "name":"div",
+                        "config":{
+                            "innerHTML":"我的爱车",
+                            "className":"navbar navbar-default head"
+                        },
+                        "items":[{
+                            "name":"button",
+                            "config":{
+                                "id":"backmenu",
+                                "value":"<"
+                            }
+                        }]
+                    },{
+                        "name":"topMonitor",
+                        "config":{
+                            "enterMapClass":"enterMap",
+                            "enterMapValue":"进入",
+                            "statusClass":"topWrap_status",
+                            "coorClass":"topMonitor_coor",
+                            "monitorClass":"topWrap"
+                        }
+                    },{
+                        "name":"list",
+                        "config":{
+                            "id":"listMonitor",
+                            "className":"listPara",
+                            "listClass":"listPara",
+                            "listUlClass":"listUl  list-group",
+                            "listliClass":"list-group-item"
+                        }
+                    },{
+                        "name":"div",
+                        "config":{
+                            "className":"foot footErr",
+                            "innerHTML":"<em class='arrow-up'></em><h3>警告-急加速;</h3><p>您正在不安全驾驶车辆，请注意安全</p>"
+                        }
+                    }]
+                }]
+            }]
+        }]
+    }
+}

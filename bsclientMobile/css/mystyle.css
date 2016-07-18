@@ -1,0 +1,11 @@
+html,body{height:100%;width:100%}
+
+#map{height:100%;width:100%;position:relative;}
+
+.panel{position:fixed;top:60px;right:60px;z-index:600;opacity:0.7;}
+
+.panel-header{border-radius:4px;width:100%;top:80px;border:1px #E3F5FC solid;background-color:#C4D4FD;padding-right:0}
+
+button+button{margin-left:15px;}
+
+label+button{margin-top:10px;}

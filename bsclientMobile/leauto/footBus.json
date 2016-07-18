@@ -1,0 +1,10 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,   
+    "data" : {
+       "footTitle":"温馨小贴士;",
+        "footText":"点击此处，进入地图界面进行车辆跟踪哦~"
+    }
+}

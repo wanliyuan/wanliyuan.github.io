@@ -1,0 +1,39 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,
+    "data" : {
+      "items":[{
+        "name": "div",
+        "config": {
+          "className":"formMap"},
+        "items": [{
+          "name":"div",
+          "config":{
+            "innerHTML":"我的爱车",
+            "className":"navbar navbar-default head"},
+          "items":[{
+            "name":"button",
+            "config":{
+              "id":"backmenu",
+              "value":"<"
+            }
+          }]
+        },{
+          "name":"mapFence",
+          "config":{
+              "id":"map",
+              "parentId":"comParent",
+              "footId":"comfoot",
+              "footClass":"foot footFence",
+              "autoDrawId":"autoDraw",
+              "manualDrawId":"manualDraw",
+              "autoDrawText":"自动设置电子围栏",
+              "manualDrawText":"手动绘制电子围栏"
+          }
+        }]
+      }]
+    }
+}
+

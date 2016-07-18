@@ -1,0 +1,211 @@
+GAS.config = {
+	
+	//调试模式
+	debug : true,
+	
+	//网页title
+	title:"乐听CMS系统",
+	
+	//地图默认中心点
+	//centerZoom:[40.10444, 116.35184],//"shenzhen",
+	centerZoom:[30.25748, 120.1673],
+	
+	//系统logo地址
+	logoUrl : GAS.iconPath + "/logo_poc.png",
+	//logoUrl : GAS.iconPath + "/logo_GISCRM.png",
+	
+	//欢迎页面图片地址
+	welcomeUrl : GAS.iconPath + "/poc/welcome_poc.png",
+	
+	//主页中右下角中的图片地址
+	mStatusChinaMo:GAS.iconPath + "/mStatus_chinaMo.gif",
+	
+	//登录页中有字图片地址
+//	loginWordImageUrl:GAS.iconPath + "/login_poc.png",
+	loginWordImageUrl:GAS.iconPath + "/login_GISCRM.png",
+	
+	//顶部菜单地址
+	topMenuUrl :  "testData/menudata.json",
+	
+	//组件管理器数据获取URL
+	moduleConfigUrl : "testData/moduledata.json",
+	
+	//照片查看基础路径
+	takePicbaseUrl : "./",
+	
+	//通讯地址
+	connPath : GAS.contextPath + "action",
+	
+	//位置信息的名字
+	placeinfoName:"target_id",
+	
+	//文件上传地址
+	uploadPath : GAS.contextPath + "upload",
+	
+	publicWay : Ext.id(),
+	
+	//最大终端订阅数量
+	maxSubscribe : 20,
+	
+	//车辆实时轨迹最小时间间隔 (单位 秒)
+	minRtpTimeSpan : 0,
+
+	//查岗/公告 应答超时 (单位 秒)
+	CheckOnTimeOut : 7200,
+	
+	//车辆在线超时时长 (单位 秒)
+	carOnlineTimeOut : 90,
+	
+	//忽略指定时长发生的相同报警 (单位 秒)
+	carAlarmTimeOut : 30,
+	
+	//车辆列表树显示位置 left/right
+	carListTreeAlign : 'right',
+	
+	//默认分页大小
+	pageSize : 10,
+	
+	//异步通信超时时长(单位 秒)
+	asyncTimeout : 150,
+	
+	//导航鹰眼的路径
+	LT_smc_activeXImg:GAS.contextPath+'51ditu/img/maps/',
+	
+	//地图API地址
+	mapApiUrl : "51ditu",
+	
+	//地图切片地址
+	mapDataUrl : "http://cache8.51ditu.com/",
+	
+	//逆地理编码（获取实际地址）
+	LT_map_Rego :"http://rgc.vip.51ditu.com/rgc?pos=",
+	
+	//地物搜索
+	//locationSearch : "./ls?LocalSearch&",
+	
+	//缓存目标store
+	storeCacheList : ['GAS.Modules.manage.CorpTargetTree','GAS.Modules.manage.TargetTree'],
+	
+	//路况server
+	traffic : "http://127.0.0.1:8089/geoserver/topp/wms?request=GetMap&layers=topp:road_condition_info&styles=&srs=EPSG:900913&format=image/png&transparent=true",
+	LT_map_nav:"http://srvfree.api.51ditu.com/apisrv/nv?",
+	defaultMap:"GAS.LeafLetMap",
+	mapdir:"Js/maps"
+}
+GAS.targetType_icon_mapping={
+    //需要方向 heading==true，并且按照图片规则配置图片名称开头标记 例： "car_alarm_3_1.gif" 系列图片 配置URL为car
+    "type_102" : { url:"images/person.png",heading:false},
+    "type_1" :  { url:"car",heading:true }
+};
+// 系统常量设置
+GAS.cfg = {
+	
+	// 同一修改项可打开修改页的最大数
+	MAX_UPDATE_PAGE_SIZE : 4,
+	
+	// 最大打开监控窗口数
+	MAX_MONITORWIN	: 3,
+	
+	// 最多打开面板数
+	MAX_TABPANEL	: 1000
+};
+
+// 车辆信息显示列
+GAS.track={}
+GAS.track.carconf = {
+    modulename:"track_sample_query_manager",
+	columninfo :{
+	TARGET_NAME : "目标名称",
+	CORP_NAME : "集团名称",
+	USAGE_NAME : "车辆类型",
+	COLOR_NAME : "车辆颜色",
+	ENGINE_ID : "发动机号",
+	FRAME_ID : "车架号"}
+};
+
+GAS.MapImg = {
+	imgSrc :
+		{
+			1 : "images/electricity/coalyard.png", //煤场
+		 	2 : "images/electricity/powerplant.png", //电厂
+		 	3 : "images/electricity/port.png", //港口
+		 	4 : "images/electricity/entryport.png", //口岸
+		 	5 : "images/electricity/coalwashery.png", //洗选煤厂
+		 	6 : "images/electricity/loadingstation.png", //装车站
+		 	7 : "images/electricity/coalmine.png", //煤矿
+		 	8 : "images/electricity/coaltubestation.png", //煤管站
+		 	9 : "images/electricity/dispatchingstation.png", //煤运站
+			10 : ""
+		}
+	
+};
+GAS.treeMenuButton =[{
+	parentModuleName : "target_monitor_groupmodule",
+	btnCfg :[{
+			"model": "win",
+			"text": "短信",
+			"compare": "poc_sms",
+			"name": "sendsms",
+			"utype": "menu",
+			"fntype":"fun",
+			"fn":function(data){
+				 	 if(!data){
+						   alert("没有终端号码");
+						   return;
+					   }
+					   	var simCodes="";
+					   var length=data.length;
+					   for(var i=0;i<length;i++){
+					   		if(i==0){
+					   		  simCodes=data[i].SIM_CODE;
+					   		  continue;
+					   		}
+					   		simCodes=simCodes+","+data[i].SIM_CODE
+					   }
+						var data={simCodes:simCodes};
+						GAS.PublicUtils.LoadDynamicModule({
+									config : "poc_sms",
+									action : "action",
+									selectDatas	: [data],
+								},this);
+			}
+		},
+		{
+			fntype : "spacer",
+			utype : "menu",
+			xtype : 'menuseparator',
+			name : "spacer2"
+		},{
+			"model": "win",
+			"text": "目标详情",
+			"fntype" : "cardetails",
+			"name": "targetdetails",
+			"modulename":"targetDetail_query",
+			"operation" : "query",
+			"postback":[{name : "T.TARGET_ID",mapping : "CORP_ID"}],
+			"utype": "menu"
+		},{
+			"model": "win",
+			"text": "集团详情",
+			"fntype" : "cardetails",
+			"name": "corpdetails",
+			"modulename":"corpDetail_query",
+			"operation" : "query",
+			"postback":[{name:"CORP_NAME",mapping:"CORP_NAME"},{name : "C.CORP_ID",mapping : "CORP_ID",format : function(val){return val.replace("c","");}}],
+			"utype": "menu"
+		}]
+}];
+GAS.aliasDictionary = {
+	"05d039c8-4d30-11e5-b785-fa163e6f7961" : "leOthers",
+	"3434be20-424e-11e5-b43b-fa163e6f7961" : "radios",
+	"55b2de5e-5271-4c56-8f79-5a6fc84ccdae" : "qingting",
+	"638784d8-3b59-11e5-b43b-fa163e6f7961" : "leLiveSports",
+	"667969a6-2bbc-11e5-b07a-fa163e6f7961" : "tingtoutiao",
+	"7d38fe21-0a0d-4426-b88c-fafad72a7650" : "duoting",
+	"964c31d3-8ffb-4656-ace6-1602d5befe12" : "kaola",
+	"b2aaef5e-3f24-11e5-b43b-fa163e6f7961" : "leMusic",
+	"b2b277c4-3f24-11e5-b43b-fa163e6f7961" : "leLiveMusic",
+	"c923fb1a-20a0-11e5-b63e-fa163e6f7961" : "chelian",
+	"c9e0c736-3590-11e5-b07a-fa163e6f7961" : "leSports",
+	"cc431a6a-3590-11e5-b07a-fa163e6f7961" : "xiami"
+};

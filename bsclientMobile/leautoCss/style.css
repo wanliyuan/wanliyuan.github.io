@@ -1,0 +1,1011 @@
+body,html{
+    height:100%;
+    font-size:62.5%;
+    font-family: "微软雅黑","microsoft yahei"!important;
+}
+.container,.container-fluid{
+    height:100%;
+}
+body{
+    margin: 0;
+}
+html input[type="button"]{
+    background-color: transparent;
+}
+.formBg,.formErrBg{
+   height:100%;
+}
+.formAuto.formBg{
+    height: auto;
+}
+.formWhite{
+   background-color: #fff;
+}
+.formBg.wrapperBg{
+    min-height: 100%;
+    height: auto;
+}
+.wrapperBg{
+    background-color: #008fbe;
+}
+.head.navbar-default.navbar{
+    line-height:4.5rem;
+    height:4.5rem;
+    vertical-align: middle;
+    text-align: center;
+    position: fixed;
+    background-color:#333;
+    border: none;
+    color: #fff;
+    font-size:1.6rem;
+    z-index:2;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.head input{
+    position: absolute;
+    left: 1rem;
+    top:1rem;
+    background-color:transparent;
+}
+.top{
+    height: 19rem;
+    border:1px solid greenyellow;
+}
+
+/*首页的菜单*/
+.menu{
+    border:1px solid #009900;
+    background-color: #fff;
+    overflow: auto;
+}
+.navbar.navbar-default.menu{
+    border:none;
+    margin: 0;
+    padding-top: 1rem;
+}
+.navbar.nav.navbar-nav.navbar-left{
+    margin: 0;
+    height: 100%;
+}
+.menu li{
+    float: left;
+    width: 50%;
+    height: 33%;
+    text-align: center;
+}
+.menu.navbar-default .navbar-nav > li > a{
+    text-align: center;
+    padding-top:3.4rem;
+}
+.menu.navbar-default .navbar-nav > li > a span{
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: red;
+    border-radius:20rem;
+    line-height: 2rem;
+    color: #fff;
+}
+.menu.navbar-default .navbar-nav > li > a span.disnone{
+    display: none;
+}
+.menu li:first-of-type a{
+    background: url("/leautoImg/icon1.png") no-repeat  center 0;
+    background-size:1.7rem 3.2rem;
+}
+.menu li:nth-child(2) a{
+     background: url("/leautoImg/icon2.png") no-repeat  center 1rem;
+     background-size:4.3rem 2.2rem;
+ }
+.menu li:nth-child(3) a{
+    background: url("/leautoImg/icon3.png") no-repeat  center 2.1rem;
+    background-size:3.8rem 1.1rem;
+}
+.menu li:nth-child(4) a{
+    background: url("/leautoImg/icon4.png") no-repeat  center .325rem;
+    background-size:3rem 2.875rem;
+}
+
+/*首页的上部*/
+.topWrap{
+    margin-top:4.5rem;
+}
+.topWrap_status{
+    width:100%;
+    position: relative;
+    font-size:1.4rem;
+    margin:0;
+    padding:1rem 1rem 0;
+    height:20%;
+}
+.topWrap_status i{
+    font-size:1.8rem;
+    font-style: normal;
+}
+.topWrap_status p{
+    font-size:1.4rem;
+}
+.topMenu_status.topWrap_status p,.topLight_status.topWrap_status p,.topBus_status.topWrap_status p{
+/*    color:#80c7df;*/
+    color: #fff;
+}
+.topWrap_status span{
+    position: absolute;
+    right:1rem;
+    top:1rem;
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+    border-radius: 32%;
+    width: 4rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+.topBus_num .imgWrap{
+    width:49%;
+    float: left;
+    padding-top: 2rem;
+}
+.topBus_num .imgWrap img{
+    width:90%;
+    margin:0 5%;
+}
+.topBus_num .scoreWrap{
+    width:49%;
+    float: left;
+    position:relative;
+}
+.busText{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:14rem;
+    height: 4rem;
+    padding: .5rem 0;
+    background-color: #0099cb;
+}
+.busText span{
+    display: block;
+    border-bottom: 1px solid #fff;
+    width:50%;
+    margin-left:26%;
+    text-align: center;
+    line-height:2rem;
+}
+.formBg .topWrap {
+   background-color: #0099cb;
+}
+.formErrBg .topWrap{
+    background-color: #f39800;
+}
+.formBadMonitor .topWrap_status p{
+    font-size: 1.6rem;
+}
+.formBadMonitor.formErrBg .topWrap{
+    background-color: #fff;
+    color: #666;
+}
+.formBadMonitor.formErrBg .topWrap .topMonitor_coor i, .formBadMonitor.formErrBg .topWrap .topMonitor_coor strong{
+    background-color: #e60012;
+    color: #fff;
+}
+.formBadMonitor .topWrap_status span{
+    background-color: #eeeeee;
+    color: #000;
+}
+.topWrapBreak.topWrap{
+/*    background-color: #f1a04f;*/
+    background-color:#f39800;
+}
+.topWrapBreak.topWrap .busText{
+    background-color:#f39800;
+}
+.topWrap{
+    color: #fff;
+    position: relative;
+}
+.topCharge_Num.topMenu_Num,.topLight_Num.topMenu_Num{
+    width:95%;
+    text-align: center;
+}
+.topCharge_Num.topMenu_Num p,.topLight_Num.topMenu_Num p{
+    margin:0;
+    font-size: 1.2rem;
+}
+.topCharge_Num.topMenu_Num p{
+    font-size:1.4rem;
+}
+.topLight_Num.topMenu_Num{
+    width:100%;
+    bottom:0;
+    padding:.5rem 0;
+}
+.topMenu_Num{
+    position: absolute;
+    z-index: 2;
+    background-color: #0099cb;
+    bottom:2.5rem;
+    width:100%;
+}
+.topMenu_Num p{
+    margin-top:2.5rem;
+    font-size: 1.4rem;
+    padding:0 1rem;
+    height: 2rem;
+    line-height: 2rem;
+}
+.topMenu_canvas{
+    margin:0 1rem;
+    padding-bottom: 4rem;
+    position: relative;
+}
+.topCharge_canvas.topMenu_canvas{
+    text-align: center;
+}
+.topLight_canvas.topMenu_canvas{
+    text-align: center;
+    padding-bottom: 0;
+}
+.circle_wrap1{
+    width:55%;
+    float: left;
+    position: relative;
+}
+.circle_wrap2{
+    width:45%;
+    float:right;
+    position: absolute;
+    bottom:4rem;
+    right: 0;
+}
+.circle_num1,.circle_num2{
+    text-align: center;
+    position: absolute;
+    bottom:-3.7rem;
+    left: .5rem;
+    background-color: #0099cb;
+    padding-top:.5rem;
+}
+.circle_num1 span,.circle_num1 em,.circle_num1 i,.circle_num1 b,.circle_num2 span,.circle_num2 em,.circle_num2 i,.circle_num2 b{
+     display: block;
+     width:100%;
+     font-style: normal;
+     font-weight: normal;
+ }
+.circle_num1 span,.circle_num2 span{
+    width:60%;
+    margin: 0 20%;
+    border-bottom: 1px solid #ffffff;
+    line-height: 2rem;
+}
+.circle_num1 em,.circle_num2 em{
+    font-size: 1.8rem;
+}
+.circle {
+    margin: 6px 6px 6px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 1.2;
+}
+.circle canvas {
+    vertical-align: top;
+}
+.circle strong {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+}
+.circle2.circle strong{
+    top: 25%;
+}
+.circle strong i {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: normal;
+}
+.circle span {
+    display: block;
+    color: #aaa;
+    margin-top: 12px;
+}
+
+/*电量检测的上部*/
+.topLight_Num.topMenu_Num p{
+    font-size:1.4rem;
+}
+.topLight_Num.topMenu_Num span{
+    display: inline-block;
+    padding:0 1rem;
+    border-bottom: 1px solid #fff;
+}
+.topLight_Num.topMenu_Num em{
+    font-size:1.8rem;
+    font-style: normal;
+}
+.topLight_comp{
+    text-align: center;;
+}
+.topLight_comp strong{
+    font-size:2rem;
+}
+
+/*参数列表*/
+.listPara{
+    background-color: #fff;
+}
+.listPara h3{
+    background-color: #fff;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+.listPara h3.shopTitle{
+    background-color: transparent;
+}
+.listUl{
+    margin: 1rem;
+}
+.listUl.list-group{
+    margin-bottom: 0;
+}
+.listUl li{
+    height:4rem;
+    line-height: 4rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    position: relative;
+    font-size: 1.2rem;
+    border:1px solid #e7e7e7;
+    /* 设置阴影 */
+    -webkit-box-shadow:3px 3px 7px #040000;
+    -moz-box-shadow:3px 3px 7px #040000;
+    box-shadow:3px 3px 7px #040000;
+}
+.listUl li i{
+    font-style: normal;
+    display: inline-block;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border: 1px solid #0099ff;
+    margin-left: 1rem;
+}
+.listUl li span{
+    margin-left:2.3rem;
+}
+.listUl li em{
+    font-style: normal;
+    position: absolute;
+    right:2.3rem;
+}
+.listLight.listUl li i{
+    width:10%;
+    float: left;
+    margin:0;
+    margin-left:5%;
+    position: relative;
+    top: 1rem;
+}
+.listLight.listUl li span{
+    width:15%;
+    float: left;
+    margin:0;
+    text-align: center;
+}
+.listLight.listUl li b{
+    width:50%;
+    float: left;
+    height: 4px;
+    margin:0;
+    background-color: #cbcbcb;
+    position: relative;
+    top:1.8rem;
+    margin-right: 2%;
+}
+.listLight.listUl li b small{
+    height:100%;
+    display: block;
+    background-color:#a2d683;
+}
+.listLight.listUl li em{
+    width:10%;
+    float: left;
+    margin:0;
+    position: static;
+}
+
+/*底部的温馨小贴士*/
+.formBg .foot.footErr{
+    background-color: #f39800;
+}
+.formBg .foot{
+    /* 设置阴影 */
+    -webkit-box-shadow:3px 3px 7px #040000;
+    -moz-box-shadow:3px 3px 7px #040000;
+    box-shadow:3px 3px 7px #040000;
+    background-color: #a2d683;
+    margin-top: .2rem;
+}
+.formErrBg .foot{
+    background-color: #f39800;
+    /* 设置阴影 */
+    -webkit-box-shadow:3px 3px 7px #040000;
+    -moz-box-shadow:3px 3px 7px #040000;
+    box-shadow:3px 3px 7px #040000;
+    width:93%;
+}
+.formErrBg .foot.footBottom{
+    position: absolute;
+    bottom: 0;
+}
+.foot{
+    margin:1rem;
+    position: relative;
+    padding: 1rem;
+    color: #fff;
+    margin-top: 0;
+}
+.formErrBg .foot em{
+    border-bottom:1rem solid #f1a04f;
+}
+.foot em{
+    display: none;
+    width:0;
+    height:0;
+    border-left:1rem solid transparent;
+    border-right:1rem solid transparent;
+    border-bottom:1rem solid #70b0f1;
+    position: absolute;
+    left:1rem;
+    top:-1rem;
+}
+.foot h3{
+    margin: 0;
+    font-size:1.4rem;
+}
+.foot p{
+    font-size:1.2rem;
+    margin: 0;
+    margin-left: 4rem;
+}
+
+.topLight_num i{
+    font-style: normal;
+}
+
+/*实时监控的上部*/
+.topWrap .topMonitor_coor{
+    height:69%;
+    text-align: left;
+    padding-left: 4%;
+}
+.topWrap .topMonitor_coor span{
+    display: block;
+    vertical-align: top;
+    margin-bottom: 1rem;
+}
+.topWrap .topMonitor_coor a{
+    border:1px solid #fff;
+    padding: .3rem;
+    position: absolute;
+    top: .1rem;
+    right: 0;
+}
+.topWrap .topMonitor_coor i{
+    display:block;
+    width:79%;
+    font-style: normal;
+    margin: 0 1rem 0 4%;
+    height: 84%;
+    background:#0080ab url("/leautoImg/locatePin.png") no-repeat 10% center;
+/*    background-size:16% 51%;*/
+/*    background-size:8.4rem 5.15rem;*/
+    background-size:4.2rem 2.575rem;
+    border-radius:13px;
+    position: relative;
+}
+.topWrap .topMonitor_coor i,.topWrap .topMonitor_coor strong{
+    padding-left: 23%;
+}
+.formErrBg .topWrap .topMonitor_coor i,.formErrBg .topWrap .topMonitor_coor strong{
+    background-color: #f7b97a ;
+}
+.topWrap .topMonitor_coor i em{
+    display: block;
+    font-style:normal;
+}
+.topWrap .topMonitor_coor strong{
+    font-style: normal;
+    font-weight: normal;
+    display:block;
+    width:79%;
+    font-style: normal;
+    margin: 0 1rem 0 4%;
+    height: 84%;
+    background:#0080ab url("/leautoImg/speed.png") no-repeat 10% center;
+/*    background-size:12% 62%;*/
+    background-size:2.425rem 2.4rem;
+    border-radius:13px;
+/*    line-height:3rem;*/
+}
+.topWrap .topMonitor_coor strong em{
+    font-size:1.8rem;
+    font-style: normal;
+}
+.topWrap .topMonitor_coor .enterMap{
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: #ffb400;
+    width:20%;
+    height:3rem;
+    border-radius:13px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.formShop .listUl{
+    margin:0;
+    margin-top: 4.5rem;
+}
+.formShop .listUl li{
+    margin: 0rem;
+/*    padding:1rem 0 1rem 0;*/
+    border-bottom: 1px solid #ccc;
+}
+html, body,.formMap{
+    height: 100%;
+}
+.formMap .head{
+    height:10%;
+}
+.head #backmenu{
+    position: absolute;
+    top: 0;
+    font-size: 2.8rem;
+}
+.formMap #comParent{
+    height:100%;
+    padding-top: 4.5rem;
+}
+.formMap #comParentErr{
+    height:100%;
+    padding-top: 4.5rem;
+}
+.formMap #map{
+    height:100%;
+}
+.formMap{
+    position: relative;
+}
+.formErrMap.formMap .foot{
+    background-color: #dc4949;
+}
+.formErrBg .topWrap .busText{
+    background-color:#f1a04f;
+}
+.formErrMap.formMap .foot .callPolice{
+    width:6rem;
+    word-wrap: break-word;
+    position: absolute;
+    top:.5rem;
+    right:1rem;
+    border:1px solid #fff;
+    padding:.5rem;
+}
+.formMap .foot{
+    position: absolute;
+    bottom: 0;
+    -webkit-box-shadow:3px 3px 7px #040000;
+    -moz-box-shadow:3px 3px 7px #040000;
+    box-shadow:3px 3px 7px #040000;
+    background-color: #a2d683;
+    width:92%;
+}
+.formMap .foot .enterMap{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+.formMap .foot p{
+    font-size:1.4rem;
+    overflow: hidden;
+    margin-left: 2rem;
+}
+.formMap .foot p span{
+    float: left;
+}
+.formMap .foot p i{
+    font-style: normal;
+    float: left;
+}
+.formMap .foot.topMonitor_coor p{
+    margin: 0;
+}
+.formMap .foot.topMonitor_coor{
+    width: 20rem;
+    margin-left: -10rem;
+}
+.formMap .foot.topMonitor_coor a{
+    border: none;
+}
+.enterMap{
+    position: absolute;
+    right: 0;
+    top: 3.4rem;
+}
+.footFence.foot{
+    margin:0;
+    width:100%;
+    padding:0;
+}
+.footFence a{
+    background-color: transparent;
+    display: block;
+    float: left;
+    width: 50%;
+    height: 4rem;
+    line-height: 4rem;
+    color: #fff;
+    padding:0;
+    text-align: center;
+}
+.footFence a.autoDraw{
+    background-color:orangered;
+}
+/*E-CALL救援的地图底部*/
+.formMap .foot.topMonitor_Err{
+    background-color:#f39800;
+/*    width: 20rem;
+    margin-left: -10rem;
+    left: 50%;*/
+    width: 94%;
+    margin:0 3% 1rem;
+}
+.foot.topMonitor_Err em{
+    border-bottom: 1rem solid orangered;
+}
+.mapSRS{
+/*    position: absolute;
+    top:40%;
+    left: 25%;*/
+}
+.mapSRS .layer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity:0.5;
+}
+.mapSRS img{
+    width:14.15rem;
+    height: 14.1rem;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    margin-left:-7.075rem;
+    margin-top:-7.05rem;
+}
+.mapSRS button{
+    position: absolute;
+    right: 1rem;
+    top:4.5rem;
+    color: #fff;
+    font-size:4rem;
+    background-color: transparent;
+    outline:none;
+}
+.mapSRS p{
+    position: absolute;
+    left: 36%;
+    top: 69%;
+    color: #fff;
+    font-size:1.6rem;
+}
+.auto-dial-foot span{
+    display: block;
+    float: left;
+    text-align:center;
+    height:4rem;
+    line-height: 4rem;
+}
+.auto-dial-foot.foot{
+    margin: 0;
+    width: 100%;
+    padding:0;
+}
+.auto-dial{
+    width: 65%;
+    background-color:#e60012;
+}
+.cancel-dial{
+    width: 35%;
+}
+/*E-call救援界面的底部*/
+.monitorSRS{
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 3rem;
+}
+.monitorSRS img{
+    padding:2rem 0 1rem 0;
+    width:50%;
+}
+.monitorSRS p{
+    color: #e60012;
+    font-size:1.6rem;
+}
+.formErrBg .auto-dial-foot.foot{
+/*    position: absolute;*/
+    position: fixed;
+    background-color: #008fbe;
+    bottom: 0;
+}
+
+/*开关*/
+.mwui-switch-btn{
+    width:84px;
+    display:block;
+    padding:1px;
+    background:#3B75FD;
+    overflow:hidden;
+    margin-bottom:5px;
+    border:1px solid #2E58C1;
+    border-radius:18px;
+    cursor: pointer;
+    outline: none;
+}
+.mwui-switch-btn span{
+    width:32px;
+    font-size:14px;
+    height:18px;
+    padding:4px 5px 2px 5px;
+    display:block;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#f6f6f6,endColorstr=#eeeeee,grandientType=1);
+    background:-webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#eeeeee));
+    background:-moz-linear-gradient(top, #f6f6f6, #eeeeee);
+    border-radius:18px;
+    float:left;
+    color:#3B75FD;
+    text-align:center;
+}
+.mwui-switch-btn:hover span{
+    background:#fff;
+}
+.mwui-switch-btn span.off{
+    float:right;
+}
+.outerFence{
+    background-color: #fff;
+    text-align: center;
+    padding:7rem 0  7rem 0;
+}
+.outerFence p{
+    margin-top: 1rem;
+    color:#dc4949;
+    font-weight: bold;
+}
+.detectCar{
+    text-align:center;
+    margin-top: 4.5rem;
+}
+.detectCar img{
+    width:100%;
+}
+.carWrap{
+    position: relative;
+}
+.carWrap i{
+    width:80%;
+    background-color: #fff;
+    height: 5px;
+    position: absolute;
+    display: block;
+    left: 3rem;
+    top: 0;
+}
+.doorOpen{
+    width:7.9125rem;
+    height:2.2875rem;
+    background: url("/leautoImg/open.png") no-repeat 0 0;
+    background-size:7.9125rem 2.2875rem;
+ }
+.doorClose{
+/*    width:5.275rem;
+    height:1.525rem;*/
+/*    width:10.55rem;
+    height:3.05rem;*/
+    width:7.9125rem;
+    height:2.2875rem;
+    background: url("/leautoImg/close.png") no-repeat 0 0;
+    background-size:7.9125rem 2.2875rem;
+}
+.btnPanel{
+    text-align: center;
+    margin-left:1rem;
+    margin-top:.3rem;
+}
+.btnPanel label,.btnPanel button{
+    vertical-align: middle;
+    outline: none;
+}
+.btnPanel label{
+    width:6rem;
+    text-align: left;
+    font-size: 1.4rem;
+    font-style: normal;
+    color: #fff;
+}
+.doorMonitor{
+    text-align: center;
+    background-color: #008fbe;
+    padding-bottom:1rem;
+    padding-top:4.5rem;
+}
+.doorMonitor h3{
+    margin: 2rem;
+    text-align: left;
+    font-size: 1.8rem;
+    color: #fff;
+}
+.doorMonitor img{
+    width:100%;
+/*    margin-top: 2rem;*/
+}
+
+/* B/E-call列表*/
+.formShop .listCall.listUl li{
+    box-shadow: none;
+    -webkit-box-shadow:none;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+.formShop .listCall.listUl li i{
+    border:none;
+    font-size:1.6rem;
+    width: 10%;
+}
+.formShop .listCall.listUl li span{
+    font-size:1.6rem;
+    width:60%;
+}
+.formShop .listCall.listUl li em{
+    right:3.5rem;
+    width:20%;
+}
+.formShop .listCall.listUl li a{
+    display:inline-block;
+    height:67%;
+    position:absolute;
+    right:0;
+    top:0;
+    width:10%;
+    height: 100%;
+    border-left:1px solid #ccc;
+}
+.formShop .listCall.listUl li img{
+    height: 65%;
+    vertical-align: top;
+    position:absolute;
+    right:.6rem;
+    top:.5rem;
+}
+.footErrWrap.footWrap.topWrap{
+    background-color:#ff0000;
+}
+.footErrWrap.footWrap.topWrap .topMonitor_coor i,.footErrWrap.footWrap.topWrap .topMonitor_coor strong{
+    background-color:#e60012;
+}
+.footWrap.topWrap .topMonitor_coor{
+    margin:1rem 0;
+}
+.footWrap.topWrap .topMonitor_coor p{
+    margin:0;
+}
+.footWrap.topWrap{
+    position: absolute;
+    bottom: 0;
+    width:93%;
+    background-color:#008fbe;
+    margin-left: 4%;
+}
+.footWrap.topWrap .topMonitor_coor i em{
+    height:1.8rem;
+}
+.footWrap.topWrap .topMonitor_coor span{
+    margin-bottom:0;
+}
+.footWrap.topWrap .topMonitor_coor i,.footWrap.topWrap .topMonitor_coor strong{
+    width:60%;
+}
+.footWrap.topWrap input{
+    width:4rem;
+    word-wrap: break-word;
+    word-break: normal;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    border: 1px solid #fff;
+}
+@media screen and (min-width:320px) and(max-width:374px){
+    .head.navbar-default.navbar{
+        line-height:4.5rem;
+        height:4.5rem;
+    }
+    .topWrap,.detectCar,.formShop .listUl{
+        margin-top: 4.5rem;
+    }
+    .topWrap .topMonitor_coor i {
+        line-height: 1.6rem;
+    }
+    .topWrap .topMonitor_coor strong{
+        line-height:3rem;
+    }
+    .topWrap .topMonitor_coor span{
+        margin-bottom: .5rem;
+    }
+    .formMap #comParent,.formMap #comParentErr,.doorMonitor{
+        padding-top:4.5rem;
+    }
+}
+@media screen and (min-height:560px){
+    .animated{
+        padding-top:8rem;
+    }
+    .formMap #comParent{
+        height:100%;
+    }
+    .outerFence{
+        padding-top: 14rem;
+    }
+    .listLight.listUl li i{
+        top: 1rem;
+    }
+    .topWrap .topMonitor_coor i,.topWrap .topMonitor_coor strong{
+        padding-left: 25%;
+    }
+}
+@media screen and (min-height:600px){
+    .listLight.listUl li i{
+        top: 1.6rem;
+    }
+    .listLight.listUl li b{
+        top: 2.4rem;
+    }
+}
+@media screen and (min-width:375px){
+
+    .topWrap .topMonitor_coor i {
+        line-height: 2.3rem;
+    }
+    .listUl li{
+        height:5rem;
+        line-height: 5rem;
+    }
+    .topWrap .topMonitor_coor strong{
+         line-height:4rem;
+    }
+    .head.navbar-default.navbar{
+        line-height:5rem;
+        height:5rem;
+    }
+    .topWrap,.detectCar,.formShop .listUl{
+        margin-top: 5rem;
+    }
+    .formMap #comParent,.formMap #comParentErr,.doorMonitor{
+        padding-top:5rem;
+    }
+}

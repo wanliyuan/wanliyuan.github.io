@@ -1,0 +1,143 @@
+.animated{
+    text-align:center;
+    margin-top:4rem;
+    padding-top: 3rem;
+}
+.battery {
+    color: #34495e;
+    border: 10px solid #fff;
+    display: inline-block;
+    width: 120px;
+    height: 219px;
+    position: relative;
+    border-radius:16px;
+    display: border-box;
+    margin: 5px;
+    transition: color 500ms;
+}
+.battery::before,
+.battery::after {
+    content: "";
+    position: absolute;
+}
+.battery::before {
+    top: -26px;
+    bottom:209px;
+    right:24px;
+    width:53px;
+    display: border-box;
+    border:1px solid #0099cc;
+    background-color: #fff;
+    border-bottom: 0;
+    border-radius:5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.battery::after {
+    top:20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+/*    margin:6px;*/
+    margin-top: 0;
+    border-radius: 1px;
+    background-color: #a2d683;
+    transition: right 500ms;
+}
+.battery i {
+    top:100%;
+    bottom: 0;
+    left:-53px;
+    right: 0;
+    margin: 1px;
+    border-radius: 1px;
+    background-color: #fff;
+    transition: right 500ms;
+    width: 200px;
+    height: 2px;
+    display: block;
+    position: absolute;
+}
+.battery.low {
+    color: #c0392b;
+}
+.battery.low::after {
+    right: 80%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.battery.med {
+    color: #f39c12;
+}
+.battery.med::after {
+    right: 40%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.battery.full {
+    color: #27ae60;
+}
+.battery[data-charge='0'],
+.battery[data-charge='1'],
+.battery[data-charge='2'],
+.battery[data-charge='3'] {
+    color: #c0392b;
+}
+.battery[data-charge='4'],
+.battery[data-charge='5'],
+.battery[data-charge='6'] {
+    color: #f39c12;
+}
+.battery[data-charge='7'],
+.battery[data-charge='8'],
+.battery[data-charge='9'],
+.battery[data-charge='10'] {
+    color: #27ae60;
+}
+.battery[data-charge='0'] i  {
+    top: 100%;
+}
+.battery[data-charge='1'] i {
+    top: 85%;
+}
+.battery[data-charge='2'] i {
+    top: 80%;
+}
+.battery[data-charge='3'] i {
+    top: 70%;
+}
+.battery[data-charge='4'] i {
+    top: 60%;
+}
+.battery[data-charge='5'] i {
+    top: 50%;
+}
+.battery[data-charge='6'] i {
+    top: 40%;
+}
+.battery[data-charge='7'] i {
+    top: 30%;
+}
+.battery[data-charge='8'] i {
+    top: 20%;
+}
+.battery[data-charge='9'] i {
+    top: 10%;
+}
+.battery[data-charge='10'] i {
+    top: 0%;
+}
+.batteryTitle{
+    margin-bottom:2rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+.batteryNum span{
+    font-size: 2.8rem;
+    color: #fff;
+}
+.batteryNum i{
+    font-style: normal;
+    font-size: 1.6rem;
+    color: #fff;
+}

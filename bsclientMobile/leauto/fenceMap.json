@@ -1,0 +1,58 @@
+{
+  "modulename" : "frame",
+  "operation" : "init",
+  "tokenid" : "1111111111",
+  "status" : 1,
+  "data" : {
+    "items": [{
+      "name": "mainFrame",
+      "config": {
+        "name":"mainFrame",
+        "className" : "container"
+      },
+      "items":[{
+        "id" : "wrapper",
+        "name": "wrapper",
+        "config" : {
+          "className":"container-fluid"
+        },
+        "items":[{
+          "name": "div",
+          "config": {
+            "className":"formMap formErrMap"},
+          "items": [{
+            "name":"div",
+            "config":{
+              "innerHTML":"我的爱车",
+              "className":"navbar navbar-default head"},
+            "items":[{
+              "name":"button",
+              "config":{
+                "id":"backmenu",
+                "value":"<"
+              }
+            }]
+          },{
+            "name":"fenceEnterMap",
+            "config":{
+              "enterStatus":"0",
+              "enterMapClass":"callPolice",
+              "id":"map",
+              "wrapId":"comParent",
+              "footId":"comfoot",
+              "footClass":"foot",
+              "emClass":"arrow-up",
+              "lnkBtnId":"backMonitor",
+              "footName2":"foot topMonitor_Err",
+              "imgInnerHTML":"<img src='leautoImg/aqqr.png'>",
+              "imgClass":"mapSRS",
+              "footName3":"foot auto-dial-foot",
+              "autoName":"auto-dial",
+              "cancelName":"cancel-dial"
+            }
+          }]
+        }]
+      }]
+    }]
+  }
+}

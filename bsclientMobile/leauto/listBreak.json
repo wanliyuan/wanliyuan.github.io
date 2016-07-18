@@ -1,0 +1,12 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,   
+    "data" :{"listTitle":"故障列表",
+        "shopTitle":"附近的4s店名",
+        "paraDetails":[ { "paraName": "发动机故障", "paraNum":"中等"},
+            { "paraName": "电池温度高", "paraNum":"67°" }
+        ],"shopDetails":[{ "shopName": "北京奔驰4s店", "distance":"<237m"},
+            { "shopName": "长安福特4s店", "distance":"<889m"}]}
+}

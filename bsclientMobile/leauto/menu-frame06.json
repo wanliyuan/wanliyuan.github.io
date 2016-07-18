@@ -1,0 +1,37 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,
+    "data" : {
+      "items":[{
+        "name":"div",
+        "config":{
+          "className":"formShop"
+        },
+        "items":[{
+          "name":"div",
+          "config":{
+            "innerHTML":"我的爱车",
+            "className":"navbar navbar-default head "
+          },
+          "items":[{
+            "name":"button",
+            "config":{
+              "id":"backmenu",
+              "value":"<"
+            }
+          }]
+        },{
+          "name":"list",
+          "config":{
+            "className":"listPara",
+            "id":"listCall",
+            "listClass":"listPara",
+            "listUlClass":"listUl list-group listCall",
+            "listliClass":"list-group-item"
+          }
+        }]
+      }]
+    }
+}

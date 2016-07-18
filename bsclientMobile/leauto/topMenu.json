@@ -1,0 +1,14 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,   
+    "data" : {
+        "seekTime":"2016-12-11 17:03:30",
+        "busState":"Lock",
+        "pre_driveMile":"253",
+        "drivedmile":"2576",
+        "circleNum1":"0.56",
+        "circleNum2":"0.28"
+    }
+}

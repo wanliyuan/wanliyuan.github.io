@@ -1,0 +1,53 @@
+{
+    "modulename" : "frame",
+    "operation" : "init",
+    "tokenid" : "1111111111",
+    "status" : 1,
+    "data" : {
+        "items":[{
+            "name":"div",
+            "config":{
+                "className":"formBg"
+            },
+            "items":[{
+                "name":"div",
+                "config":{
+                    "innerHTML":"我的爱车",
+                    "className":"navbar navbar-default head"
+                },
+                "items":[{
+                    "name":"button",
+                    "config":{
+                        "id":"backmenu",
+                        "value":"<"
+                    }
+                }]
+            },{
+                "name":"topMonitor",
+                "config":{
+                    "isNormal":"busMonitor",
+                    "enterMapClass":"enterMap",
+                    "enterMapValue":"进入",
+                    "statusClass":"topWrap_status",
+                    "coorClass":"topMonitor_coor",
+                    "monitorClass":"topWrap"
+                }
+            },{
+                "name":"list",
+                "config":{
+                    "id":"listMonitor",
+                    "className":"listPara",
+                    "listClass":"listPara",
+                    "listUlClass":"listUl  list-group",
+                    "listliClass":"list-group-item"
+                }
+            },{
+                "name":"div",
+                "config":{
+                    "className":"foot",
+                    "innerHTML":"<em class='arrow-up'></em><h3>温馨小贴士;</h3><p>点击此处，进入地图界面进行车辆跟踪哦~</p>"
+                }
+            }]
+        }]
+    }
+}

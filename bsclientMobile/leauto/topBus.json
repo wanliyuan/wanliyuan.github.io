@@ -1,0 +1,12 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,   
+    "data" : {
+        "seekTime":"2016-12-11 17:03:30",
+        "busState":"ON",
+        "testScore":"0.98",
+        "isObstacle":"无故障"
+    }
+}

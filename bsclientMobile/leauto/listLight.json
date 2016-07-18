@@ -1,0 +1,12 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,   
+    "data" :{ "listTitle":"正在耗电的部件",
+        "paraDetails":[ { "paraName": "车机", "paraNum":"45%"},
+        { "paraName": "空调", "paraNum":"21.5%" },
+        { "paraName": "车机", "paraNum":"30%" },
+        { "paraName": "空调", "paraNum":"23%" }
+    ]}
+}

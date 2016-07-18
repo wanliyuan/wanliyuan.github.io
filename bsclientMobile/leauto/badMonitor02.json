@@ -1,0 +1,63 @@
+{
+    "modulename" : "frame",
+    "operation" : "init",
+    "tokenid" : "1111111111",
+    "status" : 1,
+    "data" : {
+        "items": [{
+            "name": "mainFrame",
+            "config": {
+                "name":"mainFrame",
+                "className" : "container"
+            },
+            "items":[{
+                "id" : "wrapper",
+                "name": "wrapper",
+                "config" : {
+                    "className":"container-fluid"
+                },
+                "items":[{
+                    "name":"div",
+                    "config":{
+                        "className":"formErrBg formBadMonitor"
+                    },
+                    "items":[{
+                        "name":"div",
+                        "config":{
+                            "innerHTML":"我的爱车",
+                            "className":"navbar navbar-default head"
+                        },
+                        "items":[{
+                            "name":"button",
+                            "config":{
+                                "id":"backmenu",
+                                "value":"<"
+                            }
+                        }]
+                    },{
+                        "name":"topMonitor",
+                        "config":{
+                            "enterMapClass":"enterMap",
+                            "enterMapValue":"进入",
+                            "statusClass":"topWrap_status",
+                            "coorClass":"topMonitor_coor",
+                            "monitorClass":"topWrap"
+                        }
+                    },{
+                        "name":"div",
+                        "config":{
+                            "className":"monitorSRS",
+                            "innerHTML":"<img src='leautoImg/srs.png'><p>安全气囊弹出!</p>"
+                        }
+                    },{
+                        "name":"div",
+                        "config":{
+                            "className":"foot auto-dial-foot",
+                            "innerHTML":"<span class='auto-dial'>10s后自动拨打E-call救援</span><span class='cancel-dial'>取消拨号</span>"
+                        }
+                    }]
+                }]
+            }]
+        }]
+    }
+}

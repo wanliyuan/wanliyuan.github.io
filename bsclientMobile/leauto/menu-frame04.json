@@ -1,0 +1,67 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,
+    "data" : {
+      "items":[{
+        "name":"div",
+        "config":{
+          "className":"formBg"
+        },
+        "items":[{
+          "name":"div",
+          "config":{
+            "innerHTML":"我的爱车",
+            "className":"navbar navbar-default head"
+          },
+          "items":[{
+            "name":"button",
+            "config":{
+              "id":"backmenu",
+              "value":"<"
+            }
+          }]
+        },{
+          "name":"topCharge",
+          "config":{
+            "className":"topWrap",
+            "circleClass":"circle",
+            "statusClass":"topWrap_status",
+            "canvasClass":"topMenu_canvas topCharge_canvas",
+            "numClass":"topMenu_Num topCharge_Num"
+          }
+        },{
+
+          "name":"tabItem",
+          "config":{
+              "comClass":"main_visual",
+              "comTabConId":"main_image",
+              "comTabConClass":"main_image",
+              "comTabTipClass":"flicking_con",
+              "comTabTipInnerId":"flicking_inner",
+              "comTabTipInnerClass":"flicking_inner",
+              "tipCurClass":"on"
+          },
+          "items":[{
+              "name":"scrollli",
+              "config":{
+                "className":"chargeTime",
+                "innerHTML":"<i>设定时间为：</i><b>开始充电</b>"
+              },
+              "items":[{
+                "name":"mobiscroll"
+              }]
+          },{
+            "name":"scrollli",
+            "config":{
+              "className":"countDown",
+              "innerHTML":"<button>停止充电</button><i>请输入倒计时时间，</i><input type='text'>h <b>(允许小数点后两位)</b>"
+            }
+          }]
+        }]
+
+      }]
+    }
+}
+

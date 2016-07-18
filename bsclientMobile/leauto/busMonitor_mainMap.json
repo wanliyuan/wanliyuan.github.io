@@ -1,0 +1,44 @@
+{
+  "modulename" : "frame",
+  "operation" : "init",
+  "tokenid" : "1111111111",
+  "status" : 1,
+  "data" : {
+    "items":[{
+      "name": "div",
+      "config": {
+        "className":"formMap"},
+      "items": [{
+        "name":"div",
+        "config":{
+          "innerHTML":"我的爱车",
+          "className":"navbar navbar-default head"},
+        "items":[{
+          "name":"button",
+          "config":{
+            "id":"backmenu",
+            "value":"<"
+          }
+        }]
+      },{
+        "name":"map",
+        "config":{
+          "enterStatus":"0",
+          "enterMapClass":"enterMap",
+          "id":"map",
+          "wrapId":"comParent",
+          "footId":"comfoot",
+          "footClass":"foot",
+          "emClass":"arrow-up",
+          "lnkBtnId":"backMonitor",
+          "footName2":"foot topMonitor_Err",
+          "imgInnerHTML":"<img src='leautoImg/aqqr.png'>",
+          "imgClass":"mapSRS",
+          "footName3":"foot auto-dial-foot",
+          "autoName":"auto-dial",
+          "cancelName":"cancel-dial"
+        }
+      }]
+    }]
+  }
+}

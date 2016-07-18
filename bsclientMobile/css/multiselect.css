@@ -1,0 +1,68 @@
+/*
+ * Ext JS Library 2.2
+ * Copyright(c) 2006-2008, Ext JS, LLC.
+ * licensing@extjs.com
+ * 
+ * http://extjs.com/license
+ */
+
+.ux-mselect{
+    overflow:auto;
+    background:white;
+    position:relative; /* for calculating scroll offsets */
+    zoom:1;
+    overflow:auto;	
+}
+.ux-mselect-item{
+    font:normal 12px tahoma, arial, helvetica, sans-serif;
+    padding:2px;
+    border:1px solid #fff;
+    white-space: nowrap;
+    cursor:pointer;
+}
+.ux-mselect-selected{
+	border:1px dotted #a3bae9 !important;
+    background:#DFE8F6;
+    cursor:pointer;
+}
+
+.x-view-drag-insert-above { 
+    border-top:1px dotted #3366cc; 
+} 
+.x-view-drag-insert-below { 
+    border-bottom:1px dotted #3366cc; 
+}
+.ux-lovcombo-icon {  
+    width:16px;  
+    height:16px;  
+    float:left;  
+    background-position: -1px -1px ! important;  
+    background-repeat:no-repeat ! important;  
+}  
+.ux-lovcombo-icon-checked {  
+    background: transparent url(../ext-3.4.0/resources/images/default/menu/checked.gif);  
+}  
+.ux-lovcombo-icon-unchecked {  
+    background: transparent url(../ext-3.4.0/resources/images/default/menu/unchecked.gif);  
+}
+.ux-combo-selectall{
+	padding:3px;
+}
+.ux-combo-selectall-icon-checked{
+	background: transparent url(../ext-3.4.0/resources/images/default/menu/checked.gif);
+}
+.ux-combo-selectall-icon-unchecked {  
+    background: transparent url(../ext-3.4.0/resources/images/default/menu/unchecked.gif);  
+}
+.ux-combo-selectall-icon {
+	text-indent:1.7em;
+	background-position: 2px 2px ! important;  
+    background-repeat:no-repeat ! important;  
+	height:22px;
+	line-height:20px;
+	font-size:12px;
+	font-weight:bold;
+	color:#15428b;
+	-moz-user-select:none;
+	cursor:pointer;
+}

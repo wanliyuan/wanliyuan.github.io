@@ -1,0 +1,13 @@
+{
+    "modulename" : "menu",
+    "operation" : "query",
+    "tokenid" : "1111111111",
+    "status" : 1,   
+    "data" : {
+        "seekTime":"2016-12-11 17:03:30",
+        "busState":"Star",
+        "latitude":"40.009417",
+        "longitude":"116.332557",
+        "speed":"50"
+    }
+}

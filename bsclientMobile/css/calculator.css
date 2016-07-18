@@ -1,0 +1,45 @@
+/**Calculator*/
+
+/×× ×/
+.x_btn_three {
+	height: 25px;
+	width: 43px;
+}
+
+#apDiv1 {
+	background-color: #ffffff;
+	border: 1px dashed #0000CC;
+	width: 400px;
+	height: 600px;
+}
+
+.css_red {
+	font-size: 12px;
+	width: 42px;
+	height: 25px;
+	color: #ff0000;
+}
+
+.txt {
+	font-size: 12px;
+	color: #FF0000;
+	width: 305px;
+	height: 20px;
+	margin: 0 auto 0 auto;
+}
+
+.x_btn_two {
+	width: 82px;
+	height: 25px;
+	font-size: 12px;
+}
+
+
+.x_btn_one {
+	height: 25px;
+	width: 42px;
+	border: 0;
+	color: #ff0000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}

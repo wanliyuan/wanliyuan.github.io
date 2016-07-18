@@ -1,0 +1,50 @@
+{
+    "modulename" : "frame",
+    "operation" : "init",
+    "tokenid" : "1111111111",
+    "status" : 1,
+    "data" : {
+        "items": [{
+            "name": "mainFrame",
+            "config": {
+                "name":"mainFrame",
+                "className" : "container"
+            },
+            "items":[{
+                "id" : "wrapper",
+                "name": "wrapper",
+                "config" : {
+                    "className":"container-fluid"
+                },
+                "items":[{
+                    "name":"div",
+                    "config":{
+                        "className":"formErrBg"
+                    },
+                    "items":[{
+                        "name":"div",
+                        "config":{
+                            "innerHTML":"我的爱车",
+                            "className":"navbar navbar-default head"
+                        },
+                        "items":[{
+                            "name":"button",
+                            "config":{
+                                "id":"backmenu",
+                                "value":"<"
+                            }
+                        }]
+                    },{
+                        "name":"outerFence",
+                        "config":{
+                            "fenceClass":"outerFence",
+                            "fenceText":"<img src='leautoImg/wl.png'><p>警报:车辆越出电子围栏</p>",
+                            "footClass":"foot footBottom",
+                            "footText":"<em class='arrow-up'></em><h3>温馨小贴士</h3><p>10s后自动进入地图跟踪界面，点击可取消</p>"
+                        }
+                    }]
+                }]
+            }]
+        }]
+    }
+}
