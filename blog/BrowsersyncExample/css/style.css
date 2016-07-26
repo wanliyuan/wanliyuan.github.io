@@ -1,0 +1,24 @@
+body{
+
+    color:#f00;
+    font-size: 48px;
+    background: #ccc;
+
+}
+
+h1{
+	text-align: center;
+	background-color: yellow;
+}
+p{
+	color: #000;
+}
+.title{
+	font-size: 20px;
+}
+.con{
+	font-size: 26px;
+	color:black;
+	border:1px solid red;
+	width:150px;
+}
