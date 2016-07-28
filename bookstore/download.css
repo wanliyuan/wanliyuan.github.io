@@ -1,7 +1,7 @@
 ﻿body , h1, h2, h3, dl, dd, ol { margin:0; padding:0; }
 li { list-style:none; }
 img { border:none; }
-body { font-family:'微软雅黑'; background:#ecf2f5; cursor: url(img/logo.png); min-width:1200px; }
+body { font-family:'微软雅黑'; background:#ecf2f5; cursor: url(img/logo.png); /*min-width:1200px;*/ width: 100%; }
 
 #header { height:70px; background:#494b4e; }
 #header h1 { float:left; position:relative; top:6px; }
@@ -9,15 +9,15 @@ body { font-family:'微软雅黑'; background:#ecf2f5; cursor: url(img/logo.png)
 #header h3 { position: absolute; top: 20px; right: 20px; }
 #header h3 a { font-size: 18px; color: #fff; text-decoration: none; }
 
-.wrap { width:1180px; margin:0 auto; position: relative; }
+.wrap { /*width:1180px; */margin:0 auto; position: relative;width:90%; }
 
-#content { overflow: hidden; padding-bottom: 50px; }
+#content { overflow: hidden; padding-bottom: 50px; width: 100%;}
 #content .title { line-height:60px; font-size:18px; color:#666; font-weight:normal; position:relative; padding:10px 0;}
 #content .title a { color:#c33; font-weight: bold; text-decoration: none; }
 #content .title a:hover { color: #ff8400; }
 #content .title span {clear:both; color: #c33; font-size: 16px;display:block; line-height:40px;}
 
-.col { float:left; width:370px; margin:0 5px; display:inline; }
+.col { float:left; width:31%; margin:0 5px; display:inline; }
 .module { border:1px solid #fff; background:#fff; border-radius:4px; margin-bottom:10px; overflow:hidden; transition:0.6s; }
 .module h3 { line-height:40px; height: 40px; background:#f5f9f9; color:#808080; text-indent:18px; transition:0.3s; font-weight:normal; font-size:22px; }
 .module dl { padding:20px; border-bottom:1px dotted #eaeaea; line-height:20px; transition:0.3s; }
@@ -82,3 +82,9 @@ body { font-family:'微软雅黑'; background:#ecf2f5; cursor: url(img/logo.png)
 .sequence nav a{ display:inline-block;margin:5px; text-decoration:none;}
 .sequence nav strong{margin:10px; display:table-cell; font:12px/18px "宋体";width:100px; vertical-align:middle; height:100px;color: #dd0f0f; background:#fff; border-radius:50%; transition:.3s;}
 .sequence nav a:hover strong{background:#ff8a00;-webkit-transform:scale(1.2);-moz-transform:scale(1.2);transform:scale(1.2); color:#fff;}
+
+
+
+@media screen and (max-width: 767px) {
+	.col{width: 100%;}
+}
