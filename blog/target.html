@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+   <input type="button" value="click me" onclick="alert(event.type)">
+   <input type="button" value="click me2" onclick="alert(this.value)">
+   <input type="button" value="click me3" title="title" onclick="alert(title)">
+   <input type="button" value="测试attachEvent的顺序" title="title" id="btn">
+   <input type="button" value="测试currentTarget和Target" title="title" id="btn2">
+<script>
+    window.onload = function(){
+        var btn = document.getElementById("btn");
+        function handler1(){
+            alert("handler1");
+        }
+        function handler2(){
+            alert("handler2");
+        }
+        btn.attachEvent("onclick",handler1);
+        btn.attachEvent("onclick",handler2);   //相继弹出来的是handle2 handle1
+
+        var btn2 = document.getElementById("btn2");
+        btn2.onclick = function(e){
+            console.log("btn2:",e.currentTarget==this);
+            console.log("btn2:",e.target==this);
+        }
+        document.body.onclick = function(e){
+            console.log("document.body:",e.currentTarget==this);
+            console.log("document.body:",e.target==this);
+        }
+        document.documentElement.onclick = function(e){
+            console.log("document.documentElement:",e.currentTarget==this);
+            console.log("document.documentElement:",e.target==this);
+        }
+    }
+</script>
+</body>
+</html>
