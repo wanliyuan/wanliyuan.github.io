@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul{border:1px solid #ccc;list-style: none;}
+    </style>
+</head>
+<body>
+    <h3>传统方式</h3>
+    <ul id="myLinks">
+        <li id="goSomewhere">Go somewhere</li>
+        <li id="doSomething">Do something</li>
+        <li id="sayHi">Say Hi</li>
+    </ul>
+    <h3>事件委托</h3>
+    <ul id="myLinks2">
+        <li id="goSomewhere2">Go somewhere</li>
+        <li id="doSomething2">Do something</li>
+        <li id="sayHi2">Say Hi</li>
+    </ul>
+<script>
+    var EventUtil = {
+        addHandler:function(element,type,handler){
+            if(element.addEventListener){
+                element.addEventListener(type,handler,false);
+            }else if(element.attachEvent){
+                element.attachEvent("on"+type,handler);
+            }else{
+                element["on"+type] = handler;
+            }
+        },
+        getEvent: function (event) {
+            return event ? event : window.event;
+        },
+        getTarget:function(event){
+            return event.target || event.srcElement;
+        },
+        preventDefault:function(evnt){
+            if(event.preventDefault){
+                event.preventDefault();
+            }else{
+                event.returnValue = false;
+            }
+        },
+        removeHandler:function(element,type,handler){
+            if(element.removeEventListener){
+                element.removeEventListener(type,handler,false);
+            }else if(element.detachEvent){
+                element.detachEvent("on"+type,handler);
+            }else{
+                element["on"+type] = null;
+            }
+        },
+        stopPropagation:function(event) {
+            if(event.stopPropagation){
+                event.stopPropagation;
+            }else{
+                event.cancelBubble = true;
+            }
+        }
+    }
+    function test(func){
+
+        var start = new Date().getTime();//起始时间
+
+        func();//执行待测函数
+
+        var end = new Date().getTime();//接受时间
+
+        return (end - start)+"ms";//返回函数执行需要时间
+
+    }
+
+
+    var item1 = document.getElementById("goSomewhere");
+    var item2 = document.getElementById("doSomething");
+    var item3 = document.getElementById("sayHi");
+    EventUtil.addHandler(item1,"click",function(event){
+        location.href = "http://www.baidu.com";
+    });
+    EventUtil.addHandler(item2,"click",function(event){
+        document.title = "test";
+    });
+    EventUtil.addHandler(item3,"click",function(event){
+        alert("Hi");
+    })
+
+     var list = document.getElementById("myLinks2");
+     EventUtil.addHandler(list,"click",function(event){
+         event = EventUtil.getEvent(event);
+         var target = EventUtil.getTarget(event);
+
+         switch(target.id){
+             case "goSomewhere2":
+                 location.href = "http://www.baidu.com";
+                 break;
+             case "doSomething2":
+                 document.title = "test";
+                 break;
+             case "sayHi2":
+                 alert("Hi");
+                 break;
+         }
+     })
+
+</script>
+</body>
+</html>
