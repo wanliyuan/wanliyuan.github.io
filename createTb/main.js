@@ -88,16 +88,17 @@ var hotSettings = {
     height: 441,
     maxRows: 42,
     rowHeaders: true,
-    colHeaders: [
-        'ID',
-        'Country',
-        'Code',
-        'Currency',
-        'Level',
-        'Units',
-        'Date',
-        'Change'
-    ],
+    //colHeaders: [
+    //    'ID',
+    //    'Country',
+    //    'Code',
+    //    'Currency',
+    //    'Level',
+    //    'Units',
+    //    'Date',
+    //    'Change'
+    //],
+    colHeaders:true,
 //        fixedRowsTop: 2,
 //        fixedColumnsLeft: 3,
     columnSorting: true,
@@ -111,6 +112,7 @@ var hotSettings = {
     manualRowMove: true,
     manualColumnMove: true,
     contextMenu: true,
+    //contextMenu: ['row_above', 'row_below', 'remove_row'],
 //        trimRows: [
 //            1,
 //            2,
