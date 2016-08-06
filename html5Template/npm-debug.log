@@ -1,0 +1,3179 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gulp-replace',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.9.0
+3 info using node@v5.7.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData gulp-replace
+8 silly fetchNamedPackageData gulp-replace
+9 silly mapToRegistry name gulp-replace
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npm.taobao.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'gulp-replace',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'gulp-replace',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npm.taobao.org/gulp-replace
+14 verbose request uri https://registry.npm.taobao.org/gulp-replace
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 18:16:40
+17 verbose request id 5b27a9cb234c26c2
+18 http request GET https://registry.npm.taobao.org/gulp-replace
+19 http 200 https://registry.npm.taobao.org/gulp-replace
+20 verbose headers { date: 'Thu, 04 Aug 2016 10:16:40 GMT',
+20 verbose headers   'content-type': 'application/json; charset=utf-8',
+20 verbose headers   'content-length': '14796',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-current-requests': '1',
+20 verbose headers   etag: '"39cc-WJ/h6KRzUpAOYpjW3fCy+w"',
+20 verbose headers   'x-readtime': '29' }
+21 silly get cb [ 200,
+21 silly get   { date: 'Thu, 04 Aug 2016 10:16:40 GMT',
+21 silly get     'content-type': 'application/json; charset=utf-8',
+21 silly get     'content-length': '14796',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-current-requests': '1',
+21 silly get     etag: '"39cc-WJ/h6KRzUpAOYpjW3fCy+w"',
+21 silly get     'x-readtime': '29' } ]
+22 verbose get saving gulp-replace to /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/registry.npm.taobao.org/gulp-replace/.cache.json
+23 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule gulp-replace@0.5.4 checking installable status
+37 silly cache add args [ 'gulp-replace', null ]
+38 verbose cache add spec gulp-replace
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'gulp-replace',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'gulp-replace',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed gulp-replace@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for gulp-replace
+42 info addNameTag [ 'gulp-replace', 'latest' ]
+43 silly mapToRegistry name gulp-replace
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npm.taobao.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'gulp-replace',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   name: 'gulp-replace',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npm.taobao.org/gulp-replace
+48 verbose addNameTag registry:https://registry.npm.taobao.org/gulp-replace not in flight; fetching
+49 verbose get https://registry.npm.taobao.org/gulp-replace not expired, no request
+50 silly addNameTag next cb for gulp-replace with tag latest
+51 silly addNamed gulp-replace@0.5.4
+52 verbose addNamed "0.5.4" is a plain semver version for gulp-replace
+53 silly mapToRegistry name gulp-replace
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npm.taobao.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'gulp-replace',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   name: 'gulp-replace',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npm.taobao.org/gulp-replace
+58 verbose addRemoteTarball https://registry.npm.taobao.org/gulp-replace/download/gulp-replace-0.5.4.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/gulp-replace/download/gulp-replace-0.5.4.tgz',
+59 verbose addRemoteTarball   '69a67914bbd13c562bff14f504a403796aa0daa9' ]
+60 info retry fetch attempt 1 at 18:16:41
+61 info attempt registry request try #1 at 18:16:41
+62 http fetch GET https://registry.npm.taobao.org/gulp-replace/download/gulp-replace-0.5.4.tgz
+63 http fetch 200 https://registry.npm.taobao.org/gulp-replace/download/gulp-replace-0.5.4.tgz
+64 silly fetchAndShaCheck shasum 69a67914bbd13c562bff14f504a403796aa0daa9
+65 verbose addTmpTarball /var/folders/w5/mt46qhnj191fmcj6pxfjwhcr0000gn/T/npm-2402-c63cc101/registry.npm.taobao.org/gulp-replace/download/gulp-replace-0.5.4.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for gulp-replace@0.5.4
+67 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd gulp-replace@0.5.4
+69 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/gulp-replace/0.5.4/package/package.json not in flight; writing
+70 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/gulp-replace/0.5.4/package/package.json written
+72 silly fetchNamedPackageData istextorbinary
+73 silly mapToRegistry name istextorbinary
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npm.taobao.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'istextorbinary',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   name: 'istextorbinary',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npm.taobao.org/istextorbinary
+78 silly fetchNamedPackageData readable-stream
+79 silly mapToRegistry name readable-stream
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npm.taobao.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'readable-stream',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   name: 'readable-stream',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npm.taobao.org/readable-stream
+84 silly fetchNamedPackageData replacestream
+85 silly mapToRegistry name replacestream
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npm.taobao.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'replacestream',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   name: 'replacestream',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npm.taobao.org/replacestream
+90 verbose request uri https://registry.npm.taobao.org/istextorbinary
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 18:16:41
+93 http request GET https://registry.npm.taobao.org/istextorbinary
+94 verbose request uri https://registry.npm.taobao.org/replacestream
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 18:16:41
+97 http request GET https://registry.npm.taobao.org/replacestream
+98 verbose request uri https://registry.npm.taobao.org/readable-stream
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 18:16:41
+101 verbose etag "12640-n7/ShH5/MflTdBWwjMqqxg"
+102 http request GET https://registry.npm.taobao.org/readable-stream
+103 http 304 https://registry.npm.taobao.org/readable-stream
+104 verbose headers { date: 'Thu, 04 Aug 2016 10:16:41 GMT',
+104 verbose headers   connection: 'keep-alive',
+104 verbose headers   'x-current-requests': '1',
+104 verbose headers   etag: '"12640-n7/ShH5/MflTdBWwjMqqxg"',
+104 verbose headers   'x-readtime': '33' }
+105 silly get cb [ 304,
+105 silly get   { date: 'Thu, 04 Aug 2016 10:16:41 GMT',
+105 silly get     connection: 'keep-alive',
+105 silly get     'x-current-requests': '1',
+105 silly get     etag: '"12640-n7/ShH5/MflTdBWwjMqqxg"',
+105 silly get     'x-readtime': '33' } ]
+106 verbose etag https://registry.npm.taobao.org/readable-stream from cache
+107 verbose get saving readable-stream to /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/registry.npm.taobao.org/readable-stream/.cache.json
+108 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+109 silly resolveWithNewModule readable-stream@2.1.4 checking installable status
+110 silly cache add args [ 'readable-stream@^2.0.1', null ]
+111 verbose cache add spec readable-stream@^2.0.1
+112 silly cache add parsed spec Result {
+112 silly cache add   raw: 'readable-stream@^2.0.1',
+112 silly cache add   scope: null,
+112 silly cache add   name: 'readable-stream',
+112 silly cache add   rawSpec: '^2.0.1',
+112 silly cache add   spec: '>=2.0.1 <3.0.0',
+112 silly cache add   type: 'range' }
+113 silly addNamed readable-stream@>=2.0.1 <3.0.0
+114 verbose addNamed ">=2.0.1 <3.0.0" is a valid semver range for readable-stream
+115 silly addNameRange { name: 'readable-stream',
+115 silly addNameRange   range: '>=2.0.1 <3.0.0',
+115 silly addNameRange   hasData: false }
+116 silly mapToRegistry name readable-stream
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npm.taobao.org/
+119 silly mapToRegistry data Result {
+119 silly mapToRegistry   raw: 'readable-stream',
+119 silly mapToRegistry   scope: null,
+119 silly mapToRegistry   name: 'readable-stream',
+119 silly mapToRegistry   rawSpec: '',
+119 silly mapToRegistry   spec: 'latest',
+119 silly mapToRegistry   type: 'tag' }
+120 silly mapToRegistry uri https://registry.npm.taobao.org/readable-stream
+121 verbose addNameRange registry:https://registry.npm.taobao.org/readable-stream not in flight; fetching
+122 verbose get https://registry.npm.taobao.org/readable-stream not expired, no request
+123 silly addNameRange number 2 { name: 'readable-stream',
+123 silly addNameRange   range: '>=2.0.1 <3.0.0',
+123 silly addNameRange   hasData: true }
+124 silly addNameRange versions [ 'readable-stream',
+124 silly addNameRange   [ '2.1.4',
+124 silly addNameRange     '2.1.3',
+124 silly addNameRange     '2.1.2',
+124 silly addNameRange     '2.1.1',
+124 silly addNameRange     '2.1.0',
+124 silly addNameRange     '1.1.14',
+124 silly addNameRange     '1.0.34',
+124 silly addNameRange     '2.0.6',
+124 silly addNameRange     '2.0.5',
+124 silly addNameRange     '2.0.4',
+124 silly addNameRange     '2.0.3',
+124 silly addNameRange     '2.0.2',
+124 silly addNameRange     '2.0.1',
+124 silly addNameRange     '2.0.0',
+124 silly addNameRange     '1.0.33',
+124 silly addNameRange     '1.0.33-2',
+124 silly addNameRange     '1.0.33-1',
+124 silly addNameRange     '1.0.32-1',
+124 silly addNameRange     '1.0.32',
+124 silly addNameRange     '1.1.13',
+124 silly addNameRange     '1.0.31',
+124 silly addNameRange     '1.1.13-1',
+124 silly addNameRange     '1.0.27-1',
+124 silly addNameRange     '1.1.12-1',
+124 silly addNameRange     '1.0.26-4',
+124 silly addNameRange     '1.0.26-3',
+124 silly addNameRange     '1.1.12',
+124 silly addNameRange     '1.0.26-2',
+124 silly addNameRange     '1.1.11-1',
+124 silly addNameRange     '1.0.26-1',
+124 silly addNameRange     '1.0.26',
+124 silly addNameRange     '1.1.11',
+124 silly addNameRange     '1.0.25-1',
+124 silly addNameRange     '1.0.25',
+124 silly addNameRange     '1.1.10',
+124 silly addNameRange     '1.0.24',
+124 silly addNameRange     '1.1.9',
+124 silly addNameRange     '1.1.8',
+124 silly addNameRange     '1.1.7',
+124 silly addNameRange     '1.0.17',
+124 silly addNameRange     '1.0.15',
+124 silly addNameRange     '1.0.2',
+124 silly addNameRange     '1.0.1',
+124 silly addNameRange     '1.0.0',
+124 silly addNameRange     '0.3.1',
+124 silly addNameRange     '0.3.0',
+124 silly addNameRange     '0.2.0',
+124 silly addNameRange     '0.1.0',
+124 silly addNameRange     '0.0.4',
+124 silly addNameRange     '0.0.3',
+124 silly addNameRange     '0.0.2',
+124 silly addNameRange     '0.0.1' ] ]
+125 silly addNamed readable-stream@2.1.4
+126 verbose addNamed "2.1.4" is a plain semver version for readable-stream
+127 silly cache afterAdd readable-stream@2.1.4
+128 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/readable-stream/2.1.4/package/package.json not in flight; writing
+129 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+130 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/readable-stream/2.1.4/package/package.json written
+131 http 200 https://registry.npm.taobao.org/istextorbinary
+132 verbose headers { date: 'Thu, 04 Aug 2016 10:16:41 GMT',
+132 verbose headers   'content-type': 'application/json; charset=utf-8',
+132 verbose headers   'content-length': '23597',
+132 verbose headers   connection: 'keep-alive',
+132 verbose headers   'x-current-requests': '1',
+132 verbose headers   etag: '"5c2d-FiYF+PG5jbsTcLdwWzgl/A"',
+132 verbose headers   'x-readtime': '14' }
+133 silly get cb [ 200,
+133 silly get   { date: 'Thu, 04 Aug 2016 10:16:41 GMT',
+133 silly get     'content-type': 'application/json; charset=utf-8',
+133 silly get     'content-length': '23597',
+133 silly get     connection: 'keep-alive',
+133 silly get     'x-current-requests': '1',
+133 silly get     etag: '"5c2d-FiYF+PG5jbsTcLdwWzgl/A"',
+133 silly get     'x-readtime': '14' } ]
+134 verbose get saving istextorbinary to /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/registry.npm.taobao.org/istextorbinary/.cache.json
+135 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+136 silly resolveWithNewModule istextorbinary@1.0.2 checking installable status
+137 silly cache add args [ 'istextorbinary@1.0.2', null ]
+138 verbose cache add spec istextorbinary@1.0.2
+139 silly cache add parsed spec Result {
+139 silly cache add   raw: 'istextorbinary@1.0.2',
+139 silly cache add   scope: null,
+139 silly cache add   name: 'istextorbinary',
+139 silly cache add   rawSpec: '1.0.2',
+139 silly cache add   spec: '1.0.2',
+139 silly cache add   type: 'version' }
+140 silly addNamed istextorbinary@1.0.2
+141 verbose addNamed "1.0.2" is a plain semver version for istextorbinary
+142 silly mapToRegistry name istextorbinary
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry https://registry.npm.taobao.org/
+145 silly mapToRegistry data Result {
+145 silly mapToRegistry   raw: 'istextorbinary',
+145 silly mapToRegistry   scope: null,
+145 silly mapToRegistry   name: 'istextorbinary',
+145 silly mapToRegistry   rawSpec: '',
+145 silly mapToRegistry   spec: 'latest',
+145 silly mapToRegistry   type: 'tag' }
+146 silly mapToRegistry uri https://registry.npm.taobao.org/istextorbinary
+147 verbose addNameVersion registry:https://registry.npm.taobao.org/istextorbinary not in flight; fetching
+148 verbose get https://registry.npm.taobao.org/istextorbinary not expired, no request
+149 silly mapToRegistry name istextorbinary
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npm.taobao.org/
+152 silly mapToRegistry data Result {
+152 silly mapToRegistry   raw: 'istextorbinary',
+152 silly mapToRegistry   scope: null,
+152 silly mapToRegistry   name: 'istextorbinary',
+152 silly mapToRegistry   rawSpec: '',
+152 silly mapToRegistry   spec: 'latest',
+152 silly mapToRegistry   type: 'tag' }
+153 silly mapToRegistry uri https://registry.npm.taobao.org/istextorbinary
+154 verbose addRemoteTarball https://registry.npm.taobao.org/istextorbinary/download/istextorbinary-1.0.2.tgz not in flight; adding
+155 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/istextorbinary/download/istextorbinary-1.0.2.tgz',
+155 verbose addRemoteTarball   'ace19354d1a9a0173efeb1084ce0f87b0ad7decf' ]
+156 info retry fetch attempt 1 at 18:16:41
+157 info attempt registry request try #1 at 18:16:41
+158 http fetch GET https://registry.npm.taobao.org/istextorbinary/download/istextorbinary-1.0.2.tgz
+159 http 200 https://registry.npm.taobao.org/replacestream
+160 verbose headers { date: 'Thu, 04 Aug 2016 10:16:41 GMT',
+160 verbose headers   'content-type': 'application/json; charset=utf-8',
+160 verbose headers   'content-length': '35857',
+160 verbose headers   connection: 'keep-alive',
+160 verbose headers   'x-current-requests': '1',
+160 verbose headers   etag: '"8c11-ZjkQRmkGGoJMtIDLCRI1mA"',
+160 verbose headers   'x-readtime': '31' }
+161 silly get cb [ 200,
+161 silly get   { date: 'Thu, 04 Aug 2016 10:16:41 GMT',
+161 silly get     'content-type': 'application/json; charset=utf-8',
+161 silly get     'content-length': '35857',
+161 silly get     connection: 'keep-alive',
+161 silly get     'x-current-requests': '1',
+161 silly get     etag: '"8c11-ZjkQRmkGGoJMtIDLCRI1mA"',
+161 silly get     'x-readtime': '31' } ]
+162 verbose get saving replacestream to /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/registry.npm.taobao.org/replacestream/.cache.json
+163 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+164 silly resolveWithNewModule replacestream@4.0.0 checking installable status
+165 silly cache add args [ 'replacestream@^4.0.0', null ]
+166 verbose cache add spec replacestream@^4.0.0
+167 silly cache add parsed spec Result {
+167 silly cache add   raw: 'replacestream@^4.0.0',
+167 silly cache add   scope: null,
+167 silly cache add   name: 'replacestream',
+167 silly cache add   rawSpec: '^4.0.0',
+167 silly cache add   spec: '>=4.0.0 <5.0.0',
+167 silly cache add   type: 'range' }
+168 silly addNamed replacestream@>=4.0.0 <5.0.0
+169 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for replacestream
+170 silly addNameRange { name: 'replacestream',
+170 silly addNameRange   range: '>=4.0.0 <5.0.0',
+170 silly addNameRange   hasData: false }
+171 silly mapToRegistry name replacestream
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry https://registry.npm.taobao.org/
+174 silly mapToRegistry data Result {
+174 silly mapToRegistry   raw: 'replacestream',
+174 silly mapToRegistry   scope: null,
+174 silly mapToRegistry   name: 'replacestream',
+174 silly mapToRegistry   rawSpec: '',
+174 silly mapToRegistry   spec: 'latest',
+174 silly mapToRegistry   type: 'tag' }
+175 silly mapToRegistry uri https://registry.npm.taobao.org/replacestream
+176 verbose addNameRange registry:https://registry.npm.taobao.org/replacestream not in flight; fetching
+177 verbose get https://registry.npm.taobao.org/replacestream not expired, no request
+178 silly addNameRange number 2 { name: 'replacestream', range: '>=4.0.0 <5.0.0', hasData: true }
+179 silly addNameRange versions [ 'replacestream',
+179 silly addNameRange   [ '4.0.0',
+179 silly addNameRange     '3.0.0',
+179 silly addNameRange     '2.1.0',
+179 silly addNameRange     '2.0.1',
+179 silly addNameRange     '2.0.0',
+179 silly addNameRange     '1.0.2',
+179 silly addNameRange     '1.0.1',
+179 silly addNameRange     '0.3.0',
+179 silly addNameRange     '0.2.0',
+179 silly addNameRange     '0.1.4',
+179 silly addNameRange     '0.1.3',
+179 silly addNameRange     '0.1.2',
+179 silly addNameRange     '0.1.1',
+179 silly addNameRange     '0.1.0',
+179 silly addNameRange     '0.0.6',
+179 silly addNameRange     '0.0.5',
+179 silly addNameRange     '0.0.4',
+179 silly addNameRange     '0.0.3',
+179 silly addNameRange     '0.0.2',
+179 silly addNameRange     '0.0.1' ] ]
+180 silly addNamed replacestream@4.0.0
+181 verbose addNamed "4.0.0" is a plain semver version for replacestream
+182 silly mapToRegistry name replacestream
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npm.taobao.org/
+185 silly mapToRegistry data Result {
+185 silly mapToRegistry   raw: 'replacestream',
+185 silly mapToRegistry   scope: null,
+185 silly mapToRegistry   name: 'replacestream',
+185 silly mapToRegistry   rawSpec: '',
+185 silly mapToRegistry   spec: 'latest',
+185 silly mapToRegistry   type: 'tag' }
+186 silly mapToRegistry uri https://registry.npm.taobao.org/replacestream
+187 verbose addRemoteTarball https://registry.npm.taobao.org/replacestream/download/replacestream-4.0.0.tgz not in flight; adding
+188 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/replacestream/download/replacestream-4.0.0.tgz',
+188 verbose addRemoteTarball   'ad574af1daf566a83d87ada5ab395e0bdc43e2a4' ]
+189 info retry fetch attempt 1 at 18:16:41
+190 info attempt registry request try #1 at 18:16:41
+191 http fetch GET https://registry.npm.taobao.org/replacestream/download/replacestream-4.0.0.tgz
+192 http fetch 200 https://registry.npm.taobao.org/istextorbinary/download/istextorbinary-1.0.2.tgz
+193 silly fetchAndShaCheck shasum ace19354d1a9a0173efeb1084ce0f87b0ad7decf
+194 verbose addTmpTarball /var/folders/w5/mt46qhnj191fmcj6pxfjwhcr0000gn/T/npm-2402-c63cc101/registry.npm.taobao.org/istextorbinary/download/istextorbinary-1.0.2.tgz not in flight; adding
+195 verbose addTmpTarball already have metadata; skipping unpack for istextorbinary@1.0.2
+196 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+197 silly cache afterAdd istextorbinary@1.0.2
+198 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/istextorbinary/1.0.2/package/package.json not in flight; writing
+199 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+200 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/istextorbinary/1.0.2/package/package.json written
+201 http fetch 200 https://registry.npm.taobao.org/replacestream/download/replacestream-4.0.0.tgz
+202 silly fetchAndShaCheck shasum ad574af1daf566a83d87ada5ab395e0bdc43e2a4
+203 verbose addTmpTarball /var/folders/w5/mt46qhnj191fmcj6pxfjwhcr0000gn/T/npm-2402-c63cc101/registry.npm.taobao.org/replacestream/download/replacestream-4.0.0.tgz not in flight; adding
+204 verbose addTmpTarball already have metadata; skipping unpack for replacestream@4.0.0
+205 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+206 silly cache afterAdd replacestream@4.0.0
+207 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/replacestream/4.0.0/package/package.json not in flight; writing
+208 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+209 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/replacestream/4.0.0/package/package.json written
+210 silly fetchNamedPackageData textextensions
+211 silly mapToRegistry name textextensions
+212 silly mapToRegistry using default registry
+213 silly mapToRegistry registry https://registry.npm.taobao.org/
+214 silly mapToRegistry data Result {
+214 silly mapToRegistry   raw: 'textextensions',
+214 silly mapToRegistry   scope: null,
+214 silly mapToRegistry   name: 'textextensions',
+214 silly mapToRegistry   rawSpec: '',
+214 silly mapToRegistry   spec: 'latest',
+214 silly mapToRegistry   type: 'tag' }
+215 silly mapToRegistry uri https://registry.npm.taobao.org/textextensions
+216 silly fetchNamedPackageData binaryextensions
+217 silly mapToRegistry name binaryextensions
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry https://registry.npm.taobao.org/
+220 silly mapToRegistry data Result {
+220 silly mapToRegistry   raw: 'binaryextensions',
+220 silly mapToRegistry   scope: null,
+220 silly mapToRegistry   name: 'binaryextensions',
+220 silly mapToRegistry   rawSpec: '',
+220 silly mapToRegistry   spec: 'latest',
+220 silly mapToRegistry   type: 'tag' }
+221 silly mapToRegistry uri https://registry.npm.taobao.org/binaryextensions
+222 verbose request uri https://registry.npm.taobao.org/textextensions
+223 verbose request no auth needed
+224 info attempt registry request try #1 at 18:16:41
+225 http request GET https://registry.npm.taobao.org/textextensions
+226 verbose request uri https://registry.npm.taobao.org/binaryextensions
+227 verbose request no auth needed
+228 info attempt registry request try #1 at 18:16:41
+229 http request GET https://registry.npm.taobao.org/binaryextensions
+230 http 200 https://registry.npm.taobao.org/binaryextensions
+231 verbose headers { date: 'Thu, 04 Aug 2016 10:16:42 GMT',
+231 verbose headers   'content-type': 'application/json; charset=utf-8',
+231 verbose headers   'content-length': '14001',
+231 verbose headers   connection: 'keep-alive',
+231 verbose headers   'x-current-requests': '1',
+231 verbose headers   etag: '"36b1-tiRx42tLz7fOWW2QfOgRow"',
+231 verbose headers   'x-readtime': '20' }
+232 silly get cb [ 200,
+232 silly get   { date: 'Thu, 04 Aug 2016 10:16:42 GMT',
+232 silly get     'content-type': 'application/json; charset=utf-8',
+232 silly get     'content-length': '14001',
+232 silly get     connection: 'keep-alive',
+232 silly get     'x-current-requests': '1',
+232 silly get     etag: '"36b1-tiRx42tLz7fOWW2QfOgRow"',
+232 silly get     'x-readtime': '20' } ]
+233 verbose get saving binaryextensions to /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/registry.npm.taobao.org/binaryextensions/.cache.json
+234 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+235 silly resolveWithNewModule binaryextensions@1.0.1 checking installable status
+236 silly cache add args [ 'binaryextensions@~1.0.0', null ]
+237 verbose cache add spec binaryextensions@~1.0.0
+238 silly cache add parsed spec Result {
+238 silly cache add   raw: 'binaryextensions@~1.0.0',
+238 silly cache add   scope: null,
+238 silly cache add   name: 'binaryextensions',
+238 silly cache add   rawSpec: '~1.0.0',
+238 silly cache add   spec: '>=1.0.0 <1.1.0',
+238 silly cache add   type: 'range' }
+239 silly addNamed binaryextensions@>=1.0.0 <1.1.0
+240 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for binaryextensions
+241 silly addNameRange { name: 'binaryextensions',
+241 silly addNameRange   range: '>=1.0.0 <1.1.0',
+241 silly addNameRange   hasData: false }
+242 silly mapToRegistry name binaryextensions
+243 silly mapToRegistry using default registry
+244 silly mapToRegistry registry https://registry.npm.taobao.org/
+245 silly mapToRegistry data Result {
+245 silly mapToRegistry   raw: 'binaryextensions',
+245 silly mapToRegistry   scope: null,
+245 silly mapToRegistry   name: 'binaryextensions',
+245 silly mapToRegistry   rawSpec: '',
+245 silly mapToRegistry   spec: 'latest',
+245 silly mapToRegistry   type: 'tag' }
+246 silly mapToRegistry uri https://registry.npm.taobao.org/binaryextensions
+247 verbose addNameRange registry:https://registry.npm.taobao.org/binaryextensions not in flight; fetching
+248 verbose get https://registry.npm.taobao.org/binaryextensions not expired, no request
+249 silly addNameRange number 2 { name: 'binaryextensions',
+249 silly addNameRange   range: '>=1.0.0 <1.1.0',
+249 silly addNameRange   hasData: true }
+250 silly addNameRange versions [ 'binaryextensions', [ '2.0.0', '1.0.1', '1.0.0' ] ]
+251 silly addNamed binaryextensions@1.0.1
+252 verbose addNamed "1.0.1" is a plain semver version for binaryextensions
+253 silly mapToRegistry name binaryextensions
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npm.taobao.org/
+256 silly mapToRegistry data Result {
+256 silly mapToRegistry   raw: 'binaryextensions',
+256 silly mapToRegistry   scope: null,
+256 silly mapToRegistry   name: 'binaryextensions',
+256 silly mapToRegistry   rawSpec: '',
+256 silly mapToRegistry   spec: 'latest',
+256 silly mapToRegistry   type: 'tag' }
+257 silly mapToRegistry uri https://registry.npm.taobao.org/binaryextensions
+258 verbose addRemoteTarball https://registry.npm.taobao.org/binaryextensions/download/binaryextensions-1.0.1.tgz not in flight; adding
+259 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/binaryextensions/download/binaryextensions-1.0.1.tgz',
+259 verbose addRemoteTarball   '1e637488b35b58bda5f4774bf96a5212a8c90755' ]
+260 info retry fetch attempt 1 at 18:16:41
+261 info attempt registry request try #1 at 18:16:41
+262 http fetch GET https://registry.npm.taobao.org/binaryextensions/download/binaryextensions-1.0.1.tgz
+263 http 200 https://registry.npm.taobao.org/textextensions
+264 verbose headers { date: 'Thu, 04 Aug 2016 10:16:42 GMT',
+264 verbose headers   'content-type': 'application/json; charset=utf-8',
+264 verbose headers   'content-length': '21657',
+264 verbose headers   connection: 'keep-alive',
+264 verbose headers   'x-current-requests': '1',
+264 verbose headers   etag: '"5499-WjSiJSOHw94uNUW6oCMwJw"',
+264 verbose headers   'x-readtime': '16' }
+265 silly get cb [ 200,
+265 silly get   { date: 'Thu, 04 Aug 2016 10:16:42 GMT',
+265 silly get     'content-type': 'application/json; charset=utf-8',
+265 silly get     'content-length': '21657',
+265 silly get     connection: 'keep-alive',
+265 silly get     'x-current-requests': '1',
+265 silly get     etag: '"5499-WjSiJSOHw94uNUW6oCMwJw"',
+265 silly get     'x-readtime': '16' } ]
+266 verbose get saving textextensions to /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/registry.npm.taobao.org/textextensions/.cache.json
+267 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+268 silly resolveWithNewModule textextensions@1.0.2 checking installable status
+269 silly cache add args [ 'textextensions@~1.0.0', null ]
+270 verbose cache add spec textextensions@~1.0.0
+271 silly cache add parsed spec Result {
+271 silly cache add   raw: 'textextensions@~1.0.0',
+271 silly cache add   scope: null,
+271 silly cache add   name: 'textextensions',
+271 silly cache add   rawSpec: '~1.0.0',
+271 silly cache add   spec: '>=1.0.0 <1.1.0',
+271 silly cache add   type: 'range' }
+272 silly addNamed textextensions@>=1.0.0 <1.1.0
+273 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for textextensions
+274 silly addNameRange { name: 'textextensions',
+274 silly addNameRange   range: '>=1.0.0 <1.1.0',
+274 silly addNameRange   hasData: false }
+275 silly mapToRegistry name textextensions
+276 silly mapToRegistry using default registry
+277 silly mapToRegistry registry https://registry.npm.taobao.org/
+278 silly mapToRegistry data Result {
+278 silly mapToRegistry   raw: 'textextensions',
+278 silly mapToRegistry   scope: null,
+278 silly mapToRegistry   name: 'textextensions',
+278 silly mapToRegistry   rawSpec: '',
+278 silly mapToRegistry   spec: 'latest',
+278 silly mapToRegistry   type: 'tag' }
+279 silly mapToRegistry uri https://registry.npm.taobao.org/textextensions
+280 verbose addNameRange registry:https://registry.npm.taobao.org/textextensions not in flight; fetching
+281 verbose get https://registry.npm.taobao.org/textextensions not expired, no request
+282 silly addNameRange number 2 { name: 'textextensions',
+282 silly addNameRange   range: '>=1.0.0 <1.1.0',
+282 silly addNameRange   hasData: true }
+283 silly addNameRange versions [ 'textextensions',
+283 silly addNameRange   [ '2.0.1', '2.0.0', '1.1.0', '1.0.2', '1.0.1', '1.0.0' ] ]
+284 silly addNamed textextensions@1.0.2
+285 verbose addNamed "1.0.2" is a plain semver version for textextensions
+286 silly mapToRegistry name textextensions
+287 silly mapToRegistry using default registry
+288 silly mapToRegistry registry https://registry.npm.taobao.org/
+289 silly mapToRegistry data Result {
+289 silly mapToRegistry   raw: 'textextensions',
+289 silly mapToRegistry   scope: null,
+289 silly mapToRegistry   name: 'textextensions',
+289 silly mapToRegistry   rawSpec: '',
+289 silly mapToRegistry   spec: 'latest',
+289 silly mapToRegistry   type: 'tag' }
+290 silly mapToRegistry uri https://registry.npm.taobao.org/textextensions
+291 verbose addRemoteTarball https://registry.npm.taobao.org/textextensions/download/textextensions-1.0.2.tgz not in flight; adding
+292 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/textextensions/download/textextensions-1.0.2.tgz',
+292 verbose addRemoteTarball   '65486393ee1f2bb039a60cbba05b0b68bd9501d2' ]
+293 info retry fetch attempt 1 at 18:16:42
+294 info attempt registry request try #1 at 18:16:42
+295 http fetch GET https://registry.npm.taobao.org/textextensions/download/textextensions-1.0.2.tgz
+296 http fetch 200 https://registry.npm.taobao.org/binaryextensions/download/binaryextensions-1.0.1.tgz
+297 silly fetchAndShaCheck shasum 1e637488b35b58bda5f4774bf96a5212a8c90755
+298 verbose addTmpTarball /var/folders/w5/mt46qhnj191fmcj6pxfjwhcr0000gn/T/npm-2402-c63cc101/registry.npm.taobao.org/binaryextensions/download/binaryextensions-1.0.1.tgz not in flight; adding
+299 verbose addTmpTarball already have metadata; skipping unpack for binaryextensions@1.0.1
+300 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+301 silly cache afterAdd binaryextensions@1.0.1
+302 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/binaryextensions/1.0.1/package/package.json not in flight; writing
+303 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+304 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/binaryextensions/1.0.1/package/package.json written
+305 http fetch 200 https://registry.npm.taobao.org/textextensions/download/textextensions-1.0.2.tgz
+306 silly fetchAndShaCheck shasum 65486393ee1f2bb039a60cbba05b0b68bd9501d2
+307 verbose addTmpTarball /var/folders/w5/mt46qhnj191fmcj6pxfjwhcr0000gn/T/npm-2402-c63cc101/registry.npm.taobao.org/textextensions/download/textextensions-1.0.2.tgz not in flight; adding
+308 verbose addTmpTarball already have metadata; skipping unpack for textextensions@1.0.2
+309 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+310 silly cache afterAdd textextensions@1.0.2
+311 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/textextensions/1.0.2/package/package.json not in flight; writing
+312 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+313 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/textextensions/1.0.2/package/package.json written
+314 silly fetchNamedPackageData core-util-is
+315 silly mapToRegistry name core-util-is
+316 silly mapToRegistry using default registry
+317 silly mapToRegistry registry https://registry.npm.taobao.org/
+318 silly mapToRegistry data Result {
+318 silly mapToRegistry   raw: 'core-util-is',
+318 silly mapToRegistry   scope: null,
+318 silly mapToRegistry   name: 'core-util-is',
+318 silly mapToRegistry   rawSpec: '',
+318 silly mapToRegistry   spec: 'latest',
+318 silly mapToRegistry   type: 'tag' }
+319 silly mapToRegistry uri https://registry.npm.taobao.org/core-util-is
+320 silly fetchNamedPackageData inherits
+321 silly mapToRegistry name inherits
+322 silly mapToRegistry using default registry
+323 silly mapToRegistry registry https://registry.npm.taobao.org/
+324 silly mapToRegistry data Result {
+324 silly mapToRegistry   raw: 'inherits',
+324 silly mapToRegistry   scope: null,
+324 silly mapToRegistry   name: 'inherits',
+324 silly mapToRegistry   rawSpec: '',
+324 silly mapToRegistry   spec: 'latest',
+324 silly mapToRegistry   type: 'tag' }
+325 silly mapToRegistry uri https://registry.npm.taobao.org/inherits
+326 silly fetchNamedPackageData isarray
+327 silly mapToRegistry name isarray
+328 silly mapToRegistry using default registry
+329 silly mapToRegistry registry https://registry.npm.taobao.org/
+330 silly mapToRegistry data Result {
+330 silly mapToRegistry   raw: 'isarray',
+330 silly mapToRegistry   scope: null,
+330 silly mapToRegistry   name: 'isarray',
+330 silly mapToRegistry   rawSpec: '',
+330 silly mapToRegistry   spec: 'latest',
+330 silly mapToRegistry   type: 'tag' }
+331 silly mapToRegistry uri https://registry.npm.taobao.org/isarray
+332 silly fetchNamedPackageData process-nextick-args
+333 silly mapToRegistry name process-nextick-args
+334 silly mapToRegistry using default registry
+335 silly mapToRegistry registry https://registry.npm.taobao.org/
+336 silly mapToRegistry data Result {
+336 silly mapToRegistry   raw: 'process-nextick-args',
+336 silly mapToRegistry   scope: null,
+336 silly mapToRegistry   name: 'process-nextick-args',
+336 silly mapToRegistry   rawSpec: '',
+336 silly mapToRegistry   spec: 'latest',
+336 silly mapToRegistry   type: 'tag' }
+337 silly mapToRegistry uri https://registry.npm.taobao.org/process-nextick-args
+338 silly fetchNamedPackageData string_decoder
+339 silly mapToRegistry name string_decoder
+340 silly mapToRegistry using default registry
+341 silly mapToRegistry registry https://registry.npm.taobao.org/
+342 silly mapToRegistry data Result {
+342 silly mapToRegistry   raw: 'string_decoder',
+342 silly mapToRegistry   scope: null,
+342 silly mapToRegistry   name: 'string_decoder',
+342 silly mapToRegistry   rawSpec: '',
+342 silly mapToRegistry   spec: 'latest',
+342 silly mapToRegistry   type: 'tag' }
+343 silly mapToRegistry uri https://registry.npm.taobao.org/string_decoder
+344 silly fetchNamedPackageData util-deprecate
+345 silly mapToRegistry name util-deprecate
+346 silly mapToRegistry using default registry
+347 silly mapToRegistry registry https://registry.npm.taobao.org/
+348 silly mapToRegistry data Result {
+348 silly mapToRegistry   raw: 'util-deprecate',
+348 silly mapToRegistry   scope: null,
+348 silly mapToRegistry   name: 'util-deprecate',
+348 silly mapToRegistry   rawSpec: '',
+348 silly mapToRegistry   spec: 'latest',
+348 silly mapToRegistry   type: 'tag' }
+349 silly mapToRegistry uri https://registry.npm.taobao.org/util-deprecate
+350 verbose request uri https://registry.npm.taobao.org/inherits
+351 verbose request no auth needed
+352 info attempt registry request try #1 at 18:16:42
+353 verbose etag "1eb0-Jm58s90MZLxJeWLlrlGJvQ"
+354 http request GET https://registry.npm.taobao.org/inherits
+355 verbose request uri https://registry.npm.taobao.org/isarray
+356 verbose request no auth needed
+357 info attempt registry request try #1 at 18:16:42
+358 verbose etag "17f7-NFTGLY5JnNfpZ9jncJS+jg"
+359 http request GET https://registry.npm.taobao.org/isarray
+360 verbose request uri https://registry.npm.taobao.org/process-nextick-args
+361 verbose request no auth needed
+362 info attempt registry request try #1 at 18:16:42
+363 verbose etag "279e-8mITo/dTzmgf05VfOM64jA"
+364 http request GET https://registry.npm.taobao.org/process-nextick-args
+365 verbose request uri https://registry.npm.taobao.org/core-util-is
+366 verbose request no auth needed
+367 info attempt registry request try #1 at 18:16:42
+368 verbose etag "f85-qsi1JjRnzPEUnU7xXAufig"
+369 http request GET https://registry.npm.taobao.org/core-util-is
+370 verbose request uri https://registry.npm.taobao.org/util-deprecate
+371 verbose request no auth needed
+372 info attempt registry request try #1 at 18:16:42
+373 verbose etag "1783-0fDeGrTAKb65mDicoVbOlA"
+374 http request GET https://registry.npm.taobao.org/util-deprecate
+375 verbose request uri https://registry.npm.taobao.org/string_decoder
+376 verbose request no auth needed
+377 info attempt registry request try #1 at 18:16:42
+378 verbose etag "25c2-VJVgIHc3ep77gMGMRx5VXg"
+379 http request GET https://registry.npm.taobao.org/string_decoder
+380 http 304 https://registry.npm.taobao.org/process-nextick-args
+381 verbose headers { date: 'Thu, 04 Aug 2016 10:16:42 GMT',
+381 verbose headers   connection: 'keep-alive',
+381 verbose headers   'x-current-requests': '1',
+381 verbose headers   etag: '"279e-8mITo/dTzmgf05VfOM64jA"',
+381 verbose headers   'x-readtime': '11' }
+382 silly get cb [ 304,
+382 silly get   { date: 'Thu, 04 Aug 2016 10:16:42 GMT',
+382 silly get     connection: 'keep-alive',
+382 silly get     'x-current-requests': '1',
+382 silly get     etag: '"279e-8mITo/dTzmgf05VfOM64jA"',
+382 silly get     'x-readtime': '11' } ]
+383 verbose etag https://registry.npm.taobao.org/process-nextick-args from cache
+384 verbose get saving process-nextick-args to /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/registry.npm.taobao.org/process-nextick-args/.cache.json
+385 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+386 silly resolveWithNewModule process-nextick-args@1.0.7 checking installable status
+387 silly cache add args [ 'process-nextick-args@~1.0.6', null ]
+388 verbose cache add spec process-nextick-args@~1.0.6
+389 silly cache add parsed spec Result {
+389 silly cache add   raw: 'process-nextick-args@~1.0.6',
+389 silly cache add   scope: null,
+389 silly cache add   name: 'process-nextick-args',
+389 silly cache add   rawSpec: '~1.0.6',
+389 silly cache add   spec: '>=1.0.6 <1.1.0',
+389 silly cache add   type: 'range' }
+390 silly addNamed process-nextick-args@>=1.0.6 <1.1.0
+391 verbose addNamed ">=1.0.6 <1.1.0" is a valid semver range for process-nextick-args
+392 silly addNameRange { name: 'process-nextick-args',
+392 silly addNameRange   range: '>=1.0.6 <1.1.0',
+392 silly addNameRange   hasData: false }
+393 silly mapToRegistry name process-nextick-args
+394 silly mapToRegistry using default registry
+395 silly mapToRegistry registry https://registry.npm.taobao.org/
+396 silly mapToRegistry data Result {
+396 silly mapToRegistry   raw: 'process-nextick-args',
+396 silly mapToRegistry   scope: null,
+396 silly mapToRegistry   name: 'process-nextick-args',
+396 silly mapToRegistry   rawSpec: '',
+396 silly mapToRegistry   spec: 'latest',
+396 silly mapToRegistry   type: 'tag' }
+397 silly mapToRegistry uri https://registry.npm.taobao.org/process-nextick-args
+398 verbose addNameRange registry:https://registry.npm.taobao.org/process-nextick-args not in flight; fetching
+399 verbose get https://registry.npm.taobao.org/process-nextick-args not expired, no request
+400 silly addNameRange number 2 { name: 'process-nextick-args',
+400 silly addNameRange   range: '>=1.0.6 <1.1.0',
+400 silly addNameRange   hasData: true }
+401 silly addNameRange versions [ 'process-nextick-args',
+401 silly addNameRange   [ '1.0.7',
+401 silly addNameRange     '1.0.6',
+401 silly addNameRange     '1.0.5',
+401 silly addNameRange     '1.0.4',
+401 silly addNameRange     '1.0.3',
+401 silly addNameRange     '1.0.2',
+401 silly addNameRange     '1.0.1',
+401 silly addNameRange     '1.0.0' ] ]
+402 silly addNamed process-nextick-args@1.0.7
+403 verbose addNamed "1.0.7" is a plain semver version for process-nextick-args
+404 silly cache afterAdd process-nextick-args@1.0.7
+405 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/process-nextick-args/1.0.7/package/package.json not in flight; writing
+406 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+407 http 304 https://registry.npm.taobao.org/string_decoder
+408 verbose headers { date: 'Thu, 04 Aug 2016 10:16:42 GMT',
+408 verbose headers   connection: 'keep-alive',
+408 verbose headers   'x-current-requests': '1',
+408 verbose headers   etag: '"25c2-VJVgIHc3ep77gMGMRx5VXg"',
+408 verbose headers   'x-readtime': '14' }
+409 silly get cb [ 304,
+409 silly get   { date: 'Thu, 04 Aug 2016 10:16:42 GMT',
+409 silly get     connection: 'keep-alive',
+409 silly get     'x-current-requests': '1',
+409 silly get     etag: '"25c2-VJVgIHc3ep77gMGMRx5VXg"',
+409 silly get     'x-readtime': '14' } ]
+410 verbose etag https://registry.npm.taobao.org/string_decoder from cache
+411 verbose get saving string_decoder to /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/registry.npm.taobao.org/string_decoder/.cache.json
+412 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+413 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/process-nextick-args/1.0.7/package/package.json written
+414 silly resolveWithNewModule string_decoder@0.10.31 checking installable status
+415 silly cache add args [ 'string_decoder@~0.10.x', null ]
+416 verbose cache add spec string_decoder@~0.10.x
+417 silly cache add parsed spec Result {
+417 silly cache add   raw: 'string_decoder@~0.10.x',
+417 silly cache add   scope: null,
+417 silly cache add   name: 'string_decoder',
+417 silly cache add   rawSpec: '~0.10.x',
+417 silly cache add   spec: '>=0.10.0 <0.11.0',
+417 silly cache add   type: 'range' }
+418 silly addNamed string_decoder@>=0.10.0 <0.11.0
+419 verbose addNamed ">=0.10.0 <0.11.0" is a valid semver range for string_decoder
+420 silly addNameRange { name: 'string_decoder',
+420 silly addNameRange   range: '>=0.10.0 <0.11.0',
+420 silly addNameRange   hasData: false }
+421 silly mapToRegistry name string_decoder
+422 silly mapToRegistry using default registry
+423 silly mapToRegistry registry https://registry.npm.taobao.org/
+424 silly mapToRegistry data Result {
+424 silly mapToRegistry   raw: 'string_decoder',
+424 silly mapToRegistry   scope: null,
+424 silly mapToRegistry   name: 'string_decoder',
+424 silly mapToRegistry   rawSpec: '',
+424 silly mapToRegistry   spec: 'latest',
+424 silly mapToRegistry   type: 'tag' }
+425 silly mapToRegistry uri https://registry.npm.taobao.org/string_decoder
+426 verbose addNameRange registry:https://registry.npm.taobao.org/string_decoder not in flight; fetching
+427 verbose get https://registry.npm.taobao.org/string_decoder not expired, no request
+428 silly addNameRange number 2 { name: 'string_decoder',
+428 silly addNameRange   range: '>=0.10.0 <0.11.0',
+428 silly addNameRange   hasData: true }
+429 silly addNameRange versions [ 'string_decoder',
+429 silly addNameRange   [ '0.10.31',
+429 silly addNameRange     '0.10.25-1',
+429 silly addNameRange     '0.11.10-1',
+429 silly addNameRange     '0.10.25',
+429 silly addNameRange     '0.11.10',
+429 silly addNameRange     '0.10.24',
+429 silly addNameRange     '0.0.1',
+429 silly addNameRange     '0.0.0' ] ]
+430 silly addNamed string_decoder@0.10.31
+431 verbose addNamed "0.10.31" is a plain semver version for string_decoder
+432 silly cache afterAdd string_decoder@0.10.31
+433 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/string_decoder/0.10.31/package/package.json not in flight; writing
+434 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+435 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/string_decoder/0.10.31/package/package.json written
+436 http 304 https://registry.npm.taobao.org/util-deprecate
+437 verbose headers { date: 'Thu, 04 Aug 2016 10:16:42 GMT',
+437 verbose headers   connection: 'keep-alive',
+437 verbose headers   'x-current-requests': '1',
+437 verbose headers   etag: '"1783-0fDeGrTAKb65mDicoVbOlA"',
+437 verbose headers   'x-readtime': '18' }
+438 silly get cb [ 304,
+438 silly get   { date: 'Thu, 04 Aug 2016 10:16:42 GMT',
+438 silly get     connection: 'keep-alive',
+438 silly get     'x-current-requests': '1',
+438 silly get     etag: '"1783-0fDeGrTAKb65mDicoVbOlA"',
+438 silly get     'x-readtime': '18' } ]
+439 verbose etag https://registry.npm.taobao.org/util-deprecate from cache
+440 verbose get saving util-deprecate to /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/registry.npm.taobao.org/util-deprecate/.cache.json
+441 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+442 http 304 https://registry.npm.taobao.org/inherits
+443 verbose headers { date: 'Thu, 04 Aug 2016 10:16:42 GMT',
+443 verbose headers   connection: 'keep-alive',
+443 verbose headers   'x-current-requests': '1',
+443 verbose headers   etag: '"1eb0-Jm58s90MZLxJeWLlrlGJvQ"',
+443 verbose headers   'x-readtime': '13' }
+444 silly get cb [ 304,
+444 silly get   { date: 'Thu, 04 Aug 2016 10:16:42 GMT',
+444 silly get     connection: 'keep-alive',
+444 silly get     'x-current-requests': '1',
+444 silly get     etag: '"1eb0-Jm58s90MZLxJeWLlrlGJvQ"',
+444 silly get     'x-readtime': '13' } ]
+445 verbose etag https://registry.npm.taobao.org/inherits from cache
+446 verbose get saving inherits to /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/registry.npm.taobao.org/inherits/.cache.json
+447 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+448 http 304 https://registry.npm.taobao.org/core-util-is
+449 verbose headers { date: 'Thu, 04 Aug 2016 10:16:42 GMT',
+449 verbose headers   connection: 'keep-alive',
+449 verbose headers   'x-current-requests': '1',
+449 verbose headers   etag: '"f85-qsi1JjRnzPEUnU7xXAufig"',
+449 verbose headers   'x-readtime': '20' }
+450 silly get cb [ 304,
+450 silly get   { date: 'Thu, 04 Aug 2016 10:16:42 GMT',
+450 silly get     connection: 'keep-alive',
+450 silly get     'x-current-requests': '1',
+450 silly get     etag: '"f85-qsi1JjRnzPEUnU7xXAufig"',
+450 silly get     'x-readtime': '20' } ]
+451 verbose etag https://registry.npm.taobao.org/core-util-is from cache
+452 verbose get saving core-util-is to /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/registry.npm.taobao.org/core-util-is/.cache.json
+453 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+454 silly resolveWithNewModule inherits@2.0.1 checking installable status
+455 silly cache add args [ 'inherits@~2.0.1', null ]
+456 verbose cache add spec inherits@~2.0.1
+457 silly cache add parsed spec Result {
+457 silly cache add   raw: 'inherits@~2.0.1',
+457 silly cache add   scope: null,
+457 silly cache add   name: 'inherits',
+457 silly cache add   rawSpec: '~2.0.1',
+457 silly cache add   spec: '>=2.0.1 <2.1.0',
+457 silly cache add   type: 'range' }
+458 silly addNamed inherits@>=2.0.1 <2.1.0
+459 verbose addNamed ">=2.0.1 <2.1.0" is a valid semver range for inherits
+460 silly addNameRange { name: 'inherits', range: '>=2.0.1 <2.1.0', hasData: false }
+461 silly mapToRegistry name inherits
+462 silly mapToRegistry using default registry
+463 silly mapToRegistry registry https://registry.npm.taobao.org/
+464 silly mapToRegistry data Result {
+464 silly mapToRegistry   raw: 'inherits',
+464 silly mapToRegistry   scope: null,
+464 silly mapToRegistry   name: 'inherits',
+464 silly mapToRegistry   rawSpec: '',
+464 silly mapToRegistry   spec: 'latest',
+464 silly mapToRegistry   type: 'tag' }
+465 silly mapToRegistry uri https://registry.npm.taobao.org/inherits
+466 verbose addNameRange registry:https://registry.npm.taobao.org/inherits not in flight; fetching
+467 silly resolveWithNewModule util-deprecate@1.0.2 checking installable status
+468 silly cache add args [ 'util-deprecate@~1.0.1', null ]
+469 verbose cache add spec util-deprecate@~1.0.1
+470 silly cache add parsed spec Result {
+470 silly cache add   raw: 'util-deprecate@~1.0.1',
+470 silly cache add   scope: null,
+470 silly cache add   name: 'util-deprecate',
+470 silly cache add   rawSpec: '~1.0.1',
+470 silly cache add   spec: '>=1.0.1 <1.1.0',
+470 silly cache add   type: 'range' }
+471 silly addNamed util-deprecate@>=1.0.1 <1.1.0
+472 verbose addNamed ">=1.0.1 <1.1.0" is a valid semver range for util-deprecate
+473 silly addNameRange { name: 'util-deprecate',
+473 silly addNameRange   range: '>=1.0.1 <1.1.0',
+473 silly addNameRange   hasData: false }
+474 silly mapToRegistry name util-deprecate
+475 silly mapToRegistry using default registry
+476 silly mapToRegistry registry https://registry.npm.taobao.org/
+477 silly mapToRegistry data Result {
+477 silly mapToRegistry   raw: 'util-deprecate',
+477 silly mapToRegistry   scope: null,
+477 silly mapToRegistry   name: 'util-deprecate',
+477 silly mapToRegistry   rawSpec: '',
+477 silly mapToRegistry   spec: 'latest',
+477 silly mapToRegistry   type: 'tag' }
+478 silly mapToRegistry uri https://registry.npm.taobao.org/util-deprecate
+479 verbose addNameRange registry:https://registry.npm.taobao.org/util-deprecate not in flight; fetching
+480 silly resolveWithNewModule core-util-is@1.0.2 checking installable status
+481 silly cache add args [ 'core-util-is@~1.0.0', null ]
+482 verbose cache add spec core-util-is@~1.0.0
+483 silly cache add parsed spec Result {
+483 silly cache add   raw: 'core-util-is@~1.0.0',
+483 silly cache add   scope: null,
+483 silly cache add   name: 'core-util-is',
+483 silly cache add   rawSpec: '~1.0.0',
+483 silly cache add   spec: '>=1.0.0 <1.1.0',
+483 silly cache add   type: 'range' }
+484 silly addNamed core-util-is@>=1.0.0 <1.1.0
+485 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for core-util-is
+486 silly addNameRange { name: 'core-util-is', range: '>=1.0.0 <1.1.0', hasData: false }
+487 silly mapToRegistry name core-util-is
+488 silly mapToRegistry using default registry
+489 silly mapToRegistry registry https://registry.npm.taobao.org/
+490 silly mapToRegistry data Result {
+490 silly mapToRegistry   raw: 'core-util-is',
+490 silly mapToRegistry   scope: null,
+490 silly mapToRegistry   name: 'core-util-is',
+490 silly mapToRegistry   rawSpec: '',
+490 silly mapToRegistry   spec: 'latest',
+490 silly mapToRegistry   type: 'tag' }
+491 silly mapToRegistry uri https://registry.npm.taobao.org/core-util-is
+492 verbose addNameRange registry:https://registry.npm.taobao.org/core-util-is not in flight; fetching
+493 verbose get https://registry.npm.taobao.org/inherits not expired, no request
+494 silly addNameRange number 2 { name: 'inherits', range: '>=2.0.1 <2.1.0', hasData: true }
+495 silly addNameRange versions [ 'inherits', [ '1.0.2', '1.0.1', '2.0.1', '2.0.0', '1.0.0' ] ]
+496 silly addNamed inherits@2.0.1
+497 verbose addNamed "2.0.1" is a plain semver version for inherits
+498 verbose get https://registry.npm.taobao.org/util-deprecate not expired, no request
+499 silly addNameRange number 2 { name: 'util-deprecate',
+499 silly addNameRange   range: '>=1.0.1 <1.1.0',
+499 silly addNameRange   hasData: true }
+500 silly addNameRange versions [ 'util-deprecate', [ '1.0.2', '1.0.1', '1.0.0' ] ]
+501 silly addNamed util-deprecate@1.0.2
+502 verbose addNamed "1.0.2" is a plain semver version for util-deprecate
+503 verbose get https://registry.npm.taobao.org/core-util-is not expired, no request
+504 silly addNameRange number 2 { name: 'core-util-is', range: '>=1.0.0 <1.1.0', hasData: true }
+505 silly addNameRange versions [ 'core-util-is', [ '1.0.2', '1.0.1', '1.0.0' ] ]
+506 silly addNamed core-util-is@1.0.2
+507 verbose addNamed "1.0.2" is a plain semver version for core-util-is
+508 silly cache afterAdd inherits@2.0.1
+509 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/inherits/2.0.1/package/package.json not in flight; writing
+510 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+511 silly cache afterAdd util-deprecate@1.0.2
+512 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/util-deprecate/1.0.2/package/package.json not in flight; writing
+513 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+514 silly cache afterAdd core-util-is@1.0.2
+515 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/core-util-is/1.0.2/package/package.json not in flight; writing
+516 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+517 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/util-deprecate/1.0.2/package/package.json written
+518 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/inherits/2.0.1/package/package.json written
+519 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/core-util-is/1.0.2/package/package.json written
+520 http 304 https://registry.npm.taobao.org/isarray
+521 verbose headers { date: 'Thu, 04 Aug 2016 10:16:43 GMT',
+521 verbose headers   connection: 'keep-alive',
+521 verbose headers   'x-current-requests': '1',
+521 verbose headers   etag: '"17f7-NFTGLY5JnNfpZ9jncJS+jg"',
+521 verbose headers   'x-readtime': '12' }
+522 silly get cb [ 304,
+522 silly get   { date: 'Thu, 04 Aug 2016 10:16:43 GMT',
+522 silly get     connection: 'keep-alive',
+522 silly get     'x-current-requests': '1',
+522 silly get     etag: '"17f7-NFTGLY5JnNfpZ9jncJS+jg"',
+522 silly get     'x-readtime': '12' } ]
+523 verbose etag https://registry.npm.taobao.org/isarray from cache
+524 verbose get saving isarray to /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/registry.npm.taobao.org/isarray/.cache.json
+525 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+526 silly resolveWithNewModule isarray@1.0.0 checking installable status
+527 silly cache add args [ 'isarray@~1.0.0', null ]
+528 verbose cache add spec isarray@~1.0.0
+529 silly cache add parsed spec Result {
+529 silly cache add   raw: 'isarray@~1.0.0',
+529 silly cache add   scope: null,
+529 silly cache add   name: 'isarray',
+529 silly cache add   rawSpec: '~1.0.0',
+529 silly cache add   spec: '>=1.0.0 <1.1.0',
+529 silly cache add   type: 'range' }
+530 silly addNamed isarray@>=1.0.0 <1.1.0
+531 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for isarray
+532 silly addNameRange { name: 'isarray', range: '>=1.0.0 <1.1.0', hasData: false }
+533 silly mapToRegistry name isarray
+534 silly mapToRegistry using default registry
+535 silly mapToRegistry registry https://registry.npm.taobao.org/
+536 silly mapToRegistry data Result {
+536 silly mapToRegistry   raw: 'isarray',
+536 silly mapToRegistry   scope: null,
+536 silly mapToRegistry   name: 'isarray',
+536 silly mapToRegistry   rawSpec: '',
+536 silly mapToRegistry   spec: 'latest',
+536 silly mapToRegistry   type: 'tag' }
+537 silly mapToRegistry uri https://registry.npm.taobao.org/isarray
+538 verbose addNameRange registry:https://registry.npm.taobao.org/isarray not in flight; fetching
+539 verbose get https://registry.npm.taobao.org/isarray not expired, no request
+540 silly addNameRange number 2 { name: 'isarray', range: '>=1.0.0 <1.1.0', hasData: true }
+541 silly addNameRange versions [ 'isarray', [ '1.0.0', '0.0.1', '0.0.0' ] ]
+542 silly addNamed isarray@1.0.0
+543 verbose addNamed "1.0.0" is a plain semver version for isarray
+544 silly cache afterAdd isarray@1.0.0
+545 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/isarray/1.0.0/package/package.json not in flight; writing
+546 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+547 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/isarray/1.0.0/package/package.json written
+548 silly fetchNamedPackageData escape-string-regexp
+549 silly mapToRegistry name escape-string-regexp
+550 silly mapToRegistry using default registry
+551 silly mapToRegistry registry https://registry.npm.taobao.org/
+552 silly mapToRegistry data Result {
+552 silly mapToRegistry   raw: 'escape-string-regexp',
+552 silly mapToRegistry   scope: null,
+552 silly mapToRegistry   name: 'escape-string-regexp',
+552 silly mapToRegistry   rawSpec: '',
+552 silly mapToRegistry   spec: 'latest',
+552 silly mapToRegistry   type: 'tag' }
+553 silly mapToRegistry uri https://registry.npm.taobao.org/escape-string-regexp
+554 silly fetchNamedPackageData object-assign
+555 silly mapToRegistry name object-assign
+556 silly mapToRegistry using default registry
+557 silly mapToRegistry registry https://registry.npm.taobao.org/
+558 silly mapToRegistry data Result {
+558 silly mapToRegistry   raw: 'object-assign',
+558 silly mapToRegistry   scope: null,
+558 silly mapToRegistry   name: 'object-assign',
+558 silly mapToRegistry   rawSpec: '',
+558 silly mapToRegistry   spec: 'latest',
+558 silly mapToRegistry   type: 'tag' }
+559 silly mapToRegistry uri https://registry.npm.taobao.org/object-assign
+560 silly fetchNamedPackageData readable-stream
+561 silly mapToRegistry name readable-stream
+562 silly mapToRegistry using default registry
+563 silly mapToRegistry registry https://registry.npm.taobao.org/
+564 silly mapToRegistry data Result {
+564 silly mapToRegistry   raw: 'readable-stream',
+564 silly mapToRegistry   scope: null,
+564 silly mapToRegistry   name: 'readable-stream',
+564 silly mapToRegistry   rawSpec: '',
+564 silly mapToRegistry   spec: 'latest',
+564 silly mapToRegistry   type: 'tag' }
+565 silly mapToRegistry uri https://registry.npm.taobao.org/readable-stream
+566 verbose request uri https://registry.npm.taobao.org/object-assign
+567 verbose request no auth needed
+568 info attempt registry request try #1 at 18:16:43
+569 verbose etag "5d9b-RCKz/fhHz9+SH2cIg1Hxjw"
+570 http request GET https://registry.npm.taobao.org/object-assign
+571 verbose request uri https://registry.npm.taobao.org/escape-string-regexp
+572 verbose request no auth needed
+573 info attempt registry request try #1 at 18:16:43
+574 verbose etag "24ab-CPgPItOzZrsM53Krql0pFA"
+575 http request GET https://registry.npm.taobao.org/escape-string-regexp
+576 http 304 https://registry.npm.taobao.org/escape-string-regexp
+577 verbose headers { date: 'Thu, 04 Aug 2016 10:16:43 GMT',
+577 verbose headers   connection: 'keep-alive',
+577 verbose headers   'x-current-requests': '1',
+577 verbose headers   etag: '"24ab-CPgPItOzZrsM53Krql0pFA"',
+577 verbose headers   'x-readtime': '15' }
+578 silly get cb [ 304,
+578 silly get   { date: 'Thu, 04 Aug 2016 10:16:43 GMT',
+578 silly get     connection: 'keep-alive',
+578 silly get     'x-current-requests': '1',
+578 silly get     etag: '"24ab-CPgPItOzZrsM53Krql0pFA"',
+578 silly get     'x-readtime': '15' } ]
+579 verbose etag https://registry.npm.taobao.org/escape-string-regexp from cache
+580 verbose get saving escape-string-regexp to /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/registry.npm.taobao.org/escape-string-regexp/.cache.json
+581 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+582 silly resolveWithNewModule escape-string-regexp@1.0.5 checking installable status
+583 silly cache add args [ 'escape-string-regexp@^1.0.3', null ]
+584 verbose cache add spec escape-string-regexp@^1.0.3
+585 silly cache add parsed spec Result {
+585 silly cache add   raw: 'escape-string-regexp@^1.0.3',
+585 silly cache add   scope: null,
+585 silly cache add   name: 'escape-string-regexp',
+585 silly cache add   rawSpec: '^1.0.3',
+585 silly cache add   spec: '>=1.0.3 <2.0.0',
+585 silly cache add   type: 'range' }
+586 silly addNamed escape-string-regexp@>=1.0.3 <2.0.0
+587 verbose addNamed ">=1.0.3 <2.0.0" is a valid semver range for escape-string-regexp
+588 silly addNameRange { name: 'escape-string-regexp',
+588 silly addNameRange   range: '>=1.0.3 <2.0.0',
+588 silly addNameRange   hasData: false }
+589 silly mapToRegistry name escape-string-regexp
+590 silly mapToRegistry using default registry
+591 silly mapToRegistry registry https://registry.npm.taobao.org/
+592 silly mapToRegistry data Result {
+592 silly mapToRegistry   raw: 'escape-string-regexp',
+592 silly mapToRegistry   scope: null,
+592 silly mapToRegistry   name: 'escape-string-regexp',
+592 silly mapToRegistry   rawSpec: '',
+592 silly mapToRegistry   spec: 'latest',
+592 silly mapToRegistry   type: 'tag' }
+593 silly mapToRegistry uri https://registry.npm.taobao.org/escape-string-regexp
+594 verbose addNameRange registry:https://registry.npm.taobao.org/escape-string-regexp not in flight; fetching
+595 verbose get https://registry.npm.taobao.org/escape-string-regexp not expired, no request
+596 silly addNameRange number 2 { name: 'escape-string-regexp',
+596 silly addNameRange   range: '>=1.0.3 <2.0.0',
+596 silly addNameRange   hasData: true }
+597 silly addNameRange versions [ 'escape-string-regexp',
+597 silly addNameRange   [ '1.0.5', '1.0.4', '1.0.3', '1.0.2', '1.0.1', '1.0.0' ] ]
+598 silly addNamed escape-string-regexp@1.0.5
+599 verbose addNamed "1.0.5" is a plain semver version for escape-string-regexp
+600 silly cache afterAdd escape-string-regexp@1.0.5
+601 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/escape-string-regexp/1.0.5/package/package.json not in flight; writing
+602 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+603 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/escape-string-regexp/1.0.5/package/package.json written
+604 http 304 https://registry.npm.taobao.org/object-assign
+605 verbose headers { date: 'Thu, 04 Aug 2016 10:16:44 GMT',
+605 verbose headers   connection: 'keep-alive',
+605 verbose headers   'x-current-requests': '1',
+605 verbose headers   etag: '"5d9b-RCKz/fhHz9+SH2cIg1Hxjw"',
+605 verbose headers   'x-readtime': '23' }
+606 silly get cb [ 304,
+606 silly get   { date: 'Thu, 04 Aug 2016 10:16:44 GMT',
+606 silly get     connection: 'keep-alive',
+606 silly get     'x-current-requests': '1',
+606 silly get     etag: '"5d9b-RCKz/fhHz9+SH2cIg1Hxjw"',
+606 silly get     'x-readtime': '23' } ]
+607 verbose etag https://registry.npm.taobao.org/object-assign from cache
+608 verbose get saving object-assign to /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/registry.npm.taobao.org/object-assign/.cache.json
+609 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+610 silly resolveWithNewModule object-assign@3.0.0 checking installable status
+611 silly cache add args [ 'object-assign@^3.0.0', null ]
+612 verbose cache add spec object-assign@^3.0.0
+613 silly cache add parsed spec Result {
+613 silly cache add   raw: 'object-assign@^3.0.0',
+613 silly cache add   scope: null,
+613 silly cache add   name: 'object-assign',
+613 silly cache add   rawSpec: '^3.0.0',
+613 silly cache add   spec: '>=3.0.0 <4.0.0',
+613 silly cache add   type: 'range' }
+614 silly addNamed object-assign@>=3.0.0 <4.0.0
+615 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for object-assign
+616 silly addNameRange { name: 'object-assign',
+616 silly addNameRange   range: '>=3.0.0 <4.0.0',
+616 silly addNameRange   hasData: false }
+617 silly mapToRegistry name object-assign
+618 silly mapToRegistry using default registry
+619 silly mapToRegistry registry https://registry.npm.taobao.org/
+620 silly mapToRegistry data Result {
+620 silly mapToRegistry   raw: 'object-assign',
+620 silly mapToRegistry   scope: null,
+620 silly mapToRegistry   name: 'object-assign',
+620 silly mapToRegistry   rawSpec: '',
+620 silly mapToRegistry   spec: 'latest',
+620 silly mapToRegistry   type: 'tag' }
+621 silly mapToRegistry uri https://registry.npm.taobao.org/object-assign
+622 verbose addNameRange registry:https://registry.npm.taobao.org/object-assign not in flight; fetching
+623 verbose get https://registry.npm.taobao.org/object-assign not expired, no request
+624 silly addNameRange number 2 { name: 'object-assign', range: '>=3.0.0 <4.0.0', hasData: true }
+625 silly addNameRange versions [ 'object-assign',
+625 silly addNameRange   [ '4.1.0',
+625 silly addNameRange     '4.0.1',
+625 silly addNameRange     '4.0.0',
+625 silly addNameRange     '2.1.1',
+625 silly addNameRange     '3.0.0',
+625 silly addNameRange     '2.0.0',
+625 silly addNameRange     '1.0.0',
+625 silly addNameRange     '0.4.0',
+625 silly addNameRange     '0.3.1',
+625 silly addNameRange     '0.3.0',
+625 silly addNameRange     '0.2.2',
+625 silly addNameRange     '0.2.1',
+625 silly addNameRange     '0.2.0',
+625 silly addNameRange     '0.1.2',
+625 silly addNameRange     '0.1.1',
+625 silly addNameRange     '0.1.0' ] ]
+626 silly addNamed object-assign@3.0.0
+627 verbose addNamed "3.0.0" is a plain semver version for object-assign
+628 silly cache afterAdd object-assign@3.0.0
+629 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/object-assign/3.0.0/package/package.json not in flight; writing
+630 verbose correctMkdir /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm correctMkdir not in flight; initializing
+631 verbose afterAdd /Users/hywanliyuan/Documents/WLY/githubio/createTable/.npm/object-assign/3.0.0/package/package.json written
+632 silly fetchNamedPackageData core-util-is
+633 silly mapToRegistry name core-util-is
+634 silly mapToRegistry using default registry
+635 silly mapToRegistry registry https://registry.npm.taobao.org/
+636 silly mapToRegistry data Result {
+636 silly mapToRegistry   raw: 'core-util-is',
+636 silly mapToRegistry   scope: null,
+636 silly mapToRegistry   name: 'core-util-is',
+636 silly mapToRegistry   rawSpec: '',
+636 silly mapToRegistry   spec: 'latest',
+636 silly mapToRegistry   type: 'tag' }
+637 silly mapToRegistry uri https://registry.npm.taobao.org/core-util-is
+638 silly fetchNamedPackageData inherits
+639 silly mapToRegistry name inherits
+640 silly mapToRegistry using default registry
+641 silly mapToRegistry registry https://registry.npm.taobao.org/
+642 silly mapToRegistry data Result {
+642 silly mapToRegistry   raw: 'inherits',
+642 silly mapToRegistry   scope: null,
+642 silly mapToRegistry   name: 'inherits',
+642 silly mapToRegistry   rawSpec: '',
+642 silly mapToRegistry   spec: 'latest',
+642 silly mapToRegistry   type: 'tag' }
+643 silly mapToRegistry uri https://registry.npm.taobao.org/inherits
+644 silly fetchNamedPackageData isarray
+645 silly mapToRegistry name isarray
+646 silly mapToRegistry using default registry
+647 silly mapToRegistry registry https://registry.npm.taobao.org/
+648 silly mapToRegistry data Result {
+648 silly mapToRegistry   raw: 'isarray',
+648 silly mapToRegistry   scope: null,
+648 silly mapToRegistry   name: 'isarray',
+648 silly mapToRegistry   rawSpec: '',
+648 silly mapToRegistry   spec: 'latest',
+648 silly mapToRegistry   type: 'tag' }
+649 silly mapToRegistry uri https://registry.npm.taobao.org/isarray
+650 silly fetchNamedPackageData process-nextick-args
+651 silly mapToRegistry name process-nextick-args
+652 silly mapToRegistry using default registry
+653 silly mapToRegistry registry https://registry.npm.taobao.org/
+654 silly mapToRegistry data Result {
+654 silly mapToRegistry   raw: 'process-nextick-args',
+654 silly mapToRegistry   scope: null,
+654 silly mapToRegistry   name: 'process-nextick-args',
+654 silly mapToRegistry   rawSpec: '',
+654 silly mapToRegistry   spec: 'latest',
+654 silly mapToRegistry   type: 'tag' }
+655 silly mapToRegistry uri https://registry.npm.taobao.org/process-nextick-args
+656 silly fetchNamedPackageData string_decoder
+657 silly mapToRegistry name string_decoder
+658 silly mapToRegistry using default registry
+659 silly mapToRegistry registry https://registry.npm.taobao.org/
+660 silly mapToRegistry data Result {
+660 silly mapToRegistry   raw: 'string_decoder',
+660 silly mapToRegistry   scope: null,
+660 silly mapToRegistry   name: 'string_decoder',
+660 silly mapToRegistry   rawSpec: '',
+660 silly mapToRegistry   spec: 'latest',
+660 silly mapToRegistry   type: 'tag' }
+661 silly mapToRegistry uri https://registry.npm.taobao.org/string_decoder
+662 silly fetchNamedPackageData util-deprecate
+663 silly mapToRegistry name util-deprecate
+664 silly mapToRegistry using default registry
+665 silly mapToRegistry registry https://registry.npm.taobao.org/
+666 silly mapToRegistry data Result {
+666 silly mapToRegistry   raw: 'util-deprecate',
+666 silly mapToRegistry   scope: null,
+666 silly mapToRegistry   name: 'util-deprecate',
+666 silly mapToRegistry   rawSpec: '',
+666 silly mapToRegistry   spec: 'latest',
+666 silly mapToRegistry   type: 'tag' }
+667 silly mapToRegistry uri https://registry.npm.taobao.org/util-deprecate
+668 silly loadAllDepsIntoIdealTree Finishing
+669 silly idealTree:prePrune createtb2@0.0.1
+669 silly idealTree:prePrune ├── abbrev
+669 silly idealTree:prePrune ├── amdefine@1.0.0
+669 silly idealTree:prePrune ├── ansi-regex
+669 silly idealTree:prePrune ├── ansi-styles
+669 silly idealTree:prePrune ├── aproba
+669 silly idealTree:prePrune ├── are-we-there-yet
+669 silly idealTree:prePrune ├── array-differ
+669 silly idealTree:prePrune ├── array-find-index
+669 silly idealTree:prePrune ├── array-index
+669 silly idealTree:prePrune ├── array-uniq
+669 silly idealTree:prePrune ├── asn1
+669 silly idealTree:prePrune ├── assert-plus
+669 silly idealTree:prePrune ├── async
+669 silly idealTree:prePrune ├── async-foreach
+669 silly idealTree:prePrune ├── autoprefixer@6.4.0
+669 silly idealTree:prePrune ├── aws-sign2
+669 silly idealTree:prePrune ├── aws4
+669 silly idealTree:prePrune ├── balanced-match
+669 silly idealTree:prePrune ├── beeper
+669 silly idealTree:prePrune ├── binaryextensions@1.0.1
+669 silly idealTree:prePrune ├── boom
+669 silly idealTree:prePrune ├── brace-expansion
+669 silly idealTree:prePrune ├── browserslist@1.3.5
+669 silly idealTree:prePrune ├── buffer-shims@1.0.0
+669 silly idealTree:prePrune ├─┬ bufferstreams@1.0.1
+669 silly idealTree:prePrune │ ├── core-util-is@1.0.2
+669 silly idealTree:prePrune │ ├── inherits@2.0.1
+669 silly idealTree:prePrune │ ├── isarray@0.0.1
+669 silly idealTree:prePrune │ ├── readable-stream@1.1.14
+669 silly idealTree:prePrune │ └── string_decoder@0.10.31
+669 silly idealTree:prePrune ├── builtin-modules
+669 silly idealTree:prePrune ├── camelcase
+669 silly idealTree:prePrune ├── camelcase-keys
+669 silly idealTree:prePrune ├── caniuse-db@1.0.30000516
+669 silly idealTree:prePrune ├── caseless
+669 silly idealTree:prePrune ├── chalk
+669 silly idealTree:prePrune ├─┬ clean-css@3.4.19
+669 silly idealTree:prePrune │ ├── commander@2.8.1
+669 silly idealTree:prePrune │ ├── graceful-readlink@1.0.1
+669 silly idealTree:prePrune │ └── source-map@0.4.4
+669 silly idealTree:prePrune ├── cliui
+669 silly idealTree:prePrune ├── clone
+669 silly idealTree:prePrune ├── clone-stats
+669 silly idealTree:prePrune ├── code-point-at
+669 silly idealTree:prePrune ├── combined-stream
+669 silly idealTree:prePrune ├── commander
+669 silly idealTree:prePrune ├── concat-map
+669 silly idealTree:prePrune ├── console-control-strings
+669 silly idealTree:prePrune ├── convert-source-map@1.3.0
+669 silly idealTree:prePrune ├── core-util-is
+669 silly idealTree:prePrune ├── cross-spawn
+669 silly idealTree:prePrune ├── cryptiles
+669 silly idealTree:prePrune ├── currently-unhandled
+669 silly idealTree:prePrune ├── d
+669 silly idealTree:prePrune ├── dargs@5.0.1
+669 silly idealTree:prePrune ├── dateformat
+669 silly idealTree:prePrune ├── debug
+669 silly idealTree:prePrune ├── decamelize
+669 silly idealTree:prePrune ├── deepcopy@0.5.0
+669 silly idealTree:prePrune ├── delayed-stream
+669 silly idealTree:prePrune ├── delegates
+669 silly idealTree:prePrune ├── duplexer2
+669 silly idealTree:prePrune ├── ecc-jsbn
+669 silly idealTree:prePrune ├── error-ex
+669 silly idealTree:prePrune ├── es5-ext
+669 silly idealTree:prePrune ├── es6-iterator
+669 silly idealTree:prePrune ├── es6-symbol
+669 silly idealTree:prePrune ├── escape-string-regexp
+669 silly idealTree:prePrune ├── extend
+669 silly idealTree:prePrune ├── extsprintf
+669 silly idealTree:prePrune ├── fancy-log
+669 silly idealTree:prePrune ├── find-up
+669 silly idealTree:prePrune ├── forever-agent
+669 silly idealTree:prePrune ├── form-data
+669 silly idealTree:prePrune ├── fs.realpath
+669 silly idealTree:prePrune ├── fstream
+669 silly idealTree:prePrune ├── gaze
+669 silly idealTree:prePrune ├── generate-function
+669 silly idealTree:prePrune ├── generate-object-property
+669 silly idealTree:prePrune ├── get-caller-file
+669 silly idealTree:prePrune ├── get-stdin
+669 silly idealTree:prePrune ├── glob
+669 silly idealTree:prePrune ├── globule
+669 silly idealTree:prePrune ├── glogg
+669 silly idealTree:prePrune ├── graceful-fs
+669 silly idealTree:prePrune ├── graceful-readlink
+669 silly idealTree:prePrune ├─┬ gulp-autoprefixer@3.1.0
+669 silly idealTree:prePrune │ ├── ansi-regex@2.0.0
+669 silly idealTree:prePrune │ ├── ansi-styles@2.2.1
+669 silly idealTree:prePrune │ ├── array-differ@1.0.0
+669 silly idealTree:prePrune │ ├── array-find-index@1.0.1
+669 silly idealTree:prePrune │ ├── array-uniq@1.0.3
+669 silly idealTree:prePrune │ ├── beeper@1.1.0
+669 silly idealTree:prePrune │ ├── builtin-modules@1.1.1
+669 silly idealTree:prePrune │ ├── camelcase-keys@2.1.0
+669 silly idealTree:prePrune │ ├── camelcase@2.1.1
+669 silly idealTree:prePrune │ ├── chalk@1.1.3
+669 silly idealTree:prePrune │ ├── clone-stats@0.0.1
+669 silly idealTree:prePrune │ ├── clone@1.0.2
+669 silly idealTree:prePrune │ ├── core-util-is@1.0.2
+669 silly idealTree:prePrune │ ├── currently-unhandled@0.4.1
+669 silly idealTree:prePrune │ ├── dateformat@1.0.12
+669 silly idealTree:prePrune │ ├── decamelize@1.2.0
+669 silly idealTree:prePrune │ ├── duplexer2@0.0.2
+669 silly idealTree:prePrune │ ├── error-ex@1.3.0
+669 silly idealTree:prePrune │ ├── escape-string-regexp@1.0.5
+669 silly idealTree:prePrune │ ├── fancy-log@1.2.0
+669 silly idealTree:prePrune │ ├── find-up@1.1.2
+669 silly idealTree:prePrune │ ├── get-stdin@4.0.1
+669 silly idealTree:prePrune │ ├── glogg@1.0.0
+669 silly idealTree:prePrune │ ├── graceful-fs@4.1.5
+669 silly idealTree:prePrune │ ├── gulp-util@3.0.7
+669 silly idealTree:prePrune │ ├── gulplog@1.0.0
+669 silly idealTree:prePrune │ ├── has-ansi@2.0.0
+669 silly idealTree:prePrune │ ├── has-gulplog@0.1.0
+669 silly idealTree:prePrune │ ├── hosted-git-info@2.1.5
+669 silly idealTree:prePrune │ ├── indent-string@2.1.0
+669 silly idealTree:prePrune │ ├── inherits@2.0.1
+669 silly idealTree:prePrune │ ├── is-arrayish@0.2.1
+669 silly idealTree:prePrune │ ├── is-builtin-module@1.0.0
+669 silly idealTree:prePrune │ ├── is-finite@1.0.1
+669 silly idealTree:prePrune │ ├── is-utf8@0.2.1
+669 silly idealTree:prePrune │ ├── isarray@0.0.1
+669 silly idealTree:prePrune │ ├── load-json-file@1.1.0
+669 silly idealTree:prePrune │ ├── lodash._basecopy@3.0.1
+669 silly idealTree:prePrune │ ├── lodash._basetostring@3.0.1
+669 silly idealTree:prePrune │ ├── lodash._basevalues@3.0.0
+669 silly idealTree:prePrune │ ├── lodash._getnative@3.9.1
+669 silly idealTree:prePrune │ ├── lodash._isiterateecall@3.0.9
+669 silly idealTree:prePrune │ ├── lodash._reescape@3.0.0
+669 silly idealTree:prePrune │ ├── lodash._reevaluate@3.0.0
+669 silly idealTree:prePrune │ ├── lodash._reinterpolate@3.0.0
+669 silly idealTree:prePrune │ ├── lodash._root@3.0.1
+669 silly idealTree:prePrune │ ├── lodash.escape@3.2.0
+669 silly idealTree:prePrune │ ├── lodash.isarguments@3.0.9
+669 silly idealTree:prePrune │ ├── lodash.isarray@3.0.4
+669 silly idealTree:prePrune │ ├── lodash.keys@3.1.2
+669 silly idealTree:prePrune │ ├── lodash.restparam@3.6.1
+669 silly idealTree:prePrune │ ├── lodash.template@3.6.2
+669 silly idealTree:prePrune │ ├── lodash.templatesettings@3.1.1
+669 silly idealTree:prePrune │ ├── loud-rejection@1.6.0
+669 silly idealTree:prePrune │ ├── map-obj@1.0.1
+669 silly idealTree:prePrune │ ├─┬ meow@3.7.0
+669 silly idealTree:prePrune │ │ └── object-assign@4.1.0
+669 silly idealTree:prePrune │ ├── minimist@1.2.0
+669 silly idealTree:prePrune │ ├── multipipe@0.1.2
+669 silly idealTree:prePrune │ ├── normalize-package-data@2.3.5
+669 silly idealTree:prePrune │ ├── number-is-nan@1.0.0
+669 silly idealTree:prePrune │ ├── object-assign@3.0.0
+669 silly idealTree:prePrune │ ├── parse-json@2.2.0
+669 silly idealTree:prePrune │ ├── path-exists@2.1.0
+669 silly idealTree:prePrune │ ├── path-type@1.1.0
+669 silly idealTree:prePrune │ ├── pify@2.3.0
+669 silly idealTree:prePrune │ ├── pinkie-promise@2.0.1
+669 silly idealTree:prePrune │ ├── pinkie@2.0.4
+669 silly idealTree:prePrune │ ├── read-pkg-up@1.0.1
+669 silly idealTree:prePrune │ ├── read-pkg@1.1.0
+669 silly idealTree:prePrune │ ├── readable-stream@1.1.14
+669 silly idealTree:prePrune │ ├── redent@1.0.0
+669 silly idealTree:prePrune │ ├── repeating@2.0.1
+669 silly idealTree:prePrune │ ├── replace-ext@0.0.1
+669 silly idealTree:prePrune │ ├── semver@5.3.0
+669 silly idealTree:prePrune │ ├── signal-exit@3.0.0
+669 silly idealTree:prePrune │ ├── source-map@0.5.6
+669 silly idealTree:prePrune │ ├── sparkles@1.0.0
+669 silly idealTree:prePrune │ ├── spdx-correct@1.0.2
+669 silly idealTree:prePrune │ ├── spdx-exceptions@1.0.5
+669 silly idealTree:prePrune │ ├── spdx-expression-parse@1.0.2
+669 silly idealTree:prePrune │ ├── spdx-license-ids@1.2.2
+669 silly idealTree:prePrune │ ├── string_decoder@0.10.31
+669 silly idealTree:prePrune │ ├── strip-ansi@3.0.1
+669 silly idealTree:prePrune │ ├── strip-bom@2.0.0
+669 silly idealTree:prePrune │ ├── strip-indent@1.0.1
+669 silly idealTree:prePrune │ ├── supports-color@2.0.0
+669 silly idealTree:prePrune │ ├── time-stamp@1.0.1
+669 silly idealTree:prePrune │ ├── trim-newlines@1.0.0
+669 silly idealTree:prePrune │ ├── validate-npm-package-license@3.0.1
+669 silly idealTree:prePrune │ ├── vinyl-sourcemaps-apply@0.2.1
+669 silly idealTree:prePrune │ └── vinyl@0.5.3
+669 silly idealTree:prePrune ├─┬ gulp-minify-css@1.2.4
+669 silly idealTree:prePrune │ ├── ansi-regex@2.0.0
+669 silly idealTree:prePrune │ ├── ansi-styles@2.2.1
+669 silly idealTree:prePrune │ ├── array-differ@1.0.0
+669 silly idealTree:prePrune │ ├── array-find-index@1.0.1
+669 silly idealTree:prePrune │ ├── array-uniq@1.0.3
+669 silly idealTree:prePrune │ ├── beeper@1.1.0
+669 silly idealTree:prePrune │ ├── builtin-modules@1.1.1
+669 silly idealTree:prePrune │ ├── camelcase-keys@2.1.0
+669 silly idealTree:prePrune │ ├── camelcase@2.1.1
+669 silly idealTree:prePrune │ ├── chalk@1.1.3
+669 silly idealTree:prePrune │ ├── clone-stats@0.0.1
+669 silly idealTree:prePrune │ ├── clone@1.0.2
+669 silly idealTree:prePrune │ ├── core-util-is@1.0.2
+669 silly idealTree:prePrune │ ├── currently-unhandled@0.4.1
+669 silly idealTree:prePrune │ ├── dateformat@1.0.12
+669 silly idealTree:prePrune │ ├── decamelize@1.2.0
+669 silly idealTree:prePrune │ ├─┬ duplexer2@0.0.2
+669 silly idealTree:prePrune │ │ └── readable-stream@1.1.14
+669 silly idealTree:prePrune │ ├── error-ex@1.3.0
+669 silly idealTree:prePrune │ ├── escape-string-regexp@1.0.5
+669 silly idealTree:prePrune │ ├── fancy-log@1.2.0
+669 silly idealTree:prePrune │ ├── find-up@1.1.2
+669 silly idealTree:prePrune │ ├── get-stdin@4.0.1
+669 silly idealTree:prePrune │ ├── glogg@1.0.0
+669 silly idealTree:prePrune │ ├── graceful-fs@4.1.5
+669 silly idealTree:prePrune │ ├─┬ gulp-util@3.0.7
+669 silly idealTree:prePrune │ │ └── object-assign@3.0.0
+669 silly idealTree:prePrune │ ├── gulplog@1.0.0
+669 silly idealTree:prePrune │ ├── has-ansi@2.0.0
+669 silly idealTree:prePrune │ ├── has-gulplog@0.1.0
+669 silly idealTree:prePrune │ ├── hosted-git-info@2.1.5
+669 silly idealTree:prePrune │ ├── indent-string@2.1.0
+669 silly idealTree:prePrune │ ├── inherits@2.0.1
+669 silly idealTree:prePrune │ ├── is-arrayish@0.2.1
+669 silly idealTree:prePrune │ ├── is-builtin-module@1.0.0
+669 silly idealTree:prePrune │ ├── is-finite@1.0.1
+669 silly idealTree:prePrune │ ├── is-utf8@0.2.1
+669 silly idealTree:prePrune │ ├── isarray@0.0.1
+669 silly idealTree:prePrune │ ├── load-json-file@1.1.0
+669 silly idealTree:prePrune │ ├── lodash._basecopy@3.0.1
+669 silly idealTree:prePrune │ ├── lodash._basetostring@3.0.1
+669 silly idealTree:prePrune │ ├── lodash._basevalues@3.0.0
+669 silly idealTree:prePrune │ ├── lodash._getnative@3.9.1
+669 silly idealTree:prePrune │ ├── lodash._isiterateecall@3.0.9
+669 silly idealTree:prePrune │ ├── lodash._reescape@3.0.0
+669 silly idealTree:prePrune │ ├── lodash._reevaluate@3.0.0
+669 silly idealTree:prePrune │ ├── lodash._reinterpolate@3.0.0
+669 silly idealTree:prePrune │ ├── lodash._root@3.0.1
+669 silly idealTree:prePrune │ ├── lodash.escape@3.2.0
+669 silly idealTree:prePrune │ ├── lodash.isarguments@3.0.9
+669 silly idealTree:prePrune │ ├── lodash.isarray@3.0.4
+669 silly idealTree:prePrune │ ├── lodash.keys@3.1.2
+669 silly idealTree:prePrune │ ├── lodash.restparam@3.6.1
+669 silly idealTree:prePrune │ ├── lodash.template@3.6.2
+669 silly idealTree:prePrune │ ├── lodash.templatesettings@3.1.1
+669 silly idealTree:prePrune │ ├── loud-rejection@1.6.0
+669 silly idealTree:prePrune │ ├── map-obj@1.0.1
+669 silly idealTree:prePrune │ ├── meow@3.7.0
+669 silly idealTree:prePrune │ ├── minimist@1.2.0
+669 silly idealTree:prePrune │ ├── multipipe@0.1.2
+669 silly idealTree:prePrune │ ├── normalize-package-data@2.3.5
+669 silly idealTree:prePrune │ ├── number-is-nan@1.0.0
+669 silly idealTree:prePrune │ ├── object-assign@4.1.0
+669 silly idealTree:prePrune │ ├── parse-json@2.2.0
+669 silly idealTree:prePrune │ ├── path-exists@2.1.0
+669 silly idealTree:prePrune │ ├── path-type@1.1.0
+669 silly idealTree:prePrune │ ├── pify@2.3.0
+669 silly idealTree:prePrune │ ├── pinkie-promise@2.0.1
+669 silly idealTree:prePrune │ ├── pinkie@2.0.4
+669 silly idealTree:prePrune │ ├── process-nextick-args@1.0.7
+669 silly idealTree:prePrune │ ├── read-pkg-up@1.0.1
+669 silly idealTree:prePrune │ ├── read-pkg@1.1.0
+669 silly idealTree:prePrune │ ├─┬ readable-stream@2.1.4
+669 silly idealTree:prePrune │ │ └── isarray@1.0.0
+669 silly idealTree:prePrune │ ├── redent@1.0.0
+669 silly idealTree:prePrune │ ├── repeating@2.0.1
+669 silly idealTree:prePrune │ ├── replace-ext@0.0.1
+669 silly idealTree:prePrune │ ├── semver@5.3.0
+669 silly idealTree:prePrune │ ├── signal-exit@3.0.0
+669 silly idealTree:prePrune │ ├── source-map@0.5.6
+669 silly idealTree:prePrune │ ├── sparkles@1.0.0
+669 silly idealTree:prePrune │ ├── spdx-correct@1.0.2
+669 silly idealTree:prePrune │ ├── spdx-exceptions@1.0.5
+669 silly idealTree:prePrune │ ├── spdx-expression-parse@1.0.2
+669 silly idealTree:prePrune │ ├── spdx-license-ids@1.2.2
+669 silly idealTree:prePrune │ ├── string_decoder@0.10.31
+669 silly idealTree:prePrune │ ├── strip-ansi@3.0.1
+669 silly idealTree:prePrune │ ├── strip-bom@2.0.0
+669 silly idealTree:prePrune │ ├── strip-indent@1.0.1
+669 silly idealTree:prePrune │ ├── supports-color@2.0.0
+669 silly idealTree:prePrune │ ├── time-stamp@1.0.1
+669 silly idealTree:prePrune │ ├── trim-newlines@1.0.0
+669 silly idealTree:prePrune │ ├── util-deprecate@1.0.2
+669 silly idealTree:prePrune │ ├── validate-npm-package-license@3.0.1
+669 silly idealTree:prePrune │ ├── vinyl-sourcemaps-apply@0.2.1
+669 silly idealTree:prePrune │ └── vinyl@0.5.3
+669 silly idealTree:prePrune ├─┬ gulp-replace@0.5.4
+669 silly idealTree:prePrune │ ├── core-util-is@1.0.2
+669 silly idealTree:prePrune │ ├── inherits@2.0.1
+669 silly idealTree:prePrune │ ├── isarray@1.0.0
+669 silly idealTree:prePrune │ ├── process-nextick-args@1.0.7
+669 silly idealTree:prePrune │ ├── readable-stream@2.1.4
+669 silly idealTree:prePrune │ ├── string_decoder@0.10.31
+669 silly idealTree:prePrune │ └── util-deprecate@1.0.2
+669 silly idealTree:prePrune ├── gulp-sass
+669 silly idealTree:prePrune ├─┬ gulp-scss@1.4.0
+669 silly idealTree:prePrune │ ├── ansi-regex@2.0.0
+669 silly idealTree:prePrune │ ├── ansi-styles@2.2.1
+669 silly idealTree:prePrune │ ├── array-differ@1.0.0
+669 silly idealTree:prePrune │ ├── array-find-index@1.0.1
+669 silly idealTree:prePrune │ ├── array-uniq@1.0.3
+669 silly idealTree:prePrune │ ├── beeper@1.1.0
+669 silly idealTree:prePrune │ ├── builtin-modules@1.1.1
+669 silly idealTree:prePrune │ ├── camelcase-keys@2.1.0
+669 silly idealTree:prePrune │ ├── camelcase@2.1.1
+669 silly idealTree:prePrune │ ├── chalk@1.1.3
+669 silly idealTree:prePrune │ ├── clone-stats@0.0.1
+669 silly idealTree:prePrune │ ├── clone@1.0.2
+669 silly idealTree:prePrune │ ├── core-util-is@1.0.2
+669 silly idealTree:prePrune │ ├── currently-unhandled@0.4.1
+669 silly idealTree:prePrune │ ├── dateformat@1.0.12
+669 silly idealTree:prePrune │ ├── decamelize@1.2.0
+669 silly idealTree:prePrune │ ├── duplexer2@0.0.2
+669 silly idealTree:prePrune │ ├── error-ex@1.3.0
+669 silly idealTree:prePrune │ ├── escape-string-regexp@1.0.5
+669 silly idealTree:prePrune │ ├── extend@3.0.0
+669 silly idealTree:prePrune │ ├── fancy-log@1.2.0
+669 silly idealTree:prePrune │ ├── find-up@1.1.2
+669 silly idealTree:prePrune │ ├── get-stdin@4.0.1
+669 silly idealTree:prePrune │ ├── glogg@1.0.0
+669 silly idealTree:prePrune │ ├── graceful-fs@4.1.5
+669 silly idealTree:prePrune │ ├── gulp-util@3.0.7
+669 silly idealTree:prePrune │ ├── gulplog@1.0.0
+669 silly idealTree:prePrune │ ├── has-ansi@2.0.0
+669 silly idealTree:prePrune │ ├── has-gulplog@0.1.0
+669 silly idealTree:prePrune │ ├── hosted-git-info@2.1.5
+669 silly idealTree:prePrune │ ├── indent-string@2.1.0
+669 silly idealTree:prePrune │ ├── inherits@2.0.1
+669 silly idealTree:prePrune │ ├── is-arrayish@0.2.1
+669 silly idealTree:prePrune │ ├── is-builtin-module@1.0.0
+669 silly idealTree:prePrune │ ├── is-finite@1.0.1
+669 silly idealTree:prePrune │ ├── is-utf8@0.2.1
+669 silly idealTree:prePrune │ ├── isarray@0.0.1
+669 silly idealTree:prePrune │ ├── load-json-file@1.1.0
+669 silly idealTree:prePrune │ ├── lodash._basecopy@3.0.1
+669 silly idealTree:prePrune │ ├── lodash._basetostring@3.0.1
+669 silly idealTree:prePrune │ ├── lodash._basevalues@3.0.0
+669 silly idealTree:prePrune │ ├── lodash._getnative@3.9.1
+669 silly idealTree:prePrune │ ├── lodash._isiterateecall@3.0.9
+669 silly idealTree:prePrune │ ├── lodash._reescape@3.0.0
+669 silly idealTree:prePrune │ ├── lodash._reevaluate@3.0.0
+669 silly idealTree:prePrune │ ├── lodash._reinterpolate@3.0.0
+669 silly idealTree:prePrune │ ├── lodash._root@3.0.1
+669 silly idealTree:prePrune │ ├── lodash.escape@3.2.0
+669 silly idealTree:prePrune │ ├── lodash.isarguments@3.0.9
+669 silly idealTree:prePrune │ ├── lodash.isarray@3.0.4
+669 silly idealTree:prePrune │ ├── lodash.keys@3.1.2
+669 silly idealTree:prePrune │ ├── lodash.restparam@3.6.1
+669 silly idealTree:prePrune │ ├── lodash.template@3.6.2
+669 silly idealTree:prePrune │ ├── lodash.templatesettings@3.1.1
+669 silly idealTree:prePrune │ ├── loud-rejection@1.6.0
+669 silly idealTree:prePrune │ ├── map-obj@1.0.1
+669 silly idealTree:prePrune │ ├─┬ meow@3.7.0
+669 silly idealTree:prePrune │ │ └── object-assign@4.1.0
+669 silly idealTree:prePrune │ ├── minimist@1.2.0
+669 silly idealTree:prePrune │ ├─┬ mkdirp@0.5.1
+669 silly idealTree:prePrune │ │ └── minimist@0.0.8
+669 silly idealTree:prePrune │ ├── multipipe@0.1.2
+669 silly idealTree:prePrune │ ├── normalize-package-data@2.3.5
+669 silly idealTree:prePrune │ ├── number-is-nan@1.0.0
+669 silly idealTree:prePrune │ ├── object-assign@3.0.0
+669 silly idealTree:prePrune │ ├── parse-json@2.2.0
+669 silly idealTree:prePrune │ ├── path-exists@2.1.0
+669 silly idealTree:prePrune │ ├── path-type@1.1.0
+669 silly idealTree:prePrune │ ├── pify@2.3.0
+669 silly idealTree:prePrune │ ├── pinkie-promise@2.0.1
+669 silly idealTree:prePrune │ ├── pinkie@2.0.4
+669 silly idealTree:prePrune │ ├── process-nextick-args@1.0.7
+669 silly idealTree:prePrune │ ├── read-pkg-up@1.0.1
+669 silly idealTree:prePrune │ ├── read-pkg@1.1.0
+669 silly idealTree:prePrune │ ├── readable-stream@1.1.14
+669 silly idealTree:prePrune │ ├── redent@1.0.0
+669 silly idealTree:prePrune │ ├── repeating@2.0.1
+669 silly idealTree:prePrune │ ├── replace-ext@0.0.1
+669 silly idealTree:prePrune │ ├── semver@5.3.0
+669 silly idealTree:prePrune │ ├── signal-exit@3.0.0
+669 silly idealTree:prePrune │ ├── source-map@0.5.6
+669 silly idealTree:prePrune │ ├── sparkles@1.0.0
+669 silly idealTree:prePrune │ ├── spdx-correct@1.0.2
+669 silly idealTree:prePrune │ ├── spdx-exceptions@1.0.5
+669 silly idealTree:prePrune │ ├── spdx-expression-parse@1.0.2
+669 silly idealTree:prePrune │ ├── spdx-license-ids@1.2.2
+669 silly idealTree:prePrune │ ├── string_decoder@0.10.31
+669 silly idealTree:prePrune │ ├── strip-ansi@3.0.1
+669 silly idealTree:prePrune │ ├── strip-bom@2.0.0
+669 silly idealTree:prePrune │ ├── strip-indent@1.0.1
+669 silly idealTree:prePrune │ ├── supports-color@2.0.0
+669 silly idealTree:prePrune │ ├─┬ through2@2.0.1
+669 silly idealTree:prePrune │ │ ├── isarray@1.0.0
+669 silly idealTree:prePrune │ │ └── readable-stream@2.0.6
+669 silly idealTree:prePrune │ ├── time-stamp@1.0.1
+669 silly idealTree:prePrune │ ├── trim-newlines@1.0.0
+669 silly idealTree:prePrune │ ├── util-deprecate@1.0.2
+669 silly idealTree:prePrune │ ├── validate-npm-package-license@3.0.1
+669 silly idealTree:prePrune │ ├── vinyl-sourcemaps-apply@0.2.1
+669 silly idealTree:prePrune │ ├── vinyl@0.5.3
+669 silly idealTree:prePrune │ └── xtend@4.0.1
+669 silly idealTree:prePrune ├── gulp-util
+669 silly idealTree:prePrune ├── gulplog
+669 silly idealTree:prePrune ├── har-validator
+669 silly idealTree:prePrune ├── has-ansi
+669 silly idealTree:prePrune ├── has-color
+669 silly idealTree:prePrune ├── has-flag@1.0.0
+669 silly idealTree:prePrune ├── has-gulplog
+669 silly idealTree:prePrune ├── has-unicode
+669 silly idealTree:prePrune ├── hawk
+669 silly idealTree:prePrune ├── hoek
+669 silly idealTree:prePrune ├── hosted-git-info
+669 silly idealTree:prePrune ├── http-signature
+669 silly idealTree:prePrune ├── in-publish
+669 silly idealTree:prePrune ├── indent-string
+669 silly idealTree:prePrune ├── inflight
+669 silly idealTree:prePrune ├── inherits
+669 silly idealTree:prePrune ├── invert-kv
+669 silly idealTree:prePrune ├── is-arrayish
+669 silly idealTree:prePrune ├── is-builtin-module
+669 silly idealTree:prePrune ├── is-finite
+669 silly idealTree:prePrune ├── is-fullwidth-code-point
+669 silly idealTree:prePrune ├── is-my-json-valid
+669 silly idealTree:prePrune ├── is-property
+669 silly idealTree:prePrune ├── is-typedarray
+669 silly idealTree:prePrune ├── is-utf8
+669 silly idealTree:prePrune ├── isarray
+669 silly idealTree:prePrune ├── isexe
+669 silly idealTree:prePrune ├── isstream
+669 silly idealTree:prePrune ├── istextorbinary@1.0.2
+669 silly idealTree:prePrune ├── jodid25519
+669 silly idealTree:prePrune ├── js-base64@2.1.9
+669 silly idealTree:prePrune ├── jsbn
+669 silly idealTree:prePrune ├── json-schema
+669 silly idealTree:prePrune ├── json-stringify-safe
+669 silly idealTree:prePrune ├── jsonpointer
+669 silly idealTree:prePrune ├── jsprim
+669 silly idealTree:prePrune ├── lcid
+669 silly idealTree:prePrune ├── load-json-file
+669 silly idealTree:prePrune ├── lodash
+669 silly idealTree:prePrune ├── lodash._basecopy
+669 silly idealTree:prePrune ├── lodash._basetostring
+669 silly idealTree:prePrune ├── lodash._basevalues
+669 silly idealTree:prePrune ├── lodash._getnative
+669 silly idealTree:prePrune ├── lodash._isiterateecall
+669 silly idealTree:prePrune ├── lodash._reescape
+669 silly idealTree:prePrune ├── lodash._reevaluate
+669 silly idealTree:prePrune ├── lodash._reinterpolate
+669 silly idealTree:prePrune ├── lodash._root
+669 silly idealTree:prePrune ├── lodash.assign
+669 silly idealTree:prePrune ├── lodash.clonedeep
+669 silly idealTree:prePrune ├── lodash.escape
+669 silly idealTree:prePrune ├── lodash.isarguments
+669 silly idealTree:prePrune ├── lodash.isarray
+669 silly idealTree:prePrune ├── lodash.keys
+669 silly idealTree:prePrune ├── lodash.restparam
+669 silly idealTree:prePrune ├── lodash.template
+669 silly idealTree:prePrune ├── lodash.templatesettings
+669 silly idealTree:prePrune ├── loud-rejection
+669 silly idealTree:prePrune ├── lru-cache
+669 silly idealTree:prePrune ├── map-obj
+669 silly idealTree:prePrune ├── meow
+669 silly idealTree:prePrune ├── mime-db
+669 silly idealTree:prePrune ├── mime-types
+669 silly idealTree:prePrune ├── minimatch
+669 silly idealTree:prePrune ├── minimist
+669 silly idealTree:prePrune ├── ms
+669 silly idealTree:prePrune ├── multipipe
+669 silly idealTree:prePrune ├── nan
+669 silly idealTree:prePrune ├── node-gyp
+669 silly idealTree:prePrune ├── node-kissdi@1.0.3
+669 silly idealTree:prePrune ├── node-sass
+669 silly idealTree:prePrune ├── node-uuid
+669 silly idealTree:prePrune ├── nopt
+669 silly idealTree:prePrune ├── normalize-package-data
+669 silly idealTree:prePrune ├── normalize-range@0.1.2
+669 silly idealTree:prePrune ├── npmlog
+669 silly idealTree:prePrune ├── num2fraction@1.2.2
+669 silly idealTree:prePrune ├── number-is-nan
+669 silly idealTree:prePrune ├── oauth-sign
+669 silly idealTree:prePrune ├── object-assign
+669 silly idealTree:prePrune ├── once
+669 silly idealTree:prePrune ├── os-homedir
+669 silly idealTree:prePrune ├── os-locale
+669 silly idealTree:prePrune ├── os-tmpdir
+669 silly idealTree:prePrune ├── osenv
+669 silly idealTree:prePrune ├── parse-json
+669 silly idealTree:prePrune ├── path-array
+669 silly idealTree:prePrune ├── path-exists
+669 silly idealTree:prePrune ├── path-is-absolute
+669 silly idealTree:prePrune ├── path-type
+669 silly idealTree:prePrune ├── pify
+669 silly idealTree:prePrune ├── pinkie
+669 silly idealTree:prePrune ├── pinkie-promise
+669 silly idealTree:prePrune ├── postcss-value-parser@3.3.0
+669 silly idealTree:prePrune ├─┬ postcss@5.1.1
+669 silly idealTree:prePrune │ ├── source-map@0.5.6
+669 silly idealTree:prePrune │ └── supports-color@3.1.2
+669 silly idealTree:prePrune ├── process-nextick-args
+669 silly idealTree:prePrune ├── pseudomap
+669 silly idealTree:prePrune ├── q@1.4.1
+669 silly idealTree:prePrune ├── qs
+669 silly idealTree:prePrune ├── read-pkg
+669 silly idealTree:prePrune ├── read-pkg-up
+669 silly idealTree:prePrune ├── readable-stream
+669 silly idealTree:prePrune ├── redent
+669 silly idealTree:prePrune ├── repeating
+669 silly idealTree:prePrune ├── replace-ext
+669 silly idealTree:prePrune ├─┬ replacestream@4.0.0
+669 silly idealTree:prePrune │ ├── core-util-is@1.0.2
+669 silly idealTree:prePrune │ ├── escape-string-regexp@1.0.5
+669 silly idealTree:prePrune │ ├── inherits@2.0.1
+669 silly idealTree:prePrune │ ├── isarray@1.0.0
+669 silly idealTree:prePrune │ ├── object-assign@3.0.0
+669 silly idealTree:prePrune │ ├── process-nextick-args@1.0.7
+669 silly idealTree:prePrune │ ├── readable-stream@2.1.4
+669 silly idealTree:prePrune │ ├── string_decoder@0.10.31
+669 silly idealTree:prePrune │ └── util-deprecate@1.0.2
+669 silly idealTree:prePrune ├── request
+669 silly idealTree:prePrune ├── require-directory
+669 silly idealTree:prePrune ├── require-main-filename
+669 silly idealTree:prePrune ├── rimraf
+669 silly idealTree:prePrune ├── sass-graph
+669 silly idealTree:prePrune ├── semver
+669 silly idealTree:prePrune ├── set-blocking
+669 silly idealTree:prePrune ├── signal-exit
+669 silly idealTree:prePrune ├── sntp
+669 silly idealTree:prePrune ├── source-map
+669 silly idealTree:prePrune ├── sparkles
+669 silly idealTree:prePrune ├── spdx-correct
+669 silly idealTree:prePrune ├── spdx-exceptions
+669 silly idealTree:prePrune ├── spdx-expression-parse
+669 silly idealTree:prePrune ├── spdx-license-ids
+669 silly idealTree:prePrune ├── string_decoder
+669 silly idealTree:prePrune ├── string-width
+669 silly idealTree:prePrune ├── stringstream
+669 silly idealTree:prePrune ├── strip-ansi
+669 silly idealTree:prePrune ├── strip-bom
+669 silly idealTree:prePrune ├── strip-indent
+669 silly idealTree:prePrune ├── supports-color
+669 silly idealTree:prePrune ├── tar
+669 silly idealTree:prePrune ├── textextensions@1.0.2
+669 silly idealTree:prePrune ├─┬ through2@2.0.1
+669 silly idealTree:prePrune │ ├── core-util-is@1.0.2
+669 silly idealTree:prePrune │ ├── inherits@2.0.1
+669 silly idealTree:prePrune │ ├── isarray@1.0.0
+669 silly idealTree:prePrune │ ├── process-nextick-args@1.0.7
+669 silly idealTree:prePrune │ ├── readable-stream@2.0.6
+669 silly idealTree:prePrune │ ├── string_decoder@0.10.31
+669 silly idealTree:prePrune │ ├── util-deprecate@1.0.2
+669 silly idealTree:prePrune │ └── xtend@4.0.1
+669 silly idealTree:prePrune ├── time-stamp
+669 silly idealTree:prePrune ├── tough-cookie
+669 silly idealTree:prePrune ├── trim-newlines
+669 silly idealTree:prePrune ├── tunnel-agent
+669 silly idealTree:prePrune ├── tweetnacl
+669 silly idealTree:prePrune ├── util-deprecate
+669 silly idealTree:prePrune ├── validate-npm-package-license
+669 silly idealTree:prePrune ├── verror
+669 silly idealTree:prePrune ├── vinyl
+669 silly idealTree:prePrune ├── vinyl-bufferstream@1.0.1
+669 silly idealTree:prePrune ├── vinyl-sourcemaps-apply
+669 silly idealTree:prePrune ├── which
+669 silly idealTree:prePrune ├── which-module
+669 silly idealTree:prePrune ├── wide-align
+669 silly idealTree:prePrune ├── window-size
+669 silly idealTree:prePrune ├── wrap-ansi
+669 silly idealTree:prePrune ├── wrappy
+669 silly idealTree:prePrune ├── xtend
+669 silly idealTree:prePrune ├── y18n
+669 silly idealTree:prePrune ├── yallist
+669 silly idealTree:prePrune └── yargs
+670 silly loadIdealTree Finishing
+671 silly currentTree createtb2@0.0.1
+671 silly currentTree ├── abbrev
+671 silly currentTree ├── amdefine@1.0.0
+671 silly currentTree ├── ansi-regex
+671 silly currentTree ├── ansi-styles
+671 silly currentTree ├── aproba
+671 silly currentTree ├── are-we-there-yet
+671 silly currentTree ├── array-differ
+671 silly currentTree ├── array-find-index
+671 silly currentTree ├── array-index
+671 silly currentTree ├── array-uniq
+671 silly currentTree ├── asn1
+671 silly currentTree ├── assert-plus
+671 silly currentTree ├── async
+671 silly currentTree ├── async-foreach
+671 silly currentTree ├── autoprefixer@6.4.0
+671 silly currentTree ├── aws-sign2
+671 silly currentTree ├── aws4
+671 silly currentTree ├── balanced-match
+671 silly currentTree ├── beeper
+671 silly currentTree ├── boom
+671 silly currentTree ├── brace-expansion
+671 silly currentTree ├── browserslist@1.3.5
+671 silly currentTree ├── buffer-shims@1.0.0
+671 silly currentTree ├─┬ bufferstreams@1.0.1
+671 silly currentTree │ ├── core-util-is@1.0.2
+671 silly currentTree │ ├── inherits@2.0.1
+671 silly currentTree │ ├── isarray@0.0.1
+671 silly currentTree │ ├── readable-stream@1.1.14
+671 silly currentTree │ └── string_decoder@0.10.31
+671 silly currentTree ├── builtin-modules
+671 silly currentTree ├── camelcase
+671 silly currentTree ├── camelcase-keys
+671 silly currentTree ├── caniuse-db@1.0.30000516
+671 silly currentTree ├── caseless
+671 silly currentTree ├── chalk
+671 silly currentTree ├─┬ clean-css@3.4.19
+671 silly currentTree │ ├── commander@2.8.1
+671 silly currentTree │ ├── graceful-readlink@1.0.1
+671 silly currentTree │ └── source-map@0.4.4
+671 silly currentTree ├── cliui
+671 silly currentTree ├── clone
+671 silly currentTree ├── clone-stats
+671 silly currentTree ├── code-point-at
+671 silly currentTree ├── combined-stream
+671 silly currentTree ├── commander
+671 silly currentTree ├── concat-map
+671 silly currentTree ├── console-control-strings
+671 silly currentTree ├── convert-source-map@1.3.0
+671 silly currentTree ├── core-util-is
+671 silly currentTree ├── cross-spawn
+671 silly currentTree ├── cryptiles
+671 silly currentTree ├── currently-unhandled
+671 silly currentTree ├── d
+671 silly currentTree ├── dargs@5.0.1
+671 silly currentTree ├── dateformat
+671 silly currentTree ├── debug
+671 silly currentTree ├── decamelize
+671 silly currentTree ├── deepcopy@0.5.0
+671 silly currentTree ├── delayed-stream
+671 silly currentTree ├── delegates
+671 silly currentTree ├── duplexer2
+671 silly currentTree ├── ecc-jsbn
+671 silly currentTree ├── error-ex
+671 silly currentTree ├── es5-ext
+671 silly currentTree ├── es6-iterator
+671 silly currentTree ├── es6-symbol
+671 silly currentTree ├── escape-string-regexp
+671 silly currentTree ├── extend
+671 silly currentTree ├── extsprintf
+671 silly currentTree ├── fancy-log
+671 silly currentTree ├── find-up
+671 silly currentTree ├── forever-agent
+671 silly currentTree ├── form-data
+671 silly currentTree ├── fs.realpath
+671 silly currentTree ├── fstream
+671 silly currentTree ├── gaze
+671 silly currentTree ├── generate-function
+671 silly currentTree ├── generate-object-property
+671 silly currentTree ├── get-caller-file
+671 silly currentTree ├── get-stdin
+671 silly currentTree ├── glob
+671 silly currentTree ├── globule
+671 silly currentTree ├── glogg
+671 silly currentTree ├── graceful-fs
+671 silly currentTree ├── graceful-readlink
+671 silly currentTree ├─┬ gulp-autoprefixer@3.1.0
+671 silly currentTree │ ├── ansi-regex@2.0.0
+671 silly currentTree │ ├── ansi-styles@2.2.1
+671 silly currentTree │ ├── array-differ@1.0.0
+671 silly currentTree │ ├── array-find-index@1.0.1
+671 silly currentTree │ ├── array-uniq@1.0.3
+671 silly currentTree │ ├── beeper@1.1.0
+671 silly currentTree │ ├── builtin-modules@1.1.1
+671 silly currentTree │ ├── camelcase-keys@2.1.0
+671 silly currentTree │ ├── camelcase@2.1.1
+671 silly currentTree │ ├── chalk@1.1.3
+671 silly currentTree │ ├── clone-stats@0.0.1
+671 silly currentTree │ ├── clone@1.0.2
+671 silly currentTree │ ├── core-util-is@1.0.2
+671 silly currentTree │ ├── currently-unhandled@0.4.1
+671 silly currentTree │ ├── dateformat@1.0.12
+671 silly currentTree │ ├── decamelize@1.2.0
+671 silly currentTree │ ├── duplexer2@0.0.2
+671 silly currentTree │ ├── error-ex@1.3.0
+671 silly currentTree │ ├── escape-string-regexp@1.0.5
+671 silly currentTree │ ├── fancy-log@1.2.0
+671 silly currentTree │ ├── find-up@1.1.2
+671 silly currentTree │ ├── get-stdin@4.0.1
+671 silly currentTree │ ├── glogg@1.0.0
+671 silly currentTree │ ├── graceful-fs@4.1.5
+671 silly currentTree │ ├── gulp-util@3.0.7
+671 silly currentTree │ ├── gulplog@1.0.0
+671 silly currentTree │ ├── has-ansi@2.0.0
+671 silly currentTree │ ├── has-gulplog@0.1.0
+671 silly currentTree │ ├── hosted-git-info@2.1.5
+671 silly currentTree │ ├── indent-string@2.1.0
+671 silly currentTree │ ├── inherits@2.0.1
+671 silly currentTree │ ├── is-arrayish@0.2.1
+671 silly currentTree │ ├── is-builtin-module@1.0.0
+671 silly currentTree │ ├── is-finite@1.0.1
+671 silly currentTree │ ├── is-utf8@0.2.1
+671 silly currentTree │ ├── isarray@0.0.1
+671 silly currentTree │ ├── load-json-file@1.1.0
+671 silly currentTree │ ├── lodash._basecopy@3.0.1
+671 silly currentTree │ ├── lodash._basetostring@3.0.1
+671 silly currentTree │ ├── lodash._basevalues@3.0.0
+671 silly currentTree │ ├── lodash._getnative@3.9.1
+671 silly currentTree │ ├── lodash._isiterateecall@3.0.9
+671 silly currentTree │ ├── lodash._reescape@3.0.0
+671 silly currentTree │ ├── lodash._reevaluate@3.0.0
+671 silly currentTree │ ├── lodash._reinterpolate@3.0.0
+671 silly currentTree │ ├── lodash._root@3.0.1
+671 silly currentTree │ ├── lodash.escape@3.2.0
+671 silly currentTree │ ├── lodash.isarguments@3.0.9
+671 silly currentTree │ ├── lodash.isarray@3.0.4
+671 silly currentTree │ ├── lodash.keys@3.1.2
+671 silly currentTree │ ├── lodash.restparam@3.6.1
+671 silly currentTree │ ├── lodash.template@3.6.2
+671 silly currentTree │ ├── lodash.templatesettings@3.1.1
+671 silly currentTree │ ├── loud-rejection@1.6.0
+671 silly currentTree │ ├── map-obj@1.0.1
+671 silly currentTree │ ├─┬ meow@3.7.0
+671 silly currentTree │ │ └── object-assign@4.1.0
+671 silly currentTree │ ├── minimist@1.2.0
+671 silly currentTree │ ├── multipipe@0.1.2
+671 silly currentTree │ ├── normalize-package-data@2.3.5
+671 silly currentTree │ ├── number-is-nan@1.0.0
+671 silly currentTree │ ├── object-assign@3.0.0
+671 silly currentTree │ ├── parse-json@2.2.0
+671 silly currentTree │ ├── path-exists@2.1.0
+671 silly currentTree │ ├── path-type@1.1.0
+671 silly currentTree │ ├── pify@2.3.0
+671 silly currentTree │ ├── pinkie-promise@2.0.1
+671 silly currentTree │ ├── pinkie@2.0.4
+671 silly currentTree │ ├── read-pkg-up@1.0.1
+671 silly currentTree │ ├── read-pkg@1.1.0
+671 silly currentTree │ ├── readable-stream@1.1.14
+671 silly currentTree │ ├── redent@1.0.0
+671 silly currentTree │ ├── repeating@2.0.1
+671 silly currentTree │ ├── replace-ext@0.0.1
+671 silly currentTree │ ├── semver@5.3.0
+671 silly currentTree │ ├── signal-exit@3.0.0
+671 silly currentTree │ ├── source-map@0.5.6
+671 silly currentTree │ ├── sparkles@1.0.0
+671 silly currentTree │ ├── spdx-correct@1.0.2
+671 silly currentTree │ ├── spdx-exceptions@1.0.5
+671 silly currentTree │ ├── spdx-expression-parse@1.0.2
+671 silly currentTree │ ├── spdx-license-ids@1.2.2
+671 silly currentTree │ ├── string_decoder@0.10.31
+671 silly currentTree │ ├── strip-ansi@3.0.1
+671 silly currentTree │ ├── strip-bom@2.0.0
+671 silly currentTree │ ├── strip-indent@1.0.1
+671 silly currentTree │ ├── supports-color@2.0.0
+671 silly currentTree │ ├── time-stamp@1.0.1
+671 silly currentTree │ ├── trim-newlines@1.0.0
+671 silly currentTree │ ├── validate-npm-package-license@3.0.1
+671 silly currentTree │ ├── vinyl-sourcemaps-apply@0.2.1
+671 silly currentTree │ └── vinyl@0.5.3
+671 silly currentTree ├─┬ gulp-minify-css@1.2.4
+671 silly currentTree │ ├── ansi-regex@2.0.0
+671 silly currentTree │ ├── ansi-styles@2.2.1
+671 silly currentTree │ ├── array-differ@1.0.0
+671 silly currentTree │ ├── array-find-index@1.0.1
+671 silly currentTree │ ├── array-uniq@1.0.3
+671 silly currentTree │ ├── beeper@1.1.0
+671 silly currentTree │ ├── builtin-modules@1.1.1
+671 silly currentTree │ ├── camelcase-keys@2.1.0
+671 silly currentTree │ ├── camelcase@2.1.1
+671 silly currentTree │ ├── chalk@1.1.3
+671 silly currentTree │ ├── clone-stats@0.0.1
+671 silly currentTree │ ├── clone@1.0.2
+671 silly currentTree │ ├── core-util-is@1.0.2
+671 silly currentTree │ ├── currently-unhandled@0.4.1
+671 silly currentTree │ ├── dateformat@1.0.12
+671 silly currentTree │ ├── decamelize@1.2.0
+671 silly currentTree │ ├─┬ duplexer2@0.0.2
+671 silly currentTree │ │ └── readable-stream@1.1.14
+671 silly currentTree │ ├── error-ex@1.3.0
+671 silly currentTree │ ├── escape-string-regexp@1.0.5
+671 silly currentTree │ ├── fancy-log@1.2.0
+671 silly currentTree │ ├── find-up@1.1.2
+671 silly currentTree │ ├── get-stdin@4.0.1
+671 silly currentTree │ ├── glogg@1.0.0
+671 silly currentTree │ ├── graceful-fs@4.1.5
+671 silly currentTree │ ├─┬ gulp-util@3.0.7
+671 silly currentTree │ │ └── object-assign@3.0.0
+671 silly currentTree │ ├── gulplog@1.0.0
+671 silly currentTree │ ├── has-ansi@2.0.0
+671 silly currentTree │ ├── has-gulplog@0.1.0
+671 silly currentTree │ ├── hosted-git-info@2.1.5
+671 silly currentTree │ ├── indent-string@2.1.0
+671 silly currentTree │ ├── inherits@2.0.1
+671 silly currentTree │ ├── is-arrayish@0.2.1
+671 silly currentTree │ ├── is-builtin-module@1.0.0
+671 silly currentTree │ ├── is-finite@1.0.1
+671 silly currentTree │ ├── is-utf8@0.2.1
+671 silly currentTree │ ├── isarray@0.0.1
+671 silly currentTree │ ├── load-json-file@1.1.0
+671 silly currentTree │ ├── lodash._basecopy@3.0.1
+671 silly currentTree │ ├── lodash._basetostring@3.0.1
+671 silly currentTree │ ├── lodash._basevalues@3.0.0
+671 silly currentTree │ ├── lodash._getnative@3.9.1
+671 silly currentTree │ ├── lodash._isiterateecall@3.0.9
+671 silly currentTree │ ├── lodash._reescape@3.0.0
+671 silly currentTree │ ├── lodash._reevaluate@3.0.0
+671 silly currentTree │ ├── lodash._reinterpolate@3.0.0
+671 silly currentTree │ ├── lodash._root@3.0.1
+671 silly currentTree │ ├── lodash.escape@3.2.0
+671 silly currentTree │ ├── lodash.isarguments@3.0.9
+671 silly currentTree │ ├── lodash.isarray@3.0.4
+671 silly currentTree │ ├── lodash.keys@3.1.2
+671 silly currentTree │ ├── lodash.restparam@3.6.1
+671 silly currentTree │ ├── lodash.template@3.6.2
+671 silly currentTree │ ├── lodash.templatesettings@3.1.1
+671 silly currentTree │ ├── loud-rejection@1.6.0
+671 silly currentTree │ ├── map-obj@1.0.1
+671 silly currentTree │ ├── meow@3.7.0
+671 silly currentTree │ ├── minimist@1.2.0
+671 silly currentTree │ ├── multipipe@0.1.2
+671 silly currentTree │ ├── normalize-package-data@2.3.5
+671 silly currentTree │ ├── number-is-nan@1.0.0
+671 silly currentTree │ ├── object-assign@4.1.0
+671 silly currentTree │ ├── parse-json@2.2.0
+671 silly currentTree │ ├── path-exists@2.1.0
+671 silly currentTree │ ├── path-type@1.1.0
+671 silly currentTree │ ├── pify@2.3.0
+671 silly currentTree │ ├── pinkie-promise@2.0.1
+671 silly currentTree │ ├── pinkie@2.0.4
+671 silly currentTree │ ├── process-nextick-args@1.0.7
+671 silly currentTree │ ├── read-pkg-up@1.0.1
+671 silly currentTree │ ├── read-pkg@1.1.0
+671 silly currentTree │ ├─┬ readable-stream@2.1.4
+671 silly currentTree │ │ └── isarray@1.0.0
+671 silly currentTree │ ├── redent@1.0.0
+671 silly currentTree │ ├── repeating@2.0.1
+671 silly currentTree │ ├── replace-ext@0.0.1
+671 silly currentTree │ ├── semver@5.3.0
+671 silly currentTree │ ├── signal-exit@3.0.0
+671 silly currentTree │ ├── source-map@0.5.6
+671 silly currentTree │ ├── sparkles@1.0.0
+671 silly currentTree │ ├── spdx-correct@1.0.2
+671 silly currentTree │ ├── spdx-exceptions@1.0.5
+671 silly currentTree │ ├── spdx-expression-parse@1.0.2
+671 silly currentTree │ ├── spdx-license-ids@1.2.2
+671 silly currentTree │ ├── string_decoder@0.10.31
+671 silly currentTree │ ├── strip-ansi@3.0.1
+671 silly currentTree │ ├── strip-bom@2.0.0
+671 silly currentTree │ ├── strip-indent@1.0.1
+671 silly currentTree │ ├── supports-color@2.0.0
+671 silly currentTree │ ├── time-stamp@1.0.1
+671 silly currentTree │ ├── trim-newlines@1.0.0
+671 silly currentTree │ ├── util-deprecate@1.0.2
+671 silly currentTree │ ├── validate-npm-package-license@3.0.1
+671 silly currentTree │ ├── vinyl-sourcemaps-apply@0.2.1
+671 silly currentTree │ └── vinyl@0.5.3
+671 silly currentTree ├── gulp-sass
+671 silly currentTree ├─┬ gulp-scss@1.4.0
+671 silly currentTree │ ├── ansi-regex@2.0.0
+671 silly currentTree │ ├── ansi-styles@2.2.1
+671 silly currentTree │ ├── array-differ@1.0.0
+671 silly currentTree │ ├── array-find-index@1.0.1
+671 silly currentTree │ ├── array-uniq@1.0.3
+671 silly currentTree │ ├── beeper@1.1.0
+671 silly currentTree │ ├── builtin-modules@1.1.1
+671 silly currentTree │ ├── camelcase-keys@2.1.0
+671 silly currentTree │ ├── camelcase@2.1.1
+671 silly currentTree │ ├── chalk@1.1.3
+671 silly currentTree │ ├── clone-stats@0.0.1
+671 silly currentTree │ ├── clone@1.0.2
+671 silly currentTree │ ├── core-util-is@1.0.2
+671 silly currentTree │ ├── currently-unhandled@0.4.1
+671 silly currentTree │ ├── dateformat@1.0.12
+671 silly currentTree │ ├── decamelize@1.2.0
+671 silly currentTree │ ├── duplexer2@0.0.2
+671 silly currentTree │ ├── error-ex@1.3.0
+671 silly currentTree │ ├── escape-string-regexp@1.0.5
+671 silly currentTree │ ├── extend@3.0.0
+671 silly currentTree │ ├── fancy-log@1.2.0
+671 silly currentTree │ ├── find-up@1.1.2
+671 silly currentTree │ ├── get-stdin@4.0.1
+671 silly currentTree │ ├── glogg@1.0.0
+671 silly currentTree │ ├── graceful-fs@4.1.5
+671 silly currentTree │ ├── gulp-util@3.0.7
+671 silly currentTree │ ├── gulplog@1.0.0
+671 silly currentTree │ ├── has-ansi@2.0.0
+671 silly currentTree │ ├── has-gulplog@0.1.0
+671 silly currentTree │ ├── hosted-git-info@2.1.5
+671 silly currentTree │ ├── indent-string@2.1.0
+671 silly currentTree │ ├── inherits@2.0.1
+671 silly currentTree │ ├── is-arrayish@0.2.1
+671 silly currentTree │ ├── is-builtin-module@1.0.0
+671 silly currentTree │ ├── is-finite@1.0.1
+671 silly currentTree │ ├── is-utf8@0.2.1
+671 silly currentTree │ ├── isarray@0.0.1
+671 silly currentTree │ ├── load-json-file@1.1.0
+671 silly currentTree │ ├── lodash._basecopy@3.0.1
+671 silly currentTree │ ├── lodash._basetostring@3.0.1
+671 silly currentTree │ ├── lodash._basevalues@3.0.0
+671 silly currentTree │ ├── lodash._getnative@3.9.1
+671 silly currentTree │ ├── lodash._isiterateecall@3.0.9
+671 silly currentTree │ ├── lodash._reescape@3.0.0
+671 silly currentTree │ ├── lodash._reevaluate@3.0.0
+671 silly currentTree │ ├── lodash._reinterpolate@3.0.0
+671 silly currentTree │ ├── lodash._root@3.0.1
+671 silly currentTree │ ├── lodash.escape@3.2.0
+671 silly currentTree │ ├── lodash.isarguments@3.0.9
+671 silly currentTree │ ├── lodash.isarray@3.0.4
+671 silly currentTree │ ├── lodash.keys@3.1.2
+671 silly currentTree │ ├── lodash.restparam@3.6.1
+671 silly currentTree │ ├── lodash.template@3.6.2
+671 silly currentTree │ ├── lodash.templatesettings@3.1.1
+671 silly currentTree │ ├── loud-rejection@1.6.0
+671 silly currentTree │ ├── map-obj@1.0.1
+671 silly currentTree │ ├─┬ meow@3.7.0
+671 silly currentTree │ │ └── object-assign@4.1.0
+671 silly currentTree │ ├── minimist@1.2.0
+671 silly currentTree │ ├─┬ mkdirp@0.5.1
+671 silly currentTree │ │ └── minimist@0.0.8
+671 silly currentTree │ ├── multipipe@0.1.2
+671 silly currentTree │ ├── normalize-package-data@2.3.5
+671 silly currentTree │ ├── number-is-nan@1.0.0
+671 silly currentTree │ ├── object-assign@3.0.0
+671 silly currentTree │ ├── parse-json@2.2.0
+671 silly currentTree │ ├── path-exists@2.1.0
+671 silly currentTree │ ├── path-type@1.1.0
+671 silly currentTree │ ├── pify@2.3.0
+671 silly currentTree │ ├── pinkie-promise@2.0.1
+671 silly currentTree │ ├── pinkie@2.0.4
+671 silly currentTree │ ├── process-nextick-args@1.0.7
+671 silly currentTree │ ├── read-pkg-up@1.0.1
+671 silly currentTree │ ├── read-pkg@1.1.0
+671 silly currentTree │ ├── readable-stream@1.1.14
+671 silly currentTree │ ├── redent@1.0.0
+671 silly currentTree │ ├── repeating@2.0.1
+671 silly currentTree │ ├── replace-ext@0.0.1
+671 silly currentTree │ ├── semver@5.3.0
+671 silly currentTree │ ├── signal-exit@3.0.0
+671 silly currentTree │ ├── source-map@0.5.6
+671 silly currentTree │ ├── sparkles@1.0.0
+671 silly currentTree │ ├── spdx-correct@1.0.2
+671 silly currentTree │ ├── spdx-exceptions@1.0.5
+671 silly currentTree │ ├── spdx-expression-parse@1.0.2
+671 silly currentTree │ ├── spdx-license-ids@1.2.2
+671 silly currentTree │ ├── string_decoder@0.10.31
+671 silly currentTree │ ├── strip-ansi@3.0.1
+671 silly currentTree │ ├── strip-bom@2.0.0
+671 silly currentTree │ ├── strip-indent@1.0.1
+671 silly currentTree │ ├── supports-color@2.0.0
+671 silly currentTree │ ├─┬ through2@2.0.1
+671 silly currentTree │ │ ├── isarray@1.0.0
+671 silly currentTree │ │ └── readable-stream@2.0.6
+671 silly currentTree │ ├── time-stamp@1.0.1
+671 silly currentTree │ ├── trim-newlines@1.0.0
+671 silly currentTree │ ├── util-deprecate@1.0.2
+671 silly currentTree │ ├── validate-npm-package-license@3.0.1
+671 silly currentTree │ ├── vinyl-sourcemaps-apply@0.2.1
+671 silly currentTree │ ├── vinyl@0.5.3
+671 silly currentTree │ └── xtend@4.0.1
+671 silly currentTree ├── gulp-util
+671 silly currentTree ├── gulplog
+671 silly currentTree ├── har-validator
+671 silly currentTree ├── has-ansi
+671 silly currentTree ├── has-color
+671 silly currentTree ├── has-flag@1.0.0
+671 silly currentTree ├── has-gulplog
+671 silly currentTree ├── has-unicode
+671 silly currentTree ├── hawk
+671 silly currentTree ├── hoek
+671 silly currentTree ├── hosted-git-info
+671 silly currentTree ├── http-signature
+671 silly currentTree ├── in-publish
+671 silly currentTree ├── indent-string
+671 silly currentTree ├── inflight
+671 silly currentTree ├── inherits
+671 silly currentTree ├── invert-kv
+671 silly currentTree ├── is-arrayish
+671 silly currentTree ├── is-builtin-module
+671 silly currentTree ├── is-finite
+671 silly currentTree ├── is-fullwidth-code-point
+671 silly currentTree ├── is-my-json-valid
+671 silly currentTree ├── is-property
+671 silly currentTree ├── is-typedarray
+671 silly currentTree ├── is-utf8
+671 silly currentTree ├── isarray
+671 silly currentTree ├── isexe
+671 silly currentTree ├── isstream
+671 silly currentTree ├── jodid25519
+671 silly currentTree ├── js-base64@2.1.9
+671 silly currentTree ├── jsbn
+671 silly currentTree ├── json-schema
+671 silly currentTree ├── json-stringify-safe
+671 silly currentTree ├── jsonpointer
+671 silly currentTree ├── jsprim
+671 silly currentTree ├── lcid
+671 silly currentTree ├── load-json-file
+671 silly currentTree ├── lodash
+671 silly currentTree ├── lodash._basecopy
+671 silly currentTree ├── lodash._basetostring
+671 silly currentTree ├── lodash._basevalues
+671 silly currentTree ├── lodash._getnative
+671 silly currentTree ├── lodash._isiterateecall
+671 silly currentTree ├── lodash._reescape
+671 silly currentTree ├── lodash._reevaluate
+671 silly currentTree ├── lodash._reinterpolate
+671 silly currentTree ├── lodash._root
+671 silly currentTree ├── lodash.assign
+671 silly currentTree ├── lodash.clonedeep
+671 silly currentTree ├── lodash.escape
+671 silly currentTree ├── lodash.isarguments
+671 silly currentTree ├── lodash.isarray
+671 silly currentTree ├── lodash.keys
+671 silly currentTree ├── lodash.restparam
+671 silly currentTree ├── lodash.template
+671 silly currentTree ├── lodash.templatesettings
+671 silly currentTree ├── loud-rejection
+671 silly currentTree ├── lru-cache
+671 silly currentTree ├── map-obj
+671 silly currentTree ├── meow
+671 silly currentTree ├── mime-db
+671 silly currentTree ├── mime-types
+671 silly currentTree ├── minimatch
+671 silly currentTree ├── minimist
+671 silly currentTree ├── ms
+671 silly currentTree ├── multipipe
+671 silly currentTree ├── nan
+671 silly currentTree ├── node-gyp
+671 silly currentTree ├── node-kissdi@1.0.3
+671 silly currentTree ├── node-sass
+671 silly currentTree ├── node-uuid
+671 silly currentTree ├── nopt
+671 silly currentTree ├── normalize-package-data
+671 silly currentTree ├── normalize-range@0.1.2
+671 silly currentTree ├── npmlog
+671 silly currentTree ├── num2fraction@1.2.2
+671 silly currentTree ├── number-is-nan
+671 silly currentTree ├── oauth-sign
+671 silly currentTree ├── object-assign
+671 silly currentTree ├── once
+671 silly currentTree ├── os-homedir
+671 silly currentTree ├── os-locale
+671 silly currentTree ├── os-tmpdir
+671 silly currentTree ├── osenv
+671 silly currentTree ├── parse-json
+671 silly currentTree ├── path-array
+671 silly currentTree ├── path-exists
+671 silly currentTree ├── path-is-absolute
+671 silly currentTree ├── path-type
+671 silly currentTree ├── pify
+671 silly currentTree ├── pinkie
+671 silly currentTree ├── pinkie-promise
+671 silly currentTree ├── postcss-value-parser@3.3.0
+671 silly currentTree ├─┬ postcss@5.1.1
+671 silly currentTree │ ├── source-map@0.5.6
+671 silly currentTree │ └── supports-color@3.1.2
+671 silly currentTree ├── process-nextick-args
+671 silly currentTree ├── pseudomap
+671 silly currentTree ├── q@1.4.1
+671 silly currentTree ├── qs
+671 silly currentTree ├── read-pkg
+671 silly currentTree ├── read-pkg-up
+671 silly currentTree ├── readable-stream
+671 silly currentTree ├── redent
+671 silly currentTree ├── repeating
+671 silly currentTree ├── replace-ext
+671 silly currentTree ├── request
+671 silly currentTree ├── require-directory
+671 silly currentTree ├── require-main-filename
+671 silly currentTree ├── rimraf
+671 silly currentTree ├── sass-graph
+671 silly currentTree ├── semver
+671 silly currentTree ├── set-blocking
+671 silly currentTree ├── signal-exit
+671 silly currentTree ├── sntp
+671 silly currentTree ├── source-map
+671 silly currentTree ├── sparkles
+671 silly currentTree ├── spdx-correct
+671 silly currentTree ├── spdx-exceptions
+671 silly currentTree ├── spdx-expression-parse
+671 silly currentTree ├── spdx-license-ids
+671 silly currentTree ├── string_decoder
+671 silly currentTree ├── string-width
+671 silly currentTree ├── stringstream
+671 silly currentTree ├── strip-ansi
+671 silly currentTree ├── strip-bom
+671 silly currentTree ├── strip-indent
+671 silly currentTree ├── supports-color
+671 silly currentTree ├── tar
+671 silly currentTree ├─┬ through2@2.0.1
+671 silly currentTree │ ├── core-util-is@1.0.2
+671 silly currentTree │ ├── inherits@2.0.1
+671 silly currentTree │ ├── isarray@1.0.0
+671 silly currentTree │ ├── process-nextick-args@1.0.7
+671 silly currentTree │ ├── readable-stream@2.0.6
+671 silly currentTree │ ├── string_decoder@0.10.31
+671 silly currentTree │ ├── util-deprecate@1.0.2
+671 silly currentTree │ └── xtend@4.0.1
+671 silly currentTree ├── time-stamp
+671 silly currentTree ├── tough-cookie
+671 silly currentTree ├── trim-newlines
+671 silly currentTree ├── tunnel-agent
+671 silly currentTree ├── tweetnacl
+671 silly currentTree ├── util-deprecate
+671 silly currentTree ├── validate-npm-package-license
+671 silly currentTree ├── verror
+671 silly currentTree ├── vinyl
+671 silly currentTree ├── vinyl-bufferstream@1.0.1
+671 silly currentTree ├── vinyl-sourcemaps-apply
+671 silly currentTree ├── which
+671 silly currentTree ├── which-module
+671 silly currentTree ├── wide-align
+671 silly currentTree ├── window-size
+671 silly currentTree ├── wrap-ansi
+671 silly currentTree ├── wrappy
+671 silly currentTree ├── xtend
+671 silly currentTree ├── y18n
+671 silly currentTree ├── yallist
+671 silly currentTree └── yargs
+672 silly idealTree createtb2@0.0.1
+672 silly idealTree ├── abbrev
+672 silly idealTree ├── amdefine@1.0.0
+672 silly idealTree ├── ansi-regex
+672 silly idealTree ├── ansi-styles
+672 silly idealTree ├── aproba
+672 silly idealTree ├── are-we-there-yet
+672 silly idealTree ├── array-differ
+672 silly idealTree ├── array-find-index
+672 silly idealTree ├── array-index
+672 silly idealTree ├── array-uniq
+672 silly idealTree ├── asn1
+672 silly idealTree ├── assert-plus
+672 silly idealTree ├── async
+672 silly idealTree ├── async-foreach
+672 silly idealTree ├── autoprefixer@6.4.0
+672 silly idealTree ├── aws-sign2
+672 silly idealTree ├── aws4
+672 silly idealTree ├── balanced-match
+672 silly idealTree ├── beeper
+672 silly idealTree ├── binaryextensions@1.0.1
+672 silly idealTree ├── boom
+672 silly idealTree ├── brace-expansion
+672 silly idealTree ├── browserslist@1.3.5
+672 silly idealTree ├── buffer-shims@1.0.0
+672 silly idealTree ├─┬ bufferstreams@1.0.1
+672 silly idealTree │ ├── core-util-is@1.0.2
+672 silly idealTree │ ├── inherits@2.0.1
+672 silly idealTree │ ├── isarray@0.0.1
+672 silly idealTree │ ├── readable-stream@1.1.14
+672 silly idealTree │ └── string_decoder@0.10.31
+672 silly idealTree ├── builtin-modules
+672 silly idealTree ├── camelcase
+672 silly idealTree ├── camelcase-keys
+672 silly idealTree ├── caniuse-db@1.0.30000516
+672 silly idealTree ├── caseless
+672 silly idealTree ├── chalk
+672 silly idealTree ├─┬ clean-css@3.4.19
+672 silly idealTree │ ├── commander@2.8.1
+672 silly idealTree │ ├── graceful-readlink@1.0.1
+672 silly idealTree │ └── source-map@0.4.4
+672 silly idealTree ├── cliui
+672 silly idealTree ├── clone
+672 silly idealTree ├── clone-stats
+672 silly idealTree ├── code-point-at
+672 silly idealTree ├── combined-stream
+672 silly idealTree ├── commander
+672 silly idealTree ├── concat-map
+672 silly idealTree ├── console-control-strings
+672 silly idealTree ├── convert-source-map@1.3.0
+672 silly idealTree ├── core-util-is
+672 silly idealTree ├── cross-spawn
+672 silly idealTree ├── cryptiles
+672 silly idealTree ├── currently-unhandled
+672 silly idealTree ├── d
+672 silly idealTree ├── dargs@5.0.1
+672 silly idealTree ├── dateformat
+672 silly idealTree ├── debug
+672 silly idealTree ├── decamelize
+672 silly idealTree ├── deepcopy@0.5.0
+672 silly idealTree ├── delayed-stream
+672 silly idealTree ├── delegates
+672 silly idealTree ├── duplexer2
+672 silly idealTree ├── ecc-jsbn
+672 silly idealTree ├── error-ex
+672 silly idealTree ├── es5-ext
+672 silly idealTree ├── es6-iterator
+672 silly idealTree ├── es6-symbol
+672 silly idealTree ├── escape-string-regexp
+672 silly idealTree ├── extend
+672 silly idealTree ├── extsprintf
+672 silly idealTree ├── fancy-log
+672 silly idealTree ├── find-up
+672 silly idealTree ├── forever-agent
+672 silly idealTree ├── form-data
+672 silly idealTree ├── fs.realpath
+672 silly idealTree ├── fstream
+672 silly idealTree ├── gaze
+672 silly idealTree ├── generate-function
+672 silly idealTree ├── generate-object-property
+672 silly idealTree ├── get-caller-file
+672 silly idealTree ├── get-stdin
+672 silly idealTree ├── glob
+672 silly idealTree ├── globule
+672 silly idealTree ├── glogg
+672 silly idealTree ├── graceful-fs
+672 silly idealTree ├── graceful-readlink
+672 silly idealTree ├─┬ gulp-autoprefixer@3.1.0
+672 silly idealTree │ ├── ansi-regex@2.0.0
+672 silly idealTree │ ├── ansi-styles@2.2.1
+672 silly idealTree │ ├── array-differ@1.0.0
+672 silly idealTree │ ├── array-find-index@1.0.1
+672 silly idealTree │ ├── array-uniq@1.0.3
+672 silly idealTree │ ├── beeper@1.1.0
+672 silly idealTree │ ├── builtin-modules@1.1.1
+672 silly idealTree │ ├── camelcase-keys@2.1.0
+672 silly idealTree │ ├── camelcase@2.1.1
+672 silly idealTree │ ├── chalk@1.1.3
+672 silly idealTree │ ├── clone-stats@0.0.1
+672 silly idealTree │ ├── clone@1.0.2
+672 silly idealTree │ ├── core-util-is@1.0.2
+672 silly idealTree │ ├── currently-unhandled@0.4.1
+672 silly idealTree │ ├── dateformat@1.0.12
+672 silly idealTree │ ├── decamelize@1.2.0
+672 silly idealTree │ ├── duplexer2@0.0.2
+672 silly idealTree │ ├── error-ex@1.3.0
+672 silly idealTree │ ├── escape-string-regexp@1.0.5
+672 silly idealTree │ ├── fancy-log@1.2.0
+672 silly idealTree │ ├── find-up@1.1.2
+672 silly idealTree │ ├── get-stdin@4.0.1
+672 silly idealTree │ ├── glogg@1.0.0
+672 silly idealTree │ ├── graceful-fs@4.1.5
+672 silly idealTree │ ├── gulp-util@3.0.7
+672 silly idealTree │ ├── gulplog@1.0.0
+672 silly idealTree │ ├── has-ansi@2.0.0
+672 silly idealTree │ ├── has-gulplog@0.1.0
+672 silly idealTree │ ├── hosted-git-info@2.1.5
+672 silly idealTree │ ├── indent-string@2.1.0
+672 silly idealTree │ ├── inherits@2.0.1
+672 silly idealTree │ ├── is-arrayish@0.2.1
+672 silly idealTree │ ├── is-builtin-module@1.0.0
+672 silly idealTree │ ├── is-finite@1.0.1
+672 silly idealTree │ ├── is-utf8@0.2.1
+672 silly idealTree │ ├── isarray@0.0.1
+672 silly idealTree │ ├── load-json-file@1.1.0
+672 silly idealTree │ ├── lodash._basecopy@3.0.1
+672 silly idealTree │ ├── lodash._basetostring@3.0.1
+672 silly idealTree │ ├── lodash._basevalues@3.0.0
+672 silly idealTree │ ├── lodash._getnative@3.9.1
+672 silly idealTree │ ├── lodash._isiterateecall@3.0.9
+672 silly idealTree │ ├── lodash._reescape@3.0.0
+672 silly idealTree │ ├── lodash._reevaluate@3.0.0
+672 silly idealTree │ ├── lodash._reinterpolate@3.0.0
+672 silly idealTree │ ├── lodash._root@3.0.1
+672 silly idealTree │ ├── lodash.escape@3.2.0
+672 silly idealTree │ ├── lodash.isarguments@3.0.9
+672 silly idealTree │ ├── lodash.isarray@3.0.4
+672 silly idealTree │ ├── lodash.keys@3.1.2
+672 silly idealTree │ ├── lodash.restparam@3.6.1
+672 silly idealTree │ ├── lodash.template@3.6.2
+672 silly idealTree │ ├── lodash.templatesettings@3.1.1
+672 silly idealTree │ ├── loud-rejection@1.6.0
+672 silly idealTree │ ├── map-obj@1.0.1
+672 silly idealTree │ ├─┬ meow@3.7.0
+672 silly idealTree │ │ └── object-assign@4.1.0
+672 silly idealTree │ ├── minimist@1.2.0
+672 silly idealTree │ ├── multipipe@0.1.2
+672 silly idealTree │ ├── normalize-package-data@2.3.5
+672 silly idealTree │ ├── number-is-nan@1.0.0
+672 silly idealTree │ ├── object-assign@3.0.0
+672 silly idealTree │ ├── parse-json@2.2.0
+672 silly idealTree │ ├── path-exists@2.1.0
+672 silly idealTree │ ├── path-type@1.1.0
+672 silly idealTree │ ├── pify@2.3.0
+672 silly idealTree │ ├── pinkie-promise@2.0.1
+672 silly idealTree │ ├── pinkie@2.0.4
+672 silly idealTree │ ├── read-pkg-up@1.0.1
+672 silly idealTree │ ├── read-pkg@1.1.0
+672 silly idealTree │ ├── readable-stream@1.1.14
+672 silly idealTree │ ├── redent@1.0.0
+672 silly idealTree │ ├── repeating@2.0.1
+672 silly idealTree │ ├── replace-ext@0.0.1
+672 silly idealTree │ ├── semver@5.3.0
+672 silly idealTree │ ├── signal-exit@3.0.0
+672 silly idealTree │ ├── source-map@0.5.6
+672 silly idealTree │ ├── sparkles@1.0.0
+672 silly idealTree │ ├── spdx-correct@1.0.2
+672 silly idealTree │ ├── spdx-exceptions@1.0.5
+672 silly idealTree │ ├── spdx-expression-parse@1.0.2
+672 silly idealTree │ ├── spdx-license-ids@1.2.2
+672 silly idealTree │ ├── string_decoder@0.10.31
+672 silly idealTree │ ├── strip-ansi@3.0.1
+672 silly idealTree │ ├── strip-bom@2.0.0
+672 silly idealTree │ ├── strip-indent@1.0.1
+672 silly idealTree │ ├── supports-color@2.0.0
+672 silly idealTree │ ├── time-stamp@1.0.1
+672 silly idealTree │ ├── trim-newlines@1.0.0
+672 silly idealTree │ ├── validate-npm-package-license@3.0.1
+672 silly idealTree │ ├── vinyl-sourcemaps-apply@0.2.1
+672 silly idealTree │ └── vinyl@0.5.3
+672 silly idealTree ├─┬ gulp-minify-css@1.2.4
+672 silly idealTree │ ├── ansi-regex@2.0.0
+672 silly idealTree │ ├── ansi-styles@2.2.1
+672 silly idealTree │ ├── array-differ@1.0.0
+672 silly idealTree │ ├── array-find-index@1.0.1
+672 silly idealTree │ ├── array-uniq@1.0.3
+672 silly idealTree │ ├── beeper@1.1.0
+672 silly idealTree │ ├── builtin-modules@1.1.1
+672 silly idealTree │ ├── camelcase-keys@2.1.0
+672 silly idealTree │ ├── camelcase@2.1.1
+672 silly idealTree │ ├── chalk@1.1.3
+672 silly idealTree │ ├── clone-stats@0.0.1
+672 silly idealTree │ ├── clone@1.0.2
+672 silly idealTree │ ├── core-util-is@1.0.2
+672 silly idealTree │ ├── currently-unhandled@0.4.1
+672 silly idealTree │ ├── dateformat@1.0.12
+672 silly idealTree │ ├── decamelize@1.2.0
+672 silly idealTree │ ├─┬ duplexer2@0.0.2
+672 silly idealTree │ │ └── readable-stream@1.1.14
+672 silly idealTree │ ├── error-ex@1.3.0
+672 silly idealTree │ ├── escape-string-regexp@1.0.5
+672 silly idealTree │ ├── fancy-log@1.2.0
+672 silly idealTree │ ├── find-up@1.1.2
+672 silly idealTree │ ├── get-stdin@4.0.1
+672 silly idealTree │ ├── glogg@1.0.0
+672 silly idealTree │ ├── graceful-fs@4.1.5
+672 silly idealTree │ ├─┬ gulp-util@3.0.7
+672 silly idealTree │ │ └── object-assign@3.0.0
+672 silly idealTree │ ├── gulplog@1.0.0
+672 silly idealTree │ ├── has-ansi@2.0.0
+672 silly idealTree │ ├── has-gulplog@0.1.0
+672 silly idealTree │ ├── hosted-git-info@2.1.5
+672 silly idealTree │ ├── indent-string@2.1.0
+672 silly idealTree │ ├── inherits@2.0.1
+672 silly idealTree │ ├── is-arrayish@0.2.1
+672 silly idealTree │ ├── is-builtin-module@1.0.0
+672 silly idealTree │ ├── is-finite@1.0.1
+672 silly idealTree │ ├── is-utf8@0.2.1
+672 silly idealTree │ ├── isarray@0.0.1
+672 silly idealTree │ ├── load-json-file@1.1.0
+672 silly idealTree │ ├── lodash._basecopy@3.0.1
+672 silly idealTree │ ├── lodash._basetostring@3.0.1
+672 silly idealTree │ ├── lodash._basevalues@3.0.0
+672 silly idealTree │ ├── lodash._getnative@3.9.1
+672 silly idealTree │ ├── lodash._isiterateecall@3.0.9
+672 silly idealTree │ ├── lodash._reescape@3.0.0
+672 silly idealTree │ ├── lodash._reevaluate@3.0.0
+672 silly idealTree │ ├── lodash._reinterpolate@3.0.0
+672 silly idealTree │ ├── lodash._root@3.0.1
+672 silly idealTree │ ├── lodash.escape@3.2.0
+672 silly idealTree │ ├── lodash.isarguments@3.0.9
+672 silly idealTree │ ├── lodash.isarray@3.0.4
+672 silly idealTree │ ├── lodash.keys@3.1.2
+672 silly idealTree │ ├── lodash.restparam@3.6.1
+672 silly idealTree │ ├── lodash.template@3.6.2
+672 silly idealTree │ ├── lodash.templatesettings@3.1.1
+672 silly idealTree │ ├── loud-rejection@1.6.0
+672 silly idealTree │ ├── map-obj@1.0.1
+672 silly idealTree │ ├── meow@3.7.0
+672 silly idealTree │ ├── minimist@1.2.0
+672 silly idealTree │ ├── multipipe@0.1.2
+672 silly idealTree │ ├── normalize-package-data@2.3.5
+672 silly idealTree │ ├── number-is-nan@1.0.0
+672 silly idealTree │ ├── object-assign@4.1.0
+672 silly idealTree │ ├── parse-json@2.2.0
+672 silly idealTree │ ├── path-exists@2.1.0
+672 silly idealTree │ ├── path-type@1.1.0
+672 silly idealTree │ ├── pify@2.3.0
+672 silly idealTree │ ├── pinkie-promise@2.0.1
+672 silly idealTree │ ├── pinkie@2.0.4
+672 silly idealTree │ ├── process-nextick-args@1.0.7
+672 silly idealTree │ ├── read-pkg-up@1.0.1
+672 silly idealTree │ ├── read-pkg@1.1.0
+672 silly idealTree │ ├─┬ readable-stream@2.1.4
+672 silly idealTree │ │ └── isarray@1.0.0
+672 silly idealTree │ ├── redent@1.0.0
+672 silly idealTree │ ├── repeating@2.0.1
+672 silly idealTree │ ├── replace-ext@0.0.1
+672 silly idealTree │ ├── semver@5.3.0
+672 silly idealTree │ ├── signal-exit@3.0.0
+672 silly idealTree │ ├── source-map@0.5.6
+672 silly idealTree │ ├── sparkles@1.0.0
+672 silly idealTree │ ├── spdx-correct@1.0.2
+672 silly idealTree │ ├── spdx-exceptions@1.0.5
+672 silly idealTree │ ├── spdx-expression-parse@1.0.2
+672 silly idealTree │ ├── spdx-license-ids@1.2.2
+672 silly idealTree │ ├── string_decoder@0.10.31
+672 silly idealTree │ ├── strip-ansi@3.0.1
+672 silly idealTree │ ├── strip-bom@2.0.0
+672 silly idealTree │ ├── strip-indent@1.0.1
+672 silly idealTree │ ├── supports-color@2.0.0
+672 silly idealTree │ ├── time-stamp@1.0.1
+672 silly idealTree │ ├── trim-newlines@1.0.0
+672 silly idealTree │ ├── util-deprecate@1.0.2
+672 silly idealTree │ ├── validate-npm-package-license@3.0.1
+672 silly idealTree │ ├── vinyl-sourcemaps-apply@0.2.1
+672 silly idealTree │ └── vinyl@0.5.3
+672 silly idealTree ├─┬ gulp-replace@0.5.4
+672 silly idealTree │ ├── core-util-is@1.0.2
+672 silly idealTree │ ├── inherits@2.0.1
+672 silly idealTree │ ├── isarray@1.0.0
+672 silly idealTree │ ├── process-nextick-args@1.0.7
+672 silly idealTree │ ├── readable-stream@2.1.4
+672 silly idealTree │ ├── string_decoder@0.10.31
+672 silly idealTree │ └── util-deprecate@1.0.2
+672 silly idealTree ├── gulp-sass
+672 silly idealTree ├─┬ gulp-scss@1.4.0
+672 silly idealTree │ ├── ansi-regex@2.0.0
+672 silly idealTree │ ├── ansi-styles@2.2.1
+672 silly idealTree │ ├── array-differ@1.0.0
+672 silly idealTree │ ├── array-find-index@1.0.1
+672 silly idealTree │ ├── array-uniq@1.0.3
+672 silly idealTree │ ├── beeper@1.1.0
+672 silly idealTree │ ├── builtin-modules@1.1.1
+672 silly idealTree │ ├── camelcase-keys@2.1.0
+672 silly idealTree │ ├── camelcase@2.1.1
+672 silly idealTree │ ├── chalk@1.1.3
+672 silly idealTree │ ├── clone-stats@0.0.1
+672 silly idealTree │ ├── clone@1.0.2
+672 silly idealTree │ ├── core-util-is@1.0.2
+672 silly idealTree │ ├── currently-unhandled@0.4.1
+672 silly idealTree │ ├── dateformat@1.0.12
+672 silly idealTree │ ├── decamelize@1.2.0
+672 silly idealTree │ ├── duplexer2@0.0.2
+672 silly idealTree │ ├── error-ex@1.3.0
+672 silly idealTree │ ├── escape-string-regexp@1.0.5
+672 silly idealTree │ ├── extend@3.0.0
+672 silly idealTree │ ├── fancy-log@1.2.0
+672 silly idealTree │ ├── find-up@1.1.2
+672 silly idealTree │ ├── get-stdin@4.0.1
+672 silly idealTree │ ├── glogg@1.0.0
+672 silly idealTree │ ├── graceful-fs@4.1.5
+672 silly idealTree │ ├── gulp-util@3.0.7
+672 silly idealTree │ ├── gulplog@1.0.0
+672 silly idealTree │ ├── has-ansi@2.0.0
+672 silly idealTree │ ├── has-gulplog@0.1.0
+672 silly idealTree │ ├── hosted-git-info@2.1.5
+672 silly idealTree │ ├── indent-string@2.1.0
+672 silly idealTree │ ├── inherits@2.0.1
+672 silly idealTree │ ├── is-arrayish@0.2.1
+672 silly idealTree │ ├── is-builtin-module@1.0.0
+672 silly idealTree │ ├── is-finite@1.0.1
+672 silly idealTree │ ├── is-utf8@0.2.1
+672 silly idealTree │ ├── isarray@0.0.1
+672 silly idealTree │ ├── load-json-file@1.1.0
+672 silly idealTree │ ├── lodash._basecopy@3.0.1
+672 silly idealTree │ ├── lodash._basetostring@3.0.1
+672 silly idealTree │ ├── lodash._basevalues@3.0.0
+672 silly idealTree │ ├── lodash._getnative@3.9.1
+672 silly idealTree │ ├── lodash._isiterateecall@3.0.9
+672 silly idealTree │ ├── lodash._reescape@3.0.0
+672 silly idealTree │ ├── lodash._reevaluate@3.0.0
+672 silly idealTree │ ├── lodash._reinterpolate@3.0.0
+672 silly idealTree │ ├── lodash._root@3.0.1
+672 silly idealTree │ ├── lodash.escape@3.2.0
+672 silly idealTree │ ├── lodash.isarguments@3.0.9
+672 silly idealTree │ ├── lodash.isarray@3.0.4
+672 silly idealTree │ ├── lodash.keys@3.1.2
+672 silly idealTree │ ├── lodash.restparam@3.6.1
+672 silly idealTree │ ├── lodash.template@3.6.2
+672 silly idealTree │ ├── lodash.templatesettings@3.1.1
+672 silly idealTree │ ├── loud-rejection@1.6.0
+672 silly idealTree │ ├── map-obj@1.0.1
+672 silly idealTree │ ├─┬ meow@3.7.0
+672 silly idealTree │ │ └── object-assign@4.1.0
+672 silly idealTree │ ├── minimist@1.2.0
+672 silly idealTree │ ├─┬ mkdirp@0.5.1
+672 silly idealTree │ │ └── minimist@0.0.8
+672 silly idealTree │ ├── multipipe@0.1.2
+672 silly idealTree │ ├── normalize-package-data@2.3.5
+672 silly idealTree │ ├── number-is-nan@1.0.0
+672 silly idealTree │ ├── object-assign@3.0.0
+672 silly idealTree │ ├── parse-json@2.2.0
+672 silly idealTree │ ├── path-exists@2.1.0
+672 silly idealTree │ ├── path-type@1.1.0
+672 silly idealTree │ ├── pify@2.3.0
+672 silly idealTree │ ├── pinkie-promise@2.0.1
+672 silly idealTree │ ├── pinkie@2.0.4
+672 silly idealTree │ ├── process-nextick-args@1.0.7
+672 silly idealTree │ ├── read-pkg-up@1.0.1
+672 silly idealTree │ ├── read-pkg@1.1.0
+672 silly idealTree │ ├── readable-stream@1.1.14
+672 silly idealTree │ ├── redent@1.0.0
+672 silly idealTree │ ├── repeating@2.0.1
+672 silly idealTree │ ├── replace-ext@0.0.1
+672 silly idealTree │ ├── semver@5.3.0
+672 silly idealTree │ ├── signal-exit@3.0.0
+672 silly idealTree │ ├── source-map@0.5.6
+672 silly idealTree │ ├── sparkles@1.0.0
+672 silly idealTree │ ├── spdx-correct@1.0.2
+672 silly idealTree │ ├── spdx-exceptions@1.0.5
+672 silly idealTree │ ├── spdx-expression-parse@1.0.2
+672 silly idealTree │ ├── spdx-license-ids@1.2.2
+672 silly idealTree │ ├── string_decoder@0.10.31
+672 silly idealTree │ ├── strip-ansi@3.0.1
+672 silly idealTree │ ├── strip-bom@2.0.0
+672 silly idealTree │ ├── strip-indent@1.0.1
+672 silly idealTree │ ├── supports-color@2.0.0
+672 silly idealTree │ ├─┬ through2@2.0.1
+672 silly idealTree │ │ ├── isarray@1.0.0
+672 silly idealTree │ │ └── readable-stream@2.0.6
+672 silly idealTree │ ├── time-stamp@1.0.1
+672 silly idealTree │ ├── trim-newlines@1.0.0
+672 silly idealTree │ ├── util-deprecate@1.0.2
+672 silly idealTree │ ├── validate-npm-package-license@3.0.1
+672 silly idealTree │ ├── vinyl-sourcemaps-apply@0.2.1
+672 silly idealTree │ ├── vinyl@0.5.3
+672 silly idealTree │ └── xtend@4.0.1
+672 silly idealTree ├── gulp-util
+672 silly idealTree ├── gulplog
+672 silly idealTree ├── har-validator
+672 silly idealTree ├── has-ansi
+672 silly idealTree ├── has-color
+672 silly idealTree ├── has-flag@1.0.0
+672 silly idealTree ├── has-gulplog
+672 silly idealTree ├── has-unicode
+672 silly idealTree ├── hawk
+672 silly idealTree ├── hoek
+672 silly idealTree ├── hosted-git-info
+672 silly idealTree ├── http-signature
+672 silly idealTree ├── in-publish
+672 silly idealTree ├── indent-string
+672 silly idealTree ├── inflight
+672 silly idealTree ├── inherits
+672 silly idealTree ├── invert-kv
+672 silly idealTree ├── is-arrayish
+672 silly idealTree ├── is-builtin-module
+672 silly idealTree ├── is-finite
+672 silly idealTree ├── is-fullwidth-code-point
+672 silly idealTree ├── is-my-json-valid
+672 silly idealTree ├── is-property
+672 silly idealTree ├── is-typedarray
+672 silly idealTree ├── is-utf8
+672 silly idealTree ├── isarray
+672 silly idealTree ├── isexe
+672 silly idealTree ├── isstream
+672 silly idealTree ├── istextorbinary@1.0.2
+672 silly idealTree ├── jodid25519
+672 silly idealTree ├── js-base64@2.1.9
+672 silly idealTree ├── jsbn
+672 silly idealTree ├── json-schema
+672 silly idealTree ├── json-stringify-safe
+672 silly idealTree ├── jsonpointer
+672 silly idealTree ├── jsprim
+672 silly idealTree ├── lcid
+672 silly idealTree ├── load-json-file
+672 silly idealTree ├── lodash
+672 silly idealTree ├── lodash._basecopy
+672 silly idealTree ├── lodash._basetostring
+672 silly idealTree ├── lodash._basevalues
+672 silly idealTree ├── lodash._getnative
+672 silly idealTree ├── lodash._isiterateecall
+672 silly idealTree ├── lodash._reescape
+672 silly idealTree ├── lodash._reevaluate
+672 silly idealTree ├── lodash._reinterpolate
+672 silly idealTree ├── lodash._root
+672 silly idealTree ├── lodash.assign
+672 silly idealTree ├── lodash.clonedeep
+672 silly idealTree ├── lodash.escape
+672 silly idealTree ├── lodash.isarguments
+672 silly idealTree ├── lodash.isarray
+672 silly idealTree ├── lodash.keys
+672 silly idealTree ├── lodash.restparam
+672 silly idealTree ├── lodash.template
+672 silly idealTree ├── lodash.templatesettings
+672 silly idealTree ├── loud-rejection
+672 silly idealTree ├── lru-cache
+672 silly idealTree ├── map-obj
+672 silly idealTree ├── meow
+672 silly idealTree ├── mime-db
+672 silly idealTree ├── mime-types
+672 silly idealTree ├── minimatch
+672 silly idealTree ├── minimist
+672 silly idealTree ├── ms
+672 silly idealTree ├── multipipe
+672 silly idealTree ├── nan
+672 silly idealTree ├── node-gyp
+672 silly idealTree ├── node-kissdi@1.0.3
+672 silly idealTree ├── node-sass
+672 silly idealTree ├── node-uuid
+672 silly idealTree ├── nopt
+672 silly idealTree ├── normalize-package-data
+672 silly idealTree ├── normalize-range@0.1.2
+672 silly idealTree ├── npmlog
+672 silly idealTree ├── num2fraction@1.2.2
+672 silly idealTree ├── number-is-nan
+672 silly idealTree ├── oauth-sign
+672 silly idealTree ├── object-assign
+672 silly idealTree ├── once
+672 silly idealTree ├── os-homedir
+672 silly idealTree ├── os-locale
+672 silly idealTree ├── os-tmpdir
+672 silly idealTree ├── osenv
+672 silly idealTree ├── parse-json
+672 silly idealTree ├── path-array
+672 silly idealTree ├── path-exists
+672 silly idealTree ├── path-is-absolute
+672 silly idealTree ├── path-type
+672 silly idealTree ├── pify
+672 silly idealTree ├── pinkie
+672 silly idealTree ├── pinkie-promise
+672 silly idealTree ├── postcss-value-parser@3.3.0
+672 silly idealTree ├─┬ postcss@5.1.1
+672 silly idealTree │ ├── source-map@0.5.6
+672 silly idealTree │ └── supports-color@3.1.2
+672 silly idealTree ├── process-nextick-args
+672 silly idealTree ├── pseudomap
+672 silly idealTree ├── q@1.4.1
+672 silly idealTree ├── qs
+672 silly idealTree ├── read-pkg
+672 silly idealTree ├── read-pkg-up
+672 silly idealTree ├── readable-stream
+672 silly idealTree ├── redent
+672 silly idealTree ├── repeating
+672 silly idealTree ├── replace-ext
+672 silly idealTree ├─┬ replacestream@4.0.0
+672 silly idealTree │ ├── core-util-is@1.0.2
+672 silly idealTree │ ├── escape-string-regexp@1.0.5
+672 silly idealTree │ ├── inherits@2.0.1
+672 silly idealTree │ ├── isarray@1.0.0
+672 silly idealTree │ ├── object-assign@3.0.0
+672 silly idealTree │ ├── process-nextick-args@1.0.7
+672 silly idealTree │ ├── readable-stream@2.1.4
+672 silly idealTree │ ├── string_decoder@0.10.31
+672 silly idealTree │ └── util-deprecate@1.0.2
+672 silly idealTree ├── request
+672 silly idealTree ├── require-directory
+672 silly idealTree ├── require-main-filename
+672 silly idealTree ├── rimraf
+672 silly idealTree ├── sass-graph
+672 silly idealTree ├── semver
+672 silly idealTree ├── set-blocking
+672 silly idealTree ├── signal-exit
+672 silly idealTree ├── sntp
+672 silly idealTree ├── source-map
+672 silly idealTree ├── sparkles
+672 silly idealTree ├── spdx-correct
+672 silly idealTree ├── spdx-exceptions
+672 silly idealTree ├── spdx-expression-parse
+672 silly idealTree ├── spdx-license-ids
+672 silly idealTree ├── string_decoder
+672 silly idealTree ├── string-width
+672 silly idealTree ├── stringstream
+672 silly idealTree ├── strip-ansi
+672 silly idealTree ├── strip-bom
+672 silly idealTree ├── strip-indent
+672 silly idealTree ├── supports-color
+672 silly idealTree ├── tar
+672 silly idealTree ├── textextensions@1.0.2
+672 silly idealTree ├─┬ through2@2.0.1
+672 silly idealTree │ ├── core-util-is@1.0.2
+672 silly idealTree │ ├── inherits@2.0.1
+672 silly idealTree │ ├── isarray@1.0.0
+672 silly idealTree │ ├── process-nextick-args@1.0.7
+672 silly idealTree │ ├── readable-stream@2.0.6
+672 silly idealTree │ ├── string_decoder@0.10.31
+672 silly idealTree │ ├── util-deprecate@1.0.2
+672 silly idealTree │ └── xtend@4.0.1
+672 silly idealTree ├── time-stamp
+672 silly idealTree ├── tough-cookie
+672 silly idealTree ├── trim-newlines
+672 silly idealTree ├── tunnel-agent
+672 silly idealTree ├── tweetnacl
+672 silly idealTree ├── util-deprecate
+672 silly idealTree ├── validate-npm-package-license
+672 silly idealTree ├── verror
+672 silly idealTree ├── vinyl
+672 silly idealTree ├── vinyl-bufferstream@1.0.1
+672 silly idealTree ├── vinyl-sourcemaps-apply
+672 silly idealTree ├── which
+672 silly idealTree ├── which-module
+672 silly idealTree ├── wide-align
+672 silly idealTree ├── window-size
+672 silly idealTree ├── wrap-ansi
+672 silly idealTree ├── wrappy
+672 silly idealTree ├── xtend
+672 silly idealTree ├── y18n
+672 silly idealTree ├── yallist
+672 silly idealTree └── yargs
+673 silly generateActionsToTake Starting
+674 silly install generateActionsToTake
+675 warn checkPermissions Missing write access to /Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules
+676 silly rollbackFailedOptional Starting
+677 silly rollbackFailedOptional Finishing
+678 silly runTopLevelLifecycles Starting
+679 silly runTopLevelLifecycles Finishing
+680 silly install printInstalled
+681 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/abbrev/package.json'
+682 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/ansi-regex/package.json'
+683 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/ansi-styles/package.json'
+684 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/are-we-there-yet/package.json'
+685 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/aproba/package.json'
+686 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/array-differ/package.json'
+687 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/array-find-index/package.json'
+688 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/array-index/package.json'
+689 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/array-uniq/package.json'
+690 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/asn1/package.json'
+691 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/assert-plus/package.json'
+692 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/async/package.json'
+693 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/async-foreach/package.json'
+694 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/aws-sign2/package.json'
+695 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/aws4/package.json'
+696 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/balanced-match/package.json'
+697 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/beeper/package.json'
+698 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/boom/package.json'
+699 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/brace-expansion/package.json'
+700 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/builtin-modules/package.json'
+701 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/camelcase/package.json'
+702 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/camelcase-keys/package.json'
+703 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/caseless/package.json'
+704 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/chalk/package.json'
+705 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/cliui/package.json'
+706 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/clone/package.json'
+707 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/clone-stats/package.json'
+708 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/code-point-at/package.json'
+709 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/combined-stream/package.json'
+710 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/commander/package.json'
+711 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/concat-map/package.json'
+712 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/console-control-strings/package.json'
+713 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/core-util-is/package.json'
+714 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/cross-spawn/package.json'
+715 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/cryptiles/package.json'
+716 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/currently-unhandled/package.json'
+717 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/d/package.json'
+718 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/dateformat/package.json'
+719 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/debug/package.json'
+720 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/decamelize/package.json'
+721 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/delayed-stream/package.json'
+722 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/delegates/package.json'
+723 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/duplexer2/package.json'
+724 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/ecc-jsbn/package.json'
+725 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/error-ex/package.json'
+726 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/es5-ext/package.json'
+727 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/es6-iterator/package.json'
+728 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/es6-symbol/package.json'
+729 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/escape-string-regexp/package.json'
+730 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/extend/package.json'
+731 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/extsprintf/package.json'
+732 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/fancy-log/package.json'
+733 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/find-up/package.json'
+734 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/forever-agent/package.json'
+735 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/form-data/package.json'
+736 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/fs.realpath/package.json'
+737 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/fstream/package.json'
+738 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/gaze/package.json'
+739 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/generate-function/package.json'
+740 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/generate-object-property/package.json'
+741 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/get-caller-file/package.json'
+742 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/get-stdin/package.json'
+743 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/glob/package.json'
+744 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/globule/package.json'
+745 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/glogg/package.json'
+746 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/graceful-fs/package.json'
+747 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/graceful-readlink/package.json'
+748 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/gulp-sass/package.json'
+749 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/gulp-util/package.json'
+750 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/gulplog/package.json'
+751 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/har-validator/package.json'
+752 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/has-ansi/package.json'
+753 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/has-color/package.json'
+754 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/has-gulplog/package.json'
+755 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/has-unicode/package.json'
+756 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/hawk/package.json'
+757 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/hoek/package.json'
+758 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/hosted-git-info/package.json'
+759 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/http-signature/package.json'
+760 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/in-publish/package.json'
+761 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/indent-string/package.json'
+762 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/inflight/package.json'
+763 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/inherits/package.json'
+764 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/invert-kv/package.json'
+765 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/is-arrayish/package.json'
+766 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/is-builtin-module/package.json'
+767 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/is-finite/package.json'
+768 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/is-fullwidth-code-point/package.json'
+769 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/is-my-json-valid/package.json'
+770 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/is-property/package.json'
+771 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/is-typedarray/package.json'
+772 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/is-utf8/package.json'
+773 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/isarray/package.json'
+774 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/isexe/package.json'
+775 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/isstream/package.json'
+776 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/jodid25519/package.json'
+777 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/jsbn/package.json'
+778 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/json-schema/package.json'
+779 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/json-stringify-safe/package.json'
+780 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/jsonpointer/package.json'
+781 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/jsprim/package.json'
+782 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lcid/package.json'
+783 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/load-json-file/package.json'
+784 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash/package.json'
+785 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash._basecopy/package.json'
+786 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash._basetostring/package.json'
+787 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash._basevalues/package.json'
+788 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash._getnative/package.json'
+789 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash._isiterateecall/package.json'
+790 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash._reescape/package.json'
+791 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash._reevaluate/package.json'
+792 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash._root/package.json'
+793 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash._reinterpolate/package.json'
+794 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash.assign/package.json'
+795 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash.clonedeep/package.json'
+796 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash.escape/package.json'
+797 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash.isarguments/package.json'
+798 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash.isarray/package.json'
+799 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash.keys/package.json'
+800 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash.restparam/package.json'
+801 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash.template/package.json'
+802 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lodash.templatesettings/package.json'
+803 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/loud-rejection/package.json'
+804 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/lru-cache/package.json'
+805 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/map-obj/package.json'
+806 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/meow/package.json'
+807 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/mime-db/package.json'
+808 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/mime-types/package.json'
+809 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/minimatch/package.json'
+810 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/minimist/package.json'
+811 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/ms/package.json'
+812 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/multipipe/package.json'
+813 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/nan/package.json'
+814 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/node-gyp/package.json'
+815 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/node-sass/package.json'
+816 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/node-uuid/package.json'
+817 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/nopt/package.json'
+818 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/normalize-package-data/package.json'
+819 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/npmlog/package.json'
+820 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/number-is-nan/package.json'
+821 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/object-assign/package.json'
+822 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/oauth-sign/package.json'
+823 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/once/package.json'
+824 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/os-homedir/package.json'
+825 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/os-locale/package.json'
+826 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/os-tmpdir/package.json'
+827 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/osenv/package.json'
+828 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/parse-json/package.json'
+829 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/path-array/package.json'
+830 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/path-exists/package.json'
+831 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/path-is-absolute/package.json'
+832 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/path-type/package.json'
+833 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/pify/package.json'
+834 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/pinkie/package.json'
+835 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/pinkie-promise/package.json'
+836 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/process-nextick-args/package.json'
+837 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/pseudomap/package.json'
+838 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/qs/package.json'
+839 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/read-pkg/package.json'
+840 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/read-pkg-up/package.json'
+841 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/readable-stream/package.json'
+842 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/redent/package.json'
+843 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/repeating/package.json'
+844 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/replace-ext/package.json'
+845 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/request/package.json'
+846 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/require-directory/package.json'
+847 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/require-main-filename/package.json'
+848 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/rimraf/package.json'
+849 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/sass-graph/package.json'
+850 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/semver/package.json'
+851 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/set-blocking/package.json'
+852 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/signal-exit/package.json'
+853 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/sntp/package.json'
+854 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/source-map/package.json'
+855 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/sparkles/package.json'
+856 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/spdx-correct/package.json'
+857 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/spdx-exceptions/package.json'
+858 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/spdx-expression-parse/package.json'
+859 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/spdx-license-ids/package.json'
+860 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/string-width/package.json'
+861 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/string_decoder/package.json'
+862 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/stringstream/package.json'
+863 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/strip-ansi/package.json'
+864 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/strip-bom/package.json'
+865 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/strip-indent/package.json'
+866 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/supports-color/package.json'
+867 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/tar/package.json'
+868 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/time-stamp/package.json'
+869 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/tough-cookie/package.json'
+870 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/trim-newlines/package.json'
+871 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/tunnel-agent/package.json'
+872 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/tweetnacl/package.json'
+873 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/util-deprecate/package.json'
+874 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/validate-npm-package-license/package.json'
+875 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/verror/package.json'
+876 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/vinyl/package.json'
+877 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/vinyl-sourcemaps-apply/package.json'
+878 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/which/package.json'
+879 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/which-module/package.json'
+880 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/wide-align/package.json'
+881 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/window-size/package.json'
+882 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/wrap-ansi/package.json'
+883 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/wrappy/package.json'
+884 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/xtend/package.json'
+885 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/y18n/package.json'
+886 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/yallist/package.json'
+887 warn enoent ENOENT: no such file or directory, open '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules/yargs/package.json'
+888 warn createtb2@0.0.1 No repository field.
+889 verbose stack Error: EACCES: permission denied, access '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules'
+889 verbose stack     at Error (native)
+890 verbose cwd /Users/hywanliyuan/Documents/WLY/githubio/createTb2
+891 error Darwin 15.2.0
+892 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "gulp-replace" "--save-dev"
+893 error node v5.7.0
+894 error npm  v3.9.0
+895 error path /Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules
+896 error code EACCES
+897 error errno -13
+898 error syscall access
+899 error Error: EACCES: permission denied, access '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules'
+899 error     at Error (native)
+899 error  { [Error: EACCES: permission denied, access '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules']
+899 error   errno: -13,
+899 error   code: 'EACCES',
+899 error   syscall: 'access',
+899 error   path: '/Users/hywanliyuan/Documents/WLY/githubio/createTb2/node_modules' }
+900 error Please try running this command again as root/Administrator.
+901 verbose exit [ -13, true ]
