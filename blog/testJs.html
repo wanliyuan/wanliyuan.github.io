@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            border:1px solid red;
+            width:300px;
+            height:150px;
+        }
+    </style>
+</head>
+<body>
+<div id="div"></div>
+<script>
+    //点击一个div， 随机，1秒换一种颜色，一共六个颜色，如果换到白色，就停止
+    window.onload = function(){
+        var $div = document.getElementById("div");
+        $div.onclick = function(){
+            var self = this;
+            var time = setInterval(function(){
+                var color = changeColor();
+                color=="white" && clearInterval(time);
+                self.style.backgroundColor = color;
+                console.log(color);
+            },1000);
+        }
+    }
+    function changeColor(){
+        var array = ["red","blue","white","yellow","pink","purple"];
+        var number = Math.floor(Math.random()*6 + 0);
+        return array[number];
+    }
+</script>
+</body>
+
+</html>
