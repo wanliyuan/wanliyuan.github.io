@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-text-size-adjust: none;
+}
+body{
+    font-family:"Microsoft Yahei" ;
+}
+.clear{
+    zoom:1;
+}
+.clear:after{
+    display:block;
+    content:"";
+    clear:both;
+    visibility:hidden;
+    height:0;
+}
+.recommend {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index:1;
+}
+
+.bg_img img{
+    width: 100%;
+    display: block;
+}
+.recommend_con p{
+    color:#000;
+    font-size:.95rem;
+    line-height:1.05rem;
+}
+.recommend_con{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index:10;
+    text-align: center;
+    left:0;
+    top: 1.1rem;
+}

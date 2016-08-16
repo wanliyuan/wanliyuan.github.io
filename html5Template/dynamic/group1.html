@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/mobile-util.js"></script>
+    <script src="../src/js/jquery.js"></script>
+    <meta name="format-detection" content="telephone=no" />
+    <link href="../src/link/bottom_menu.css" rel="stylesheet">
+    <link href="../src/link/login.css" rel="stylesheet">
+    <style>
+        .layout,.alert_comment{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <menu class="bottom_menu" id="bottom_menu">
+        <ul class="clear">
+            <li><span>11</span></li>
+            <li><a href="../html5/template.html#sale_comment"><span>22</span></a></li>
+        </ul>
+    </menu>
+    <input type="hidden" id="ip" value="">
+    <div class="layout" id="layout"></div>
+    <section class="alert_comment clear" id="alert_comment">
+        <a href="javascript:;" class="close_btn" id="close_btn"></a>
+        <div class="alert_comment_con">
+            <form>
+                <div class="form_group">
+                    <div class="title">您的手机</div>
+                    <div class="input_group">
+                        <input type="tel" id="tel">
+                        <button>修改</button>
+                    </div>
+                </div>
+                <div class="form_group">
+                    <div class="title">验证码</div>
+                    <div class="input_group">
+                        <input type="text" id="val_code">
+                        <button>登录</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script>
+        //取购物车数据
+        var getMenuDatas = function(catalog,siteCode,obj1,obj2){
+            $.ajax({
+                type: 'POST',
+                url: "http://192.168.155.1:8080/E2-Site/html5/getPriceAreaByCatalog.json",
+                data: {
+                    catalog:catalog,
+                    siteCode:siteCode
+                },
+                dataType: "json",
+                success:function(data){
+                    console.log(data.result);
+                    if(data.result){
+                        var price = data.result.price?data.result.price:"联系客服";
+                        var comment = data.result.comment;
+                        obj1.text(price+"元起");
+                        obj2.text(comment);
+                    }
+
+                },
+                error : function() {
+
+                }
+            });
+        }
+
+        //取cookKey
+        var getCookieKey = function (cookieKey,vipId) {
+            $.ajax({
+                type: 'POST',
+                url: "http://192.168.155.1:8080/E2-Site/html5/getPriceAreaByCatalog.json",
+                data: {
+                    cookieKey:vipId
+                },
+                dataType: "json",
+                success:function(data){
+                    localStorage.setItem("cookieKey",vipId);
+                },
+                error : function() {
+
+                }
+            });
+        }
+        var browser = {
+            versions: function () {
+                var u = navigator.userAgent, app = navigator.appVersion;
+                return {         //移动终端浏览器版本信息
+                    trident: u.indexOf('Trident') > -1, //IE内核
+                    presto: u.indexOf('Presto') > -1, //opera内核
+                    webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                    gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                    mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
+                    iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+                    iPad: u.indexOf('iPad') > -1, //是否iPad
+                    webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+                };
+            }(),
+            language: (navigator.browserLanguage || navigator.language).toLowerCase()
+        }
+        var judgeBrower = function(){
+            if (browser.versions.mobile) {//判断是否是移动设备打开。browser代码在下面
+                var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
+                if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                    //在微信中打开
+                    return "wechat";
+                }
+                if (ua.match(/WeiBo/i) == "weibo") {
+                    //在新浪微博客户端打开
+                }
+                if (ua.match(/QQ/i) == "qq") {
+                    //在QQ空间打开
+                }
+                if (browser.versions.ios) {
+                    //是否在IOS浏览器打开
+                    return "ios";
+                }
+                if(browser.versions.android){
+                    //是否在安卓浏览器打开
+                    return "android";
+                }else{
+                    console.log("qi");
+                }
+            } else {
+                console.log("pc");
+                //否则就是PC浏览器打开
+            }
+        }
+
+        var getIp = function(){
+
+        }
+
+        $(function(){
+            var $firstLi = $('#bottom_menu li:eq(0) span'),
+                    $secondLi = $('#bottom_menu li:eq(1) span'),
+                    $closeBtn = $('#close_btn'),
+                    $alertComment = $("#layout,#alert_comment"),
+                    $bottomMenu = $("#bottom_menu");
+
+            $firstLi.bind("click",function(){
+                $alertComment.show();
+                $bottomMenu.hide();
+            })
+
+            $closeBtn.bind("click",function(){
+                $alertComment.hide();
+                $bottomMenu.show();
+            })
+
+            //调接口
+            var catalog = $("#catalog").val(),
+                    siteCode = $("#siteCode").val();
+            if(siteCode==""){$secondLi.text("0");}
+            if(catalog){
+                getMenuDatas(catalog,siteCode,$firstLi,$secondLi);
+            }else{
+                //$firstLi.text("联系客服");
+            }
+
+            //登陆
+            var unitCode = $("#unitCode").val(),
+                    staffCode = $("#staffCode").val(),
+                    siteCode = $("#siteCode").val(),
+                    shareCode = $("#shareCode").val(),
+                    shareSeq = $("#shareSeq").val(),
+                    catalog = $("#catalog").val();
+            var browerType = judgeBrower();
+            var url = 'http://chaxun.1616.net/s.php?type=ip&output=json&callback=?&_='+Math.random();
+            $.getJSON(url, function(data){
+                var ip = data.Ip;
+                var cookieKey = ip+"_"+browerType+"_"+"unitCode"+"_"+"staffCode"+"_"+"siteCode"+"_"
+                        +"shareCode"+"_"+"shareSeq"+"_"+ "catalog";
+
+                var vipId = localStorage.getItem("cookieKey");
+                vipId = vipId ? vipId:"first";
+                console.log(cookieKey);
+                getCookieKey(cookieKey,vipId);
+            });
+
+        })
+    </script>
+</body>
+</html>

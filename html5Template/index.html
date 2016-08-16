@@ -3,63 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>-->
-    <link href="src/css/index.css" rel="stylesheet">
-    <script src="src/js/mobile-util.js"></script>
-    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="src/js/jquery.js"></script>
 </head>
 <body>
-<header  class="header">
-    <div class="bg_img">
-        <img src="src/img/head.png" >
-    </div>
-    <div class="head_con" id="head-con">
-        <div class="title"></div>
-        <div class="time"></div>
-    </div>
-</header>
-<section class="more_photos">
-    <div class="bg_img">
-        <img src="src/img/more_photos.png" >
-    </div>
-    <div class="more_photos_con" id="more_photos_con">
-        <h3 class="place"></h3>
-        <h3 class="beer"></h3>
-        <p class="code"></p>
-        <p class="price"></p>
-    </div>
-</section>
-<section class="the_end">
-    <div class="bg_img">
-        <img src="src/img/the_end.png" >
-    </div>
-</section>
-<section class="sale_person">
-    <div class="bg_img">
-        <img src="src/img/sale_person.png" >
-    </div>
-    <div class="sale_person_con">
-        <div class="sale_con_pic clear">
-            <div class="sale_con_pic_fl">
-            </div>
-            <div class="sale_con_pic_fr">
+    <form name="form">
+        <!--method="post" action="/E2-Site/html5/chat"-->
+        <div class="form_group">
+            <div class="title">您的手机</div>
+            <div class="input_group">
+                <input type="tel" id="memberCode" name="memberCode" class="phone-number" placeholder="请输入您的手机号">
+                <button>修改</button>
             </div>
         </div>
-        <div class="sale_con_count">
+        <div class="form_group">
+            <div class="title">验证码</div>
+            <div class="input_group">
+                <input type="text" id="val_code" name="val_code">
+                <!--<button>登录</button>-->
+                <button onclick="postForm(form.memberCode.value,form.val_code.value)">登录</button>
+            </div>
         </div>
-    </div>
-</section>
+    </form>
 <script>
+    //post form ajax方案
+    var postForm = function(memberCode,val_code){
+        console.log(memberCode);
+        if(valiCode(memberCode,val_code)){
+            $.ajax({
+                type: 'POST',
+                url: "/E2-Site/html5/chat",
+                data: {
+                    memberCode:memberCode,
+                    val_code:val_code
+                },
+                dataType: "json",
+                success:function(data){
+                    console.log(data.result);
+                },
+                error : function() {
+
+                }
+            });
+        }else{
+            console.log("不post");
+        }
+    }
+
+    //校验
+    var valiCode = function(memberCode,val_code){
+        if(memberCode==""){
+            alert("您的手机不能为空");
+            return false;
+        }else if(val_code==""){
+            alert("验证码不能为空");
+            return false;
+        }else if(checkTel(val_code)){
+            alert("请输入正确的手机号");
+            return false;
+        }else{
+            return true;
+        }
+    }
+
+    var checkTel = function(val_code){
+        var pattern = /^1[34578]\d{9}$/;
+        if (pattern.test(val_code)) {
+            return true;
+        }
+        return false;
+    }
+
     $(function(){
-//        $("#head-con .title").html("下午茶时间， 就别在糖分与脂肪间作斗争了");
-//        $("#head-con .time").html("2016-07-07");
-//        $("#more_photos_con h3.place").html("澳大利亚");
-//        $("#more_photos_con h3.beer").html("杰卡斯莫斯卡托桃红起泡酒");
-//        $("#more_photos_con p.code").html("EM2490817");
-//        $("#more_photos_con p.price").html("¥269.99");
-//        $(".sale_con_pic_fl").html("<img src='img/headpic.png' class='headpic'><p>杨松青</p>");
-//        $(".sale_con_pic_fr").html("<img src='img/weixin.png' class='weixin'><p>lys15370</p>");
-//        $(".sale_con_count").html("<span class='count1'>135812</span><span class='count2'>570</span><span class='count2'>362</span>");
+
     })
 </script>
 </body>

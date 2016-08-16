@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../src/goldenStyle/index.css" rel="stylesheet">
+    <script src="../src//js/mobile-util.js"></script>
+    <script src="../src/js/jquery.js"></script>
+</head>
+<body>
+<section class="beforeClick" id="beforeClick">
+    <img src="../src/img/beforeClick.jpg" class="img_bg">
+</section>
+<section class="isClick" id="isClick">
+    <img src="../src/img/click.jpg" class="img_bg">
+</section>
+<section class="afterClick" id="afterClick">
+    <img src="../src/img/click_close.png" class="click_close" id="clickClose">
+    <img src="../src/img/getPrize.jpg"  class="img_bg">
+    <!--<img src="../src/img/no_getprize.jpg"  class="img_bg">-->
+</section>
+<script>
+    $(function(){
+        var $beforeClick = $("#beforeClick"),
+                $isClick = $("#isClick"),
+                $afterClick = $("#afterClick"),
+                $clickClose = $("#clickClose");
+        $beforeClick.on("click",function(){
+            $(this).hide();
+            $isClick.show();
+            setTimeout(function(){
+                $isClick.hide();
+                $afterClick.show();
+            },1000);
+        })
+
+        $clickClose.on("click",function(){
+            $beforeClick.show();
+            $isClick.hide();
+            $afterClick.hide();
+        })
+    })
+</script>
+</body>
+</html>

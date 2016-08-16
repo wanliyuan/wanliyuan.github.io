@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-text-size-adjust: none;
+}
+body{
+    font-family:"Microsoft Yahei" ;
+}
+.clear{
+    zoom:1;
+}
+.clear:after{
+    display:block;
+    content:"";
+    clear:both;
+    visibility:hidden;
+    height:0;
+}
+.good_Info{
+    width:92%;
+    margin:0 auto;
+    padding:.5rem 0;
+}
+.line{
+    width:58%;
+    display: block;
+    height: 2px;
+    background-color: #000000;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.good_Info_con{
+    margin: 1rem 0;
+}
+.good_Info_con h3{
+    font-size:.7rem;
+    line-height:1.15rem;
+
+}
+.good_Info_con div{
+    margin-top:.6rem;
+}
+.good_Info_con p {
+    font-size: .6rem;
+    color: #373b3e;
+}
+.good_Info_con p .price {
+    color:#eb1212;
+}

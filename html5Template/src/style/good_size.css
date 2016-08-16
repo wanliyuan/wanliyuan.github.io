@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-text-size-adjust: none;
+}
+body{
+    font-family:"Microsoft Yahei" ;
+}
+.clear{
+    zoom:1;
+}
+.clear:after{
+    display:block;
+    content:"";
+    clear:both;
+    visibility:hidden;
+    height:0;
+}
+.good_size{
+    width:90.67%;
+    margin:0 auto;
+    padding:.6rem 0;
+    border-bottom: 1px dotted #999;
+}
+.good_size_fl{
+    float: left;
+}
+.good_size_fr{
+    float: right;
+    width:87%;
+}
+.good_size_fl img{
+    width:1.8rem;
+    height:1.8rem;
+}
+.good_size_fr p{
+    font-size:.6rem;
+    line-height:.9rem;
+    color:#292929;
+    margin-left:4%;
+}

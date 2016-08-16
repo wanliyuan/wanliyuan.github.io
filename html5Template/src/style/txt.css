@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-text-size-adjust: none;
+}
+.clear{
+    zoom:1;
+}
+.clear:after{
+    display:block;
+    content:"";
+    clear:both;
+    visibility:hidden;
+    height:0;
+}
+body{
+    font-family:"微软雅黑" ;
+}
+.article_txt{
+    width:100%;
+}
+.article_txt div{
+    color:#292929;
+    font-size:.6rem;
+    line-height: 1.05rem;
+    width:90.67%;
+    margin:0 auto;
+    padding: .3rem 0;
+}

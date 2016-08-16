@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/mobile-util.js"></script>
+    <script src="../src/js/jquery.js"></script>
+    <link href="../src/style/img.css" rel="stylesheet">
+</head>
+<body>
+    <section class="img_wrap">
+        <div></div>
+        <p class="en_place"></p>
+        <p class="cn_price"></p>
+    </section>
+    <script>
+        $(function(){
+            $(".img_wrap div").html('<img src="../img/img_example2.jpg">');
+            $(".img_wrap .en_place").html('Santa Maria degli Angeli Chapel');
+            $(".img_wrap .cn_price").html('建筑师：马里奥·博塔');
+        })
+    </script>
+</body>
+</html>

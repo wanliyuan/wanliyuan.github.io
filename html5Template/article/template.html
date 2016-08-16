@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/mobile-util.js"></script>
+    <script src="../src/js/jquery.js"></script>
+    <link href="../src/style/template.css" rel="stylesheet">
+</head>
+<body>
+    <header id="header" class="header">
+        <h3></h3>
+        <p class="clear">
+            <time></time>
+            <i></i>
+        </p>
+    </header>
+    <section class="end_bird">
+        <div class="bg_img">
+            <img src="../src/img/end_bird.png">
+        </div>
+    </section>
+    <section class="comment">
+        <div class="comment_con clear">
+            <p><span></span></p>
+            <p><span></span></p>
+            <p><span></span></p>
+        </div>
+    </section>
+    <section class="comment_img">
+        <div class="bg_img">
+            <img src="../src/img/comment.jpg">
+        </div>
+    </section>
+    <script>
+        $(function(){
+            $("#header h3").html("Sagmeister & Walsh 这次又搞了个大新闻！24小时全球直播工作室状态");
+            $("#header time").html("2016-07-12");
+            $("#header i").html("Sagmeister & Walsh杂志");
+            $(".comment_con p:eq(0) span").html("34");
+            $(".comment_con p:eq(1) span").html("12");
+            $(".comment_con p:eq(2) span").html("23");
+        })
+    </script>
+</body>
+</html>

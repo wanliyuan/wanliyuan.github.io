@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-text-size-adjust: none;
+}
+.clear{
+    zoom:1;
+}
+.clear:after{
+    display:block;
+    content:"";
+    clear:both;
+    visibility:hidden;
+    height:0;
+}
+.article_txt{
+    width:100%;
+    background:url("../img/txt_bg.png")  repeat 0 0;
+}
+.article_txt div{
+    color:#977a75;
+    font-size:.85rem;
+    line-height:1.45rem;
+    width:90.67%;
+    margin:0 auto;
+    padding: .9rem 0;
+}

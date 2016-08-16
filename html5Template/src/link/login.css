@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-text-size-adjust: none;
+}
+body{
+    font-family: "微软雅黑";
+}
+ul{
+    list-style-type: none;
+}
+.clear{
+    zoom:1;
+}
+.clear:after{
+    display:block;
+    content:"";
+    clear:both;
+    visibility:hidden;
+    height:0;
+}
+.layout{
+   width:100%;
+   height:100%;
+   position: absolute;
+   left:0;
+   top:0;
+   background-color: #000;
+   opacity: 0.8;
+}
+.alert_comment{
+    position: relative;
+    width:85%;
+    margin:0 auto;
+    top: 3rem;
+    background-color: #f6f6f6;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    border-radius:7px;
+    padding:.5rem .5rem 0 .5rem;
+}
+.close_btn{
+    position: absolute;
+    right:-.65rem;
+    top:-1rem;
+    width:2.6rem;
+    background: url("../img/closeBtn.png") no-repeat 0 0;
+    height: 3rem;
+}
+.alert_comment_head{
+    font-size: .95rem;
+    height:2rem;
+    line-height: 2rem;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+.alert_comment_con{
+    padding-bottom:1rem;
+}
+.alert_comment_con p{
+    font-size:.6rem;
+    line-height:.9rem;
+}
+.photo_upload{
+    margin-top:.8rem;
+    padding-bottom:.8rem;
+    border-bottom: 1px dotted #c6c6c6;
+}
+.photo_upload div{
+    float: left;
+    position: relative;
+    margin-right:.5rem;
+}
+.photo_upload img{
+    width:3.3rem;
+    height:3.3rem;
+}
+.photo_upload input{
+    width:3.3rem;
+    height:3.3rem;
+    position: absolute;
+    left:0;
+    top:0;
+    opacity:0;
+}
+.alert_comment_con form{
+    width:97%;
+    margin:0 auto;
+}
+.form_group{
+    margin-top:.55rem;
+}
+.input_group {
+    overflow: hidden;
+}
+.form_group .title{
+    color: #838383;
+    font-size: .7rem;
+    line-height: .85rem;
+    margin-bottom:.3rem;
+}
+.input_group input{
+    float: left;
+    width:79.5%;
+    background-color: #fff;
+    border:1px solid #7e96b8;
+    height:1.575rem;
+    line-height:1.575rem;
+    font-size: .65rem;
+}
+.input_group button{
+    float: left;
+    width:20.5%;
+    background-color: #7e96b8;
+    color: #fff;
+    border: none;
+    height:1.575rem;
+    font-size: .65rem;
+}
+.form_group:first-child input{
+    padding-left:1.8rem;
+    background: url("../img/tel.png") no-repeat 3% center;
+}
+.form_group:last-child input{
+    padding-left:1.8rem;
+    background: url("../img/val_code.png") no-repeat 3% center;
+}
+.input_group input:focus{
+    border:1px solid #7e96b8;
+    -moz-box-shadow: 2px 4px 2px #dadada inset;
+    box-shadow: 2px 4px 2px #dadada inset;
+    -webkit-box-shadow:2px 4px 2px #dadada inset;
+}
+.btn_group{
+    overflow: hidden;
+    margin-top:.8rem;
+}
+.btn_group button{
+    float: left;
+    height: 1.5rem;
+    border:none;
+    width:50%;
+    font-size: .8rem;
+}
+.btn_group button:first-child{
+    background-color: #ff9c00;
+    color: #ffffff;
+}
+.btn_group button:last-child{
+    color: #000000;
+    background-color: #dedede;
+}

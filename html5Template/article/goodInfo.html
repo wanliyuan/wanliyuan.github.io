@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/mobile-util.js"></script>
+    <script src="../src/js/jquery.js"></script>
+    <link href="../src/style/good_info.css" rel="stylesheet">
+</head>
+<body>
+    <section class="good_Info">
+        <i class="line fl"></i>
+        <div class="clear"></div>
+        <div class="good_Info_con">
+            <h3></h3>
+            <div class="clear">
+                <p class="fl">商品编码：<span class="code"></span></p>
+                <p class="fr">商品价格：<span class="price"></span></p>
+            </div>
+        </div>
+        <i class="line fr"></i>
+    </section>
+    <script>
+        $(function(){
+            $(".good_Info_con h3").html("山舍丨秋山广玉兰树叶盘原创手工木制点心盘子");
+            $(".good_Info_con .code").html("HD2391834");
+            $(".good_Info_con .price").html("￥238.23");
+        })
+    </script>
+</body>
+</html>

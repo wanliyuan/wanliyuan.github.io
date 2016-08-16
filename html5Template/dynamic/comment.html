@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/mobile-util.js"></script>
+    <script src="../src/js/jquery.js"></script>
+    <link href="../src/link/comment.css" rel="stylesheet">
+</head>
+<body>
+    <section class="comment clear">
+        <div class="comment_fl">
+
+        </div>
+        <div class="comment_fr">
+            <p class="comment_floor clear">
+                <span>项少龙</span>
+                <i>1楼</i>
+            </p>
+            <p class="comment_con">
+
+            </p>
+            <div class="comment_imgs clear">
+            </div>
+            <div class="comment_detail clear">
+                <span></span>
+                <p class="clear">
+                    <i></i>
+                    <i></i>
+                    <i><img src="../src/img/edit.png"> </i>
+                </p>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(function(){
+            $(".comment_fl").html(' <img src="../img/headpic.png">');
+            $(".comment_floor span").html('项少龙');
+            $(".comment_floor i").html('1楼');
+            $(".comment_con").html("有时候日子会很难捱的，像头顶乌云行走，无论都没有" +
+                    "阳光。但是人生需要自带希望，坚定不移地认为一切都" +
+                    "会好，心灰了，就什么都好不了了天上有光，会照你身" +
+                    "上，你心里有光，就会照在天上。");
+            $(".comment_imgs").html('<img src="../img/img_example3.png"> <img src="../img/img_example3.png">' +
+                    '<img src="../img/img_example3.png"> ' +
+                    '<img src="../img/img_example3.png"> ' +
+                    '<img src="../img/img_example3.png"> ' +
+                    '<img src="../img/img_example3.png"> ' +
+                    '<img src="../img/img_example3.png"> ' +
+                    '<img src="../img/img_example3.png"> ' +
+                    '<img src="../img/img_example3.png">' +
+                    '<img src="../img/img_example3.png">');
+
+            $(".comment_detail span").html("一小时前");
+            $(".comment_detail p i:eq(0)").html("12");
+            $(".comment_detail p i:eq(1)").html("23");
+        })
+    </script>
+</body>
+</html>
